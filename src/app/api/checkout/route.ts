@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 import { db } from "@/lib/firebase";
 import { calculateShipping } from "@/lib/shipping";
+import { demoProducts } from "@/data/demoProducts";
 import type { CartItem } from "@/types/store";
 
 export async function POST(req: NextRequest) {
@@ -14,12 +15,11 @@ export async function POST(req: NextRequest) {
 
     // Validate prices against database — never trust client
     const productIds = items.map((i) => i.product_id);
-    const refs = productIds.map((id) => db.collection("products").doc(id));
-    const snapshots = await db.getAll(...refs);
 
-    const products = snapshots
-      .filter((snap) => snap.exists)
-      .map((snap) => ({ id: snap.id, ...snap.data()! })) as Array<{
+    // Check if these are demo product IDs (prod-1, prod-2, etc.)
+    const isDemoIds = productIds.some((id) => id.startsWith("prod-"));
+
+    let products: Array<{
       id: string;
       name: string;
       price_cents: number;
@@ -27,6 +27,25 @@ export async function POST(req: NextRequest) {
       active: boolean;
       image_url: string | null;
     }>;
+
+    if (isDemoIds) {
+      products = demoProducts
+        .filter((p) => productIds.includes(p.id))
+        .map((p) => ({
+          id: p.id,
+          name: p.name,
+          price_cents: p.price_cents,
+          inventory_count: p.inventory_count,
+          active: p.active,
+          image_url: p.image_url ?? null,
+        }));
+    } else {
+      const refs = productIds.map((id) => db.collection("products").doc(id));
+      const snapshots = await db.getAll(...refs);
+      products = snapshots
+        .filter((snap) => snap.exists)
+        .map((snap) => ({ id: snap.id, ...snap.data()! })) as typeof products;
+    }
 
     const lineItems: {
       price_data: {

@@ -20,13 +20,17 @@ async function getProducts(): Promise<Product[]> {
     const snapshot = await db
       .collection("products")
       .where("active", "==", true)
-      .orderBy("category")
-      .orderBy("name")
       .get();
     if (snapshot.empty) return demoProducts;
-    return snapshot.docs.map(
-      (doc) => ({ id: doc.id, ...doc.data() }) as Product
-    );
+    return snapshot.docs.map((doc) => {
+      const data = doc.data();
+      return {
+        id: doc.id,
+        ...data,
+        created_at: data.created_at?.toDate?.()?.toISOString?.() ?? "",
+        updated_at: data.updated_at?.toDate?.()?.toISOString?.() ?? "",
+      } as Product;
+    });
   } catch {
     return demoProducts;
   }

@@ -18,6 +18,18 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Starnet Pros",
     locale: "en_US",
+    images: [
+      {
+        url: "/images/og-image-landscape.png",
+        width: 1200,
+        height: 628,
+        alt: "Starnet Pros",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/og-image-landscape.png"],
   },
   robots: {
     index: true,

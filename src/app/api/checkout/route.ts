@@ -140,9 +140,10 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ url: session.url });
   } catch (err) {
-    console.error("Checkout error:", err);
+    const message = err instanceof Error ? err.message : String(err);
+    console.error("Checkout error:", message);
     return NextResponse.json(
-      { error: "Internal server error" },
+      { error: message || "Internal server error" },
       { status: 500 }
     );
   }

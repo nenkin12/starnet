@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ShoppingCart, Package } from "lucide-react";
 import { useCartStore } from "@/stores/cartStore";
 import type { Product } from "@/types/store";
@@ -13,7 +14,10 @@ export function ProductCard({ product }: { product: Product }) {
   const priceDollars = (product.price_cents / 100).toFixed(2);
 
   return (
-    <div className="rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:border-blue-200 transition-all flex flex-col overflow-hidden group">
+    <Link
+      href={`/store/${product.slug}`}
+      className="rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:border-blue-200 transition-all flex flex-col overflow-hidden group"
+    >
       {/* Image */}
       <div className="aspect-square bg-gray-50 relative overflow-hidden">
         {product.image_url ? (
@@ -50,15 +54,17 @@ export function ProductCard({ product }: { product: Product }) {
         <div className="flex items-center justify-between mt-auto">
           <span className="text-lg font-bold text-gray-900">${priceDollars}</span>
           <button
-            onClick={() =>
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
               addItem({
                 product_id: product.id,
                 name: product.name,
                 price_cents: product.price_cents,
                 image_url: product.image_url,
                 slug: product.slug,
-              })
-            }
+              });
+            }}
             disabled={outOfStock}
             className={`flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition-colors ${
               outOfStock
@@ -73,6 +79,6 @@ export function ProductCard({ product }: { product: Product }) {
           </button>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

@@ -14,6 +14,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "J Pipe Antenna Mast 2\" for Starlink | Heavy-Duty Outdoor Mount",
+    meta_description:
+      "Heavy-duty 2\" J pipe antenna mast for mounting Starlink dishes. Universal outdoor mount ideal for roof eaves, fascia boards, and wall installations. Elevate your dish for clear sky visibility.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -30,6 +34,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Gen 3 Pipe Adapter | Pole Mount Kit for V3 Dishy",
+    meta_description:
+      "Starlink Gen 3 pipe adapter for pole mounting your V3 Standard dish. Eliminates the factory base for a clean, professional installation on any 1.5\" to 2\" pole or mast.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -46,6 +54,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Gen 3 Metal Roof Mount | No-Drill Standing Seam Clamp",
+    meta_description:
+      "No-drill Starlink Gen 3 mount for standing seam metal roofs. Adjustable 0-30° tilt, stainless steel construction. No roof penetrations, no leak risk. Professional-grade installation hardware.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -62,6 +74,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Gen 3 Wall Mount | Heavy Duty Extension Arm with Adapter",
+    meta_description:
+      "Heavy-duty Starlink Gen 3 extension wall mount with included pipe adapter. Extended arm clears roof overhangs and obstructions for optimal signal. Professional-grade wall-mounted Starlink installation.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -78,6 +94,10 @@ export const demoProducts: Product[] = [
     inventory_count: 75,
     supplier_url: null,
     active: true,
+    meta_title:
+      "150FT Starlink Gen 3 Extension Cable | Waterproof Outdoor Cable",
+    meta_description:
+      "150-foot waterproof Starlink Gen 3 extension cable with UV-resistant jacket and 24AWG conductors. Designed for permanent outdoor runs across roofs, through walls, and underground conduit.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -94,6 +114,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Gen 3 Complete Mounting Kit | Pole, Roof & Wall Mount",
+    meta_description:
+      "All-in-one Starlink Gen 3 mounting kit with pole, roof, and wall mount options. Everything you need to install your V3 Standard dish on any surface. One box, three mounting solutions.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -110,6 +134,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Gen 3 Pivot Pole Mount | 15.7\" Heavy Duty Steel",
+    meta_description:
+      "Heavy-duty 15.7\" steel pivot pole mount for Starlink Gen 3. Adjustable base for any roof pitch. Handles wind, rain, and snow. Professional rooftop Starlink installation solution.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -126,6 +154,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Mini Wall Mount | 360° Adjustable Bracket for Mini Dish",
+    meta_description:
+      "360° adjustable Starlink Mini wall mount bracket. Low-profile design, rock-solid stability, quick installation. Perfect for apartments, small homes, and tight spaces. Buy the best Starlink Mini mount.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -142,6 +174,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Mini Suction Cup Mount | Car, RV & Window Mount",
+    meta_description:
+      "Industrial-strength Starlink Mini suction cup mount for cars, RVs, and windows. Quick-release design for instant portable Starlink internet on road trips, campsites, and more.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -158,6 +194,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Mini Clamp Mount | RV, Pole & Guardrail Mount",
+    meta_description:
+      "Versatile Starlink Mini clamp mount for RVs, poles, yacht guardrails, and camper frames. No-drill 2-in-1 design with pipe adapters. Best portable Starlink Mini mount for mobile use.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
@@ -174,6 +214,10 @@ export const demoProducts: Product[] = [
     inventory_count: 50,
     supplier_url: null,
     active: true,
+    meta_title:
+      "Starlink Mini Magnetic Mount | Quick-Release for Cars & Boats",
+    meta_description:
+      "Starlink Mini magnetic mount with quick-release for cars, boats, trucks, and RVs. Heavy-duty stainless steel magnets, weather-resistant 360° design. Deploy and stow your Starlink Mini in seconds.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },

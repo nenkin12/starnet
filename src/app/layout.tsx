@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { PageViewTracker } from "@/components/PageViewTracker";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,6 +58,7 @@ export default function RootLayout({
         {/* <script dangerouslySetInnerHTML={{ __html: `(function(w,d,t,r,u){...})(window,document,'script','https://bat.bing.com/bat.js','YOUR_TAG_ID');` }} /> */}
       </head>
       <body className="min-h-screen flex flex-col antialiased">
+        <PageViewTracker />
         <Header />
         <main className="flex-1 pt-20">{children}</main>
         <Footer />

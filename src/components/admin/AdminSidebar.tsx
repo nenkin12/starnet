@@ -6,6 +6,7 @@ import {
   ShoppingCart,
   Package,
   AlertTriangle,
+  BarChart3,
   LogOut,
 } from "lucide-react";
 import { signOut } from "next-auth/react";
@@ -14,6 +15,7 @@ const navItems = [
   { name: "Orders", href: "/admin/orders", icon: ShoppingCart },
   { name: "Products", href: "/admin/products", icon: Package },
   { name: "Reorder", href: "/admin/reorder", icon: AlertTriangle },
+  { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
 ];
 
 export function AdminSidebar() {

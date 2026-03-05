@@ -13,7 +13,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         if (!credentials?.username || !credentials?.password) return null;
         if (credentials.username !== "admin") return null;
 
-        const hash = process.env.ADMIN_PASSWORD_HASH!;
+        const hash = process.env.ADMIN_PASSWORD_HASH;
+        if (!hash) {
+          console.error("ADMIN_PASSWORD_HASH env var is not set");
+          return null;
+        }
         const valid = await bcrypt.compare(
           credentials.password as string,
           hash

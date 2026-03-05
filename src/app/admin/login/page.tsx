@@ -16,17 +16,23 @@ export default function AdminLoginPage() {
     setError("");
     setLoading(true);
 
-    const result = await signIn("credentials", {
-      username,
-      password,
-      redirect: false,
-    });
+    try {
+      const result = await signIn("credentials", {
+        username,
+        password,
+        redirect: false,
+      });
 
-    if (result?.error) {
-      setError("Invalid username or password");
+      if (result?.error) {
+        setError("Invalid username or password");
+        setLoading(false);
+      } else {
+        router.push("/admin/orders");
+      }
+    } catch (err) {
+      console.error("Sign in error:", err);
+      setError("Login failed — please try again");
       setLoading(false);
-    } else {
-      router.push("/admin/orders");
     }
   }
 

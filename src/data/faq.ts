@@ -27,7 +27,7 @@ export const faqs: FAQ[] = [
   {
     question: "What areas do you serve?",
     answer:
-      "Starnet Pros is headquartered in Charlotte, NC, and we serve customers across North Carolina, Georgia, Texas, Colorado, Michigan, New Mexico, and other states. We're expanding nationally to bring professional Starlink installation to underserved communities everywhere. Check our service areas page or call us to confirm availability in your area.",
+      "Starnet Pros serves customers nationwide — we have completed installations across North Carolina, Georgia, Texas, Colorado, Michigan, New Mexico, and many other states. Check our service areas page or call us to confirm availability in your area.",
   },
   {
     question: "How long does installation take?",

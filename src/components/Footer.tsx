@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, MapPin, Clock } from "lucide-react";
+import { Phone, Clock } from "lucide-react";
 
 const footerLinks = {
   services: [
@@ -38,8 +38,8 @@ export default function Footer() {
               className="h-10 w-auto mb-4"
             />
             <p className="text-gray-400 text-sm mb-4">
-              Your trusted partner for professional networking, Starlink
-              installation, and security camera systems.
+              Professional networking, Starlink installation, and security
+              camera systems — serving customers nationwide.
             </p>
             <div className="space-y-3">
               <a
@@ -49,10 +49,6 @@ export default function Footer() {
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 (833) 411-2089
               </a>
-              <div className="flex items-start gap-2 text-gray-400 text-sm">
-                <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
-                1125 Charlottetowne Ave, Charlotte, NC 28204
-              </div>
               <div className="flex items-center gap-2 text-gray-400 text-sm">
                 <Clock className="h-4 w-4 flex-shrink-0" />
                 Mon–Fri 8:00 AM – 6:00 PM

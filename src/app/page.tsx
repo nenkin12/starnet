@@ -30,7 +30,7 @@ export default function HomePage() {
 
       <Hero
         title="We Install Starlink So You Don't Have To"
-        subtitle="Professional dish mounting, clean cable routing, and speed-verified installations for homes and businesses. Based in Charlotte, serving nationwide."
+        subtitle="Professional dish mounting, clean cable routing, and speed-verified installations for homes and businesses nationwide."
         ctaText="Book Your Installation"
         ctaHref="/book"
         secondaryCta="View Our Services"
@@ -287,9 +287,9 @@ export default function HomePage() {
                 Serving Communities Across the Country
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Based in Charlotte, NC — installing Starlink, networking, and
-                security systems for customers in every state. If you can see the
-                sky, we can get you connected.
+                Installing Starlink, networking, and security systems for
+                customers in every state. If you can see the sky, we can get
+                you connected.
               </p>
               <Link
                 href="/service-areas"

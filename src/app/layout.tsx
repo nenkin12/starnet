@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Starnet Pros",
   },
   description:
-    "Professional networking, Starlink installation, point-to-point systems, and security cameras for homes and businesses. Expert setup, clean cabling, 600+ Mbps speeds. Serving nationwide.",
+    "Professional networking, Starlink installation, point-to-point systems, and security cameras for homes and businesses. Expert setup, clean cable routing, and speed-verified installations. Serving nationwide.",
   metadataBase: new URL("https://www.starnetpros.com"),
   openGraph: {
     type: "website",

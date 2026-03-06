@@ -24,16 +24,10 @@ export default function Hero({
       {/* Background */}
       <div className="absolute inset-0 bg-[#0A1628]">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-30"
+          className="absolute inset-0 bg-cover bg-center opacity-45"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A1628]/60 via-[#0A1628]/40 to-[#0A1628]" />
-      </div>
-
-      {/* Geometric accent */}
-      <div className="absolute top-0 right-0 w-1/2 h-full opacity-10">
-        <div className="absolute top-20 right-20 w-64 h-64 border border-blue-400 rounded-full" />
-        <div className="absolute top-40 right-40 w-96 h-96 border border-blue-400/50 rounded-full" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A1628]/50 via-[#0A1628]/30 to-[#0A1628]/90" />
       </div>
 
       {/* Content */}

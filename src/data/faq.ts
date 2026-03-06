@@ -12,7 +12,7 @@ export const faqs: FAQ[] = [
   {
     question: "How fast is Starlink internet?",
     answer:
-      "Starlink speeds vary by plan and location, but our customers have reported speeds over 600 Mbps. Typical residential speeds range from 50 to 200+ Mbps with latency as low as 20-40ms. Professional installation with optimal dish placement can make a significant difference in the speeds you experience. We verify speeds after every installation so you know exactly what you're getting.",
+      "Starlink speeds depend on your plan, location, and dish placement. Typical residential speeds range from 50 to 200+ Mbps with latency around 20-40ms. Professional installation with optimal roof mounting consistently delivers better speeds than ground-level setups — we have seen 50-100 Mbps improvements just from better placement. We run speed tests after every install so you know exactly what you are getting.",
   },
   {
     question: "How much does professional Starlink installation cost?",

@@ -16,7 +16,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 2,
     quote:
-      "I never thought I'd see fast internet out here, but Starnet Pros made it happen! Now I'm getting over 600 Mbps in the middle of nowhere. Life-changing!",
+      "I went from 8 Mbps DSL to over 200 Mbps with Starlink after Starnet Pros mounted the dish on my roof. The difference is night and day — I can finally video call without freezing.",
     author: "Sarah W.",
     type: "residential",
   },

@@ -29,8 +29,8 @@ export default function HomePage() {
       <SchemaMarkup schema={schemas} />
 
       <Hero
-        title="Professional Networking & Security Installation — Done Right"
-        subtitle="Certified technicians delivering Starlink, point-to-point networking, security cameras, and complete network solutions for homes and businesses. No messy cables, no guesswork — just expert setup and support."
+        title="We Install Starlink So You Don't Have To"
+        subtitle="Professional dish mounting, clean cable routing, and speed-verified installations for homes and businesses. Based in Charlotte, serving nationwide."
         ctaText="Book Your Installation"
         ctaHref="/book"
         secondaryCta="View Our Services"
@@ -71,140 +71,204 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services Overview */}
+      {/* Services — Asymmetric Layout */}
       <section className="py-16 sm:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Our Services
-            </h2>
-            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              From networking and Starlink installation to point-to-point systems
-              and security cameras, we handle every step with precision and care.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service) => (
-              <ServiceCard
-                key={service.id}
-                id={service.id}
-                title={service.title}
-                description={service.description}
-                icon={service.icon}
-              />
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Link
-              href="/services"
-              className="text-blue-600 font-semibold hover:text-blue-500 transition-colors"
-            >
-              View all services &rarr;
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+            {/* Photo side */}
+            <div className="lg:col-span-5 relative">
+              <div className="sticky top-28">
+                <img
+                  src="/images/work/dish-mount-roof.jpg"
+                  alt="Starlink dish professionally mounted on a residential roof"
+                  className="rounded-2xl shadow-xl w-full object-cover aspect-[4/5]"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-lg">
+                  Real installation photo
+                </div>
+              </div>
+            </div>
+            {/* Cards side */}
+            <div className="lg:col-span-7">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
+                What We Do
+              </h2>
+              <p className="text-lg text-gray-600 mb-8 max-w-xl">
+                Networking, satellite internet, security systems — installed
+                properly the first time.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {services.map((service) => (
+                  <ServiceCard
+                    key={service.id}
+                    id={service.id}
+                    title={service.title}
+                    description={service.description}
+                    icon={service.icon}
+                  />
+                ))}
+              </div>
+              <div className="mt-8">
+                <Link
+                  href="/services"
+                  className="text-blue-600 font-semibold hover:text-blue-500 transition-colors"
+                >
+                  Learn more about our services &rarr;
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Why Professional Installation */}
+      {/* How It Works — 3 Steps with Real Photos */}
+      <section className="py-16 sm:py-24 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-4">
+            How It Works
+          </h2>
+          <p className="text-lg text-gray-600 text-center mb-14 max-w-2xl mx-auto">
+            Three steps from booking to blazing-fast internet.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                step: "01",
+                title: "We Assess Your Property",
+                desc: "We check your roof, tree cover, and line of sight to find the best mounting spot before we drill a single hole.",
+                image: "/images/work/dish-mount-roof.jpg",
+                imageAlt: "Technician assessing roof for Starlink dish placement",
+              },
+              {
+                step: "02",
+                title: "We Install Everything Clean",
+                desc: "Secure mounting, sealed wall passes, and concealed cable runs. No cables draped across your yard or through cracked windows.",
+                image: "/images/work/dish-wall-mount-install.jpg",
+                imageAlt: "Clean Starlink cable routing through wall",
+              },
+              {
+                step: "03",
+                title: "We Verify Your Speeds",
+                desc: "Before we leave, we run speed tests and walk you through the Starlink app so you know exactly what you are getting.",
+                image: "/images/work/speed-test-572mbps.jpg",
+                imageAlt: "Speed test showing 572 Mbps on Starlink installation",
+              },
+            ].map((item) => (
+              <div key={item.step} className="group">
+                <div className="relative overflow-hidden rounded-2xl mb-5">
+                  <img
+                    src={item.image}
+                    alt={item.imageAlt}
+                    className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute top-4 left-4 bg-blue-600 text-white text-sm font-bold px-3 py-1 rounded-lg">
+                    Step {item.step}
+                  </div>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Work — Photo Gallery */}
+      <section className="py-16 sm:py-24 bg-[#0A1628]">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">
+            Our Work
+          </h2>
+          <p className="text-gray-400 mb-10 max-w-xl">
+            Real installations from real job sites. No stock photos, no renders
+            — just our technicians doing the work.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+            {[
+              {
+                src: "/images/work/dish-mount-roof.jpg",
+                alt: "Starlink dish mounted on residential roof peak",
+                span: "md:col-span-2 md:row-span-2",
+              },
+              {
+                src: "/images/work/dish-wall-mount-install.jpg",
+                alt: "Wall-mounted Starlink dish installation",
+                span: "",
+              },
+              {
+                src: "/images/work/speed-test-572mbps.jpg",
+                alt: "Speed test showing 572 Mbps after professional installation",
+                span: "",
+              },
+              {
+                src: "/images/work/dish-mount-rural.jpg",
+                alt: "Starlink installation on rural property",
+                span: "",
+              },
+              {
+                src: "/images/work/starlink-app-obstructions.jpg",
+                alt: "Starlink app showing clear obstruction check",
+                span: "",
+              },
+            ].map((photo) => (
+              <div
+                key={photo.src}
+                className={`overflow-hidden rounded-xl ${photo.span}`}
+              >
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 aspect-square"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Starnet Pros */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Why Choose Professional Installation?
-            </h2>
-            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Whether it&apos;s Starlink, point-to-point networking, or security cameras —
-              the difference between &ldquo;it works&rdquo; and &ldquo;it works
-              perfectly&rdquo; is professional installation.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-            <div className="rounded-2xl border border-gray-200 p-8 bg-gray-50">
-              <h3 className="text-xl font-bold text-gray-500 mb-6">
-                DIY Installation
-              </h3>
-              <ul className="space-y-4">
-                {[
-                  "Dish sitting on ground or deck — suboptimal signal",
-                  "Cables running across yard or through windows",
-                  "No speed verification or optimization",
-                  "Risk of weather damage to unsecured equipment",
-                  "Hours spent troubleshooting on your own",
-                  "No expert guidance on plan or placement",
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-gray-500">
-                    <span className="text-red-400 mt-0.5 flex-shrink-0">&#10005;</span>
-                    <span className="text-sm">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-2xl border-2 border-blue-600 p-8 bg-blue-50/50 relative">
-              <div className="absolute -top-3 left-8 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                Recommended
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-6">
-                Starnet Pros Installation
-              </h3>
-              <ul className="space-y-4">
-                {[
-                  "Optimal roof-mounted placement for maximum signal",
-                  "Clean, concealed cable routing through walls and conduit",
-                  "Speed verified — customers report 600+ Mbps",
-                  "Weatherproof, secure mounting built to last",
-                  "Full walkthrough and education before we leave",
-                  "Expert guidance on the right plan and equipment",
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-gray-900">
-                    <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Differentiators */}
-      <section className="py-16 sm:py-24 bg-[#0A1628]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              Why Customers Choose Starnet Pros
+              Why Customers Choose Us
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: Shield,
-                title: "Certified Professionals",
-                desc: "Trained, experienced technicians who know Starlink inside and out.",
+                title: "Experienced Technicians",
+                desc: "Our team knows satellite internet, networking hardware, and security systems inside and out.",
               },
               {
                 icon: Zap,
-                title: "600+ Mbps Speeds",
-                desc: "Our customers report blazing-fast speeds with optimized dish placement.",
+                title: "Optimized Performance",
+                desc: "Proper dish placement and cable routing make a real difference — our customers consistently see top-tier speeds.",
               },
               {
                 icon: CheckCircle,
                 title: "Clean Installations",
-                desc: "No messy cables — professional cable routing through walls and conduit.",
+                desc: "No messy cables. We route through walls, use conduit, and seal every penetration point.",
               },
               {
                 icon: Users,
-                title: "Education First",
-                desc: "We don't just install — we teach you how to get the most from Starlink.",
+                title: "We Teach, Not Just Install",
+                desc: "We walk you through the Starlink app, explain your speeds, and make sure you are comfortable before we leave.",
               },
             ].map((item, i) => (
-              <div key={i} className="text-center">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-blue-600/20 text-blue-400 mb-4">
+              <div key={i} className="text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
+                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-blue-600 text-white mb-4">
                   <item.icon className="h-7 w-7" />
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-400 text-sm">{item.desc}</p>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -230,26 +294,57 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Service Areas */}
+      {/* Service Areas — Visual */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Serving Communities Across the Country
-            </h2>
-            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Based in Charlotte, NC, we serve residential and commercial
-              customers across North Carolina, Georgia, Texas, Colorado,
-              Michigan, New Mexico, and expanding nationally.
-            </p>
-          </div>
-          <div className="text-center">
-            <Link
-              href="/service-areas"
-              className="inline-flex rounded-lg bg-blue-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-blue-500 transition-colors"
-            >
-              View All Service Areas
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                Serving Communities Across the Country
+              </h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Based in Charlotte, NC — installing Starlink, networking, and
+                security systems for customers in every state. If you can see the
+                sky, we can get you connected.
+              </p>
+              <Link
+                href="/service-areas"
+                className="inline-flex rounded-lg bg-blue-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-blue-500 transition-colors"
+              >
+                View All Service Areas
+              </Link>
+            </div>
+            <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
+              {[
+                "North Carolina",
+                "Georgia",
+                "Texas",
+                "Colorado",
+                "Michigan",
+                "New Mexico",
+                "Florida",
+                "Virginia",
+                "Tennessee",
+                "Ohio",
+                "Pennsylvania",
+                "Arizona",
+                "California",
+                "Oregon",
+                "Washington",
+                "And more...",
+              ].map((state) => (
+                <span
+                  key={state}
+                  className={`px-4 py-2 rounded-full text-sm font-medium ${
+                    state === "And more..."
+                      ? "bg-blue-600 text-white"
+                      : "bg-gray-100 text-gray-700 border border-gray-200"
+                  }`}
+                >
+                  {state}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </section>

@@ -71,52 +71,36 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services — Asymmetric Layout */}
+      {/* Services */}
       <section className="py-16 sm:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-            {/* Photo side */}
-            <div className="lg:col-span-5 relative">
-              <div className="sticky top-28">
-                <img
-                  src="/images/work/dish-mount-roof.jpg"
-                  alt="Starlink dish professionally mounted on a residential roof"
-                  className="rounded-2xl shadow-xl w-full object-cover aspect-[4/5]"
-                />
-                <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-lg">
-                  Real installation photo
-                </div>
-              </div>
-            </div>
-            {/* Cards side */}
-            <div className="lg:col-span-7">
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-                What We Do
-              </h2>
-              <p className="text-lg text-gray-600 mb-8 max-w-xl">
-                Networking, satellite internet, security systems — installed
-                properly the first time.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                {services.map((service) => (
-                  <ServiceCard
-                    key={service.id}
-                    id={service.id}
-                    title={service.title}
-                    description={service.description}
-                    icon={service.icon}
-                  />
-                ))}
-              </div>
-              <div className="mt-8">
-                <Link
-                  href="/services"
-                  className="text-blue-600 font-semibold hover:text-blue-500 transition-colors"
-                >
-                  Learn more about our services &rarr;
-                </Link>
-              </div>
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              What We Do
+            </h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+              Networking, satellite internet, security systems — installed
+              properly the first time.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {services.slice(0, 6).map((service) => (
+              <ServiceCard
+                key={service.id}
+                id={service.id}
+                title={service.title}
+                description={service.description}
+                icon={service.icon}
+              />
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              href="/services"
+              className="text-blue-600 font-semibold hover:text-blue-500 transition-colors"
+            >
+              View all services &rarr;
+            </Link>
           </div>
         </div>
       </section>

@@ -29,8 +29,8 @@ export default function HomePage() {
       <SchemaMarkup schema={schemas} />
 
       <Hero
-        title="We Install Starlink So You Don't Have To"
-        subtitle="Professional dish mounting, clean cable routing, and speed-verified installations for homes and businesses nationwide."
+        title="Networking, Starlink & Security — Installed Right"
+        subtitle="From satellite internet and point-to-point networks to security cameras and full property connectivity — we handle the installation so you don't have to."
         ctaText="Book Your Installation"
         ctaHref="/book"
         secondaryCta="View Our Services"
@@ -112,30 +112,30 @@ export default function HomePage() {
             How It Works
           </h2>
           <p className="text-lg text-gray-600 text-center mb-14 max-w-2xl mx-auto">
-            Three steps from booking to blazing-fast internet.
+            Three steps from booking to a fully connected property.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 step: "01",
                 title: "We Assess Your Property",
-                desc: "We check your roof, tree cover, and line of sight to find the best mounting spot before we drill a single hole.",
+                desc: "We survey your property to plan equipment placement, cable routes, camera positions, and network coverage — before any work begins.",
                 image: "/images/work/dish-mount-roof.jpg",
-                imageAlt: "Technician assessing roof for Starlink dish placement",
+                imageAlt: "Technician assessing property for installation",
               },
               {
                 step: "02",
                 title: "We Install Everything Clean",
-                desc: "Secure mounting, sealed wall passes, and concealed cable runs. No cables draped across your yard or through cracked windows.",
+                desc: "Secure mounting, sealed wall passes, and concealed cable runs for every device — satellite dishes, cameras, access points, and network bridges.",
                 image: "/images/work/dish-wall-mount-install.jpg",
-                imageAlt: "Clean Starlink cable routing through wall",
+                imageAlt: "Clean professional cable routing through wall",
               },
               {
                 step: "03",
-                title: "We Verify Your Speeds",
-                desc: "Before we leave, we run speed tests and walk you through the Starlink app so you know exactly what you are getting.",
+                title: "We Test and Walk You Through",
+                desc: "We verify speeds, check camera feeds, confirm network coverage, and walk you through everything before we leave.",
                 image: "/images/work/speed-test-572mbps.jpg",
-                imageAlt: "Speed test showing 572 Mbps on Starlink installation",
+                imageAlt: "Speed test verification after professional installation",
               },
             ].map((item) => (
               <div key={item.step} className="group">
@@ -168,8 +168,8 @@ export default function HomePage() {
             Our Work
           </h2>
           <p className="text-gray-400 mb-10 max-w-xl">
-            Real installations from real job sites. No stock photos, no renders
-            — just our technicians doing the work.
+            Satellite dishes, network equipment, and security systems — installed
+            by our technicians on real job sites.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
             {[
@@ -232,7 +232,7 @@ export default function HomePage() {
               {
                 icon: Zap,
                 title: "Optimized Performance",
-                desc: "Proper dish placement and cable routing make a real difference — our customers consistently see top-tier speeds.",
+                desc: "Proper placement and cable routing make a real difference — whether it is a satellite dish, security camera, or network bridge.",
               },
               {
                 icon: CheckCircle,
@@ -242,7 +242,7 @@ export default function HomePage() {
               {
                 icon: Users,
                 title: "We Teach, Not Just Install",
-                desc: "We walk you through the Starlink app, explain your speeds, and make sure you are comfortable before we leave.",
+                desc: "We walk you through every system we install — apps, remote access, network settings — and make sure you are comfortable before we leave.",
               },
             ].map((item, i) => (
               <div key={i} className="text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">

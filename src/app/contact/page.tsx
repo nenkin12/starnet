@@ -74,9 +74,9 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-gray-900">Address</p>
                     <p className="text-gray-600">
-                      1125 Charlottetowne Ave
+                      730 Peachtree St NE, Ste 570
                       <br />
-                      Charlotte, NC 28204
+                      Atlanta, GA 30308
                     </p>
                   </div>
                 </div>

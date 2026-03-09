@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, Clock } from "lucide-react";
+import { Phone, Clock, MapPin } from "lucide-react";
 
 const footerLinks = {
   services: [
@@ -49,6 +49,10 @@ export default function Footer() {
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 (833) 411-2089
               </a>
+              <div className="flex items-start gap-2 text-gray-400 text-sm">
+                <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
+                <span>HQ: 730 Peachtree St NE, Ste 570, Atlanta, GA 30308</span>
+              </div>
               <div className="flex items-center gap-2 text-gray-400 text-sm">
                 <Clock className="h-4 w-4 flex-shrink-0" />
                 Mon–Fri 8:00 AM – 6:00 PM

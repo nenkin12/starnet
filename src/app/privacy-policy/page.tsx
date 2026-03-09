@@ -161,7 +161,7 @@ export default function PrivacyPolicyPage() {
               <a href="tel:+18334112089">(833) 411-2089</a>
             </li>
             <li>
-              Address: 1125 Charlottetowne Ave, Charlotte, NC 28204
+              Address: 730 Peachtree St NE, Ste 570, Atlanta, GA 30308
             </li>
           </ul>
         </div>

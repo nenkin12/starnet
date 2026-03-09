@@ -115,9 +115,8 @@ export default function Footer() {
         {/* Bottom section */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-gray-500 text-xs text-center mb-3">
-            Starnetpros.com is an independent platform and has no affiliation,
-            sponsorship, or endorsement from Starlink, SpaceX, or their
-            associated companies.
+            Starnet Pros is an independent installation service and is not
+            affiliated with, endorsed by, or operated by SpaceX or Starlink.
           </p>
           <p className="text-gray-500 text-xs text-center">
             &copy; {new Date().getFullYear()} Starnet Pros. All rights reserved.

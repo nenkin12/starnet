@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = createMetadata({
   title: "About Starnet Pros | Our Mission & Story",
   description:
-    "Learn about Starnet Pros — professional Starlink installation, point-to-point networking, and security camera systems. Bridging the connectivity gap with an education-first approach.",
+    "Learn about Starnet Pros — professional internet installation, business networking, and security camera systems for businesses and homes nationwide.",
   path: "/about",
 });
 
@@ -26,7 +26,7 @@ export default function AboutPage() {
 
       <Hero
         title="About Starnet Pros"
-        subtitle="We believe everyone deserves reliable networking, high-speed internet, and secure properties — and the knowledge to make the most of it all."
+        subtitle="We believe every business and home deserves reliable internet, professional networking, and security — and the knowledge to make the most of it all."
         backgroundImage="/images/hero-about.jpg"
         ctaText="Our Services"
         ctaHref="/services"
@@ -47,34 +47,32 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg text-gray-600 space-y-6">
               <p>
-                Starnet Pros was founded with a simple observation: Starlink was
-                revolutionizing internet access for millions of people in rural
-                and underserved areas — but too many customers were struggling to
-                get the most out of it.
+                Starnet Pros started with a simple observation: businesses and
+                homeowners were paying for internet and networking services but
+                not getting the performance they were promised. Bad installations,
+                poorly designed networks, weak Wi-Fi coverage, and zero support
+                after setup were the norm — not the exception.
               </p>
               <p>
-                We saw homeowners with dishes sitting on the ground getting
-                half the speed they should. We met business owners who chose the
-                wrong plan and wasted hundreds of dollars. We talked to families
-                who gave up on Starlink entirely because their DIY installation
-                didn&apos;t work — when all it needed was proper placement and
-                setup.
+                We saw small businesses running critical operations on consumer-grade
+                routers. We met property owners with dead zones covering half their
+                building. We talked to companies that had paid for &quot;professional&quot;
+                installations that left them with messy cables and unreliable connections.
               </p>
               <p>
-                That gap between what Starlink <em>can</em> deliver and what
-                most people <em>actually</em> experience is why Starnet Pros
-                exists. Today, we&apos;ve expanded beyond Starlink to offer
-                point-to-point networking and security camera installations.
-                We&apos;re not just installers — we&apos;re educators,
-                consultants, and advocates for getting people truly connected
-                and protected.
+                That gap between what modern internet and networking <em>can</em> deliver
+                and what most people <em>actually</em> experience is why Starnet Pros
+                exists. Today, we install and support all types of internet service —
+                fiber, cable, fixed wireless, and satellite — alongside business networking,
+                Wi-Fi systems, structured cabling, and security camera installations.
+                We&apos;re not just installers — we&apos;re consultants, educators,
+                and advocates for getting businesses and homes truly connected and protected.
               </p>
               <p>
-                Based in Charlotte, North Carolina, we&apos;ve grown from
-                serving our local community to helping customers across the
-                Southeast and beyond. Every installation we do reflects our
-                founding principle: do it right, do it clean, and make sure the
-                customer understands their system before we leave.
+                Based in Atlanta, Georgia, we&apos;ve grown from serving our local
+                community to helping customers across the country. Every installation
+                we do reflects our founding principle: do it right, do it clean,
+                and make sure the customer understands their system before we leave.
               </p>
             </div>
           </div>
@@ -94,7 +92,7 @@ export default function AboutPage() {
               {
                 icon: Target,
                 title: "Mission",
-                desc: "To bridge the connectivity and security gap in rural and underserved communities through professional Starlink, networking, and security system installation.",
+                desc: "To bridge the connectivity and security gap for businesses and homes through professional internet installation, networking, and security systems.",
               },
               {
                 icon: Heart,
@@ -137,14 +135,14 @@ export default function AboutPage() {
                 The Education-First Difference
               </h2>
               <p className="text-gray-300 leading-relaxed mb-6">
-                Most installers mount a dish, hand you a receipt, and drive
+                Most installers mount some equipment, hand you a receipt, and drive
                 away. We take a different approach.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Before every installation, we consult with you about the right
-                plan, equipment, and placement. After installation, we walk you
-                through your system — how to check speeds, troubleshoot issues,
-                optimize your network, and understand your Starlink app.
+                service, equipment, and configuration. After installation, we walk you
+                through your system — how to check performance, troubleshoot issues,
+                manage your network, and get the most out of your setup.
               </p>
               <p className="text-gray-300 leading-relaxed mb-8">
                 Our customers don&apos;t just get faster internet. They get the
@@ -163,8 +161,8 @@ export default function AboutPage() {
               </h3>
               <ul className="space-y-4">
                 {[
-                  "Pre-installation consultation and property assessment",
-                  "Optimal dish placement with professional mounting",
+                  "Free consultation and property assessment",
+                  "Professional equipment mounting and installation",
                   "Clean, concealed cable routing",
                   "Full device connection and speed verification",
                   "Post-installation walkthrough and education",
@@ -176,8 +174,8 @@ export default function AboutPage() {
                 ))}
               </ul>
               <p className="text-gray-400 text-sm mt-6 pt-6 border-t border-white/10">
-                Add-ons: Point-to-point, mesh networking, and security camera
-                systems are available as separate add-ons to your installation.
+                Services include: internet installation, business networking, Wi-Fi
+                systems, structured cabling, point-to-point links, and security cameras.
               </p>
             </div>
           </div>
@@ -193,8 +191,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               {
-                title: "No conflict of interest",
-                body: "We don't sell Starlink equipment. Our only job is to get you the right setup and install it correctly — so our advice is 100% in your interest.",
+                title: "We work with every provider",
+                body: "We're not tied to any single internet provider or brand. Our only job is to get you the right setup and install it correctly — so our advice is 100% in your interest.",
               },
               {
                 title: "Clean work, every time",
@@ -202,7 +200,7 @@ export default function AboutPage() {
               },
               {
                 title: "You'll know how it works",
-                body: "Before we leave, you'll understand how to check speeds, use the Starlink app, and troubleshoot common issues. We want you confident, not dependent.",
+                body: "Before we leave, you'll understand how to monitor your network, troubleshoot common issues, and manage your systems. We want you confident, not dependent.",
               },
             ].map((item, i) => (
               <div key={i} className="text-center">
@@ -222,11 +220,11 @@ export default function AboutPage() {
       <section className="py-16 sm:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Expanding Nationwide
+            Serving Businesses & Homes Nationwide
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            Based in Charlotte, NC, we currently serve customers across North
-            Carolina, Georgia, Texas, Colorado, Michigan, and New Mexico — with
+            Based in Atlanta, GA, we serve customers across Georgia, North
+            Carolina, Texas, Colorado, Michigan, New Mexico, Florida — with
             more states being added regularly.
           </p>
           <Link

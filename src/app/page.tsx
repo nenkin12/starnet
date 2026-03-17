@@ -29,8 +29,8 @@ export default function HomePage() {
       <SchemaMarkup schema={schemas} />
 
       <Hero
-        title="Networking, Starlink & Security — Installed Right"
-        subtitle="From satellite internet and point-to-point networks to security cameras and full property connectivity — we handle the installation so you don't have to."
+        title="Business & Residential Internet, Networking & Security"
+        subtitle="From internet installation and office networking to Wi-Fi coverage and security cameras — we design, install, and support connectivity solutions for businesses and homes nationwide."
         ctaText="Book Your Installation"
         ctaHref="/book"
         secondaryCta="View Our Services"
@@ -79,8 +79,8 @@ export default function HomePage() {
               What We Do
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Networking, satellite internet, security systems — installed
-              properly the first time.
+              Internet, networking, Wi-Fi, and security — installed properly
+              the first time for businesses and homes.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -168,19 +168,19 @@ export default function HomePage() {
             Our Work
           </h2>
           <p className="text-gray-400 mb-10 max-w-xl">
-            Satellite dishes, network equipment, and security systems — installed
-            by our technicians on real job sites.
+            Network equipment, cabling, access points, and security systems —
+            installed by our technicians on real job sites.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
             {[
               {
                 src: "/images/work/dish-mount-roof.jpg",
-                alt: "Starlink dish mounted on residential roof peak",
+                alt: "Professional equipment mounted on residential roof",
                 span: "md:col-span-2 md:row-span-2",
               },
               {
                 src: "/images/work/dish-wall-mount-install.jpg",
-                alt: "Wall-mounted Starlink dish installation",
+                alt: "Professional wall-mounted equipment installation",
                 span: "",
               },
               {
@@ -190,12 +190,12 @@ export default function HomePage() {
               },
               {
                 src: "/images/work/dish-mount-rural.jpg",
-                alt: "Starlink installation on rural property",
+                alt: "Internet installation on rural property",
                 span: "",
               },
               {
                 src: "/images/work/starlink-app-obstructions.jpg",
-                alt: "Starlink app showing clear obstruction check",
+                alt: "Network signal and connectivity verification",
                 span: "",
               },
             ].map((photo) => (
@@ -227,12 +227,12 @@ export default function HomePage() {
               {
                 icon: Shield,
                 title: "Experienced Technicians",
-                desc: "Our team knows satellite internet, networking hardware, and security systems inside and out.",
+                desc: "Our team knows internet infrastructure, business networking, and security systems inside and out.",
               },
               {
                 icon: Zap,
                 title: "Optimized Performance",
-                desc: "Proper placement and cable routing make a real difference — whether it is a satellite dish, security camera, or network bridge.",
+                desc: "Proper network design and cable routing make a real difference — whether it is a full office buildout, security camera system, or home Wi-Fi upgrade.",
               },
               {
                 icon: CheckCircle,
@@ -287,8 +287,8 @@ export default function HomePage() {
                 Serving Communities Across the Country
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Installing Starlink, networking, and security systems for
-                customers in every state. If you can see the sky, we can get
+                Installing internet, networking, and security systems for
+                businesses and homes in every state. Wherever you are, we get
                 you connected.
               </p>
               <Link

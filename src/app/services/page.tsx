@@ -33,9 +33,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 export const metadata: Metadata = createMetadata({
-  title: "Starlink Installation & Security System Services | Starnet Pros",
+  title: "Internet, Networking & Security Services | Starnet Pros",
   description:
-    "Professional Starlink installation, point-to-point networking, and security camera system services. Residential, commercial, RV setups. Expert consultation and clean cabling.",
+    "Professional internet installation, business networking, Wi-Fi solutions, structured cabling, and security camera systems for businesses and homes. Expert consultation and clean installations nationwide.",
   path: "/services",
 });
 
@@ -50,8 +50,8 @@ export default function ServicesPage() {
       <SchemaMarkup schema={schemas} />
 
       <Hero
-        title="Networking, Starlink & Security System Services"
-        subtitle="From complete networking solutions and Starlink installation to point-to-point systems and security cameras, we deliver expert setup for homes, businesses, and mobile users."
+        title="Internet, Networking & Security Services"
+        subtitle="From internet installation and business networking to Wi-Fi systems, structured cabling, and security cameras — expert setup for businesses and homes nationwide."
         backgroundImage="/images/hero-services.jpg"
       />
 

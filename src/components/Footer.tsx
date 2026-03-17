@@ -3,12 +3,12 @@ import { Phone, Clock, MapPin } from "lucide-react";
 
 const footerLinks = {
   services: [
-    { name: "Starlink Consultation", href: "/services#starlink-consultation" },
-    { name: "Professional Installation", href: "/services#professional-installation" },
-    { name: "Commercial Solutions", href: "/services#commercial-solutions" },
-    { name: "RV & Mobile Installation", href: "/services#rv-mobile-installation" },
+    { name: "Business Networking", href: "/services#business-networking" },
+    { name: "Internet Installation", href: "/services#internet-installation" },
+    { name: "Wi-Fi Solutions", href: "/services#wifi-solutions" },
     { name: "Point-to-Point", href: "/services#point-to-point" },
     { name: "Security Systems", href: "/services#security-camera-installation" },
+    { name: "Structured Cabling", href: "/services#structured-cabling" },
   ],
   company: [
     { name: "About Us", href: "/about" },
@@ -38,8 +38,8 @@ export default function Footer() {
               className="h-10 w-auto mb-4"
             />
             <p className="text-gray-400 text-sm mb-4">
-              Professional networking, Starlink installation, and security
-              camera systems — serving customers nationwide.
+              Professional internet installation, business networking, and
+              security systems — serving businesses and homes nationwide.
             </p>
             <div className="space-y-3">
               <a

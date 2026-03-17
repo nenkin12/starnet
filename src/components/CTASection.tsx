@@ -11,7 +11,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   title = "Ready to Get Connected?",
-  subtitle = "Whether you need satellite internet, security cameras, or a full network setup — book a professional installation and get it done right.",
+  subtitle = "Whether you need internet installation, business networking, security cameras, or a complete connectivity solution — book a professional installation and get it done right.",
   ctaText = "Book Your Installation",
   ctaHref = "/book",
   showPhone = true,

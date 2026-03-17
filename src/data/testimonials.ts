@@ -16,28 +16,28 @@ export const testimonials: Testimonial[] = [
   {
     id: 2,
     quote:
-      "I went from 8 Mbps DSL to over 200 Mbps with Starlink after Starnet Pros mounted the dish on my roof. The difference is night and day — I can finally video call without freezing.",
+      "We had them set up our entire office network — structured cabling, access points, the works. The difference is night and day. Video calls finally work without dropping, and the whole team noticed the speed improvement immediately.",
     author: "Sarah W.",
-    type: "residential",
+    type: "business",
   },
   {
     id: 3,
     quote:
-      "Fast, friendly, and knowledgeable! Starnet Pros made getting set up easy, and now I have reliable internet no matter the weather.",
+      "Fast, friendly, and knowledgeable! Starnet Pros made getting our business connected easy, and now we have reliable internet and Wi-Fi coverage across our entire property.",
     author: "Verified Customer",
     type: "general",
   },
   {
     id: 4,
     quote:
-      "I've been traveling full-time in my RV for over a year, and staying connected was always a challenge. Starnet Pros helped me choose the right Starlink plan and made installation easy.",
-    author: "RV Customer",
-    type: "rv",
+      "We run a small warehouse and needed security cameras plus a proper network. Starnet Pros handled the whole project — cabling, cameras, Wi-Fi — all clean and professional. Best investment we've made.",
+    author: "James R.",
+    type: "business",
   },
   {
     id: 5,
     quote:
-      "As a small business owner operating from a cabin in the mountains, reliable internet was always a challenge. I turned to Starnet Pros, and they not only helped me get Starlink set up but also optimized my network for seamless video calls, file transfers, and cloud work.",
+      "As a small business owner, reliable internet and security were always a challenge. Starnet Pros not only got us connected but also optimized our network for seamless video calls, file transfers, and cloud work. They even set up our camera system.",
     author: "Business Customer",
     type: "business",
   },

@@ -3,7 +3,7 @@ import { createMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import PaperformEmbed from "@/components/PaperformEmbed";
+import ContactFormToggle from "@/components/ContactFormToggle";
 import Hero from "@/components/Hero";
 import { Phone, MapPin, Clock, Mail } from "lucide-react";
 
@@ -111,32 +111,10 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Forms */}
-            <div className="lg:col-span-2 space-y-10">
-              {/* Residential Form */}
-              <div id="residential" className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm scroll-mt-24">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  Residential Inquiry
-                </h2>
-                <p className="text-gray-600 mb-8">
-                  Need internet, Wi-Fi, or security cameras for your home? Fill
-                  out the form below and we&apos;ll get back to you within 24
-                  hours with a custom quote.
-                </p>
-                <PaperformEmbed />
-              </div>
-
-              {/* Business Form */}
-              <div id="business" className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm scroll-mt-24">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  Business Inquiry
-                </h2>
-                <p className="text-gray-600 mb-8">
-                  Looking for networking, structured cabling, or security
-                  systems for your business? Tell us about your project and
-                  we&apos;ll put together a custom proposal.
-                </p>
-                <PaperformEmbed formId="suimrd4s" />
+            {/* Form with Toggle */}
+            <div className="lg:col-span-2">
+              <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
+                <ContactFormToggle />
               </div>
             </div>
           </div>

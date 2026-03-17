@@ -29,8 +29,8 @@ export default function HomePage() {
       <SchemaMarkup schema={schemas} />
 
       <Hero
-        title="Business & Residential Internet, Networking & Security"
-        subtitle="From internet installation and office networking to Wi-Fi coverage and security cameras — we design, install, and support connectivity solutions for businesses and homes nationwide."
+        title="Residential & Business Internet, Networking & Security"
+        subtitle="From home internet and Wi-Fi coverage to office networking and security cameras — we design, install, and support connectivity solutions for homes and businesses nationwide."
         ctaText="Book Your Installation"
         ctaHref="/book"
         secondaryCta="View Our Services"
@@ -80,7 +80,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
               Internet, networking, Wi-Fi, and security — installed properly
-              the first time for businesses and homes.
+              the first time for homes and businesses.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -288,7 +288,7 @@ export default function HomePage() {
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 Installing internet, networking, and security systems for
-                businesses and homes in every state. Wherever you are, we get
+                homes and businesses in every state. Wherever you are, we get
                 you connected.
               </p>
               <Link

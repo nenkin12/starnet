@@ -111,17 +111,32 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Paperform Embed */}
-            <div className="lg:col-span-2">
+            {/* Forms */}
+            <div className="lg:col-span-2 space-y-10">
+              {/* Residential Form */}
               <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  Send Us a Message
+                  Residential Inquiry
                 </h2>
                 <p className="text-gray-600 mb-8">
-                  Fill out the form below and we&apos;ll get back to you within
-                  24 hours with a custom quote.
+                  Need internet, Wi-Fi, or security cameras for your home? Fill
+                  out the form below and we&apos;ll get back to you within 24
+                  hours with a custom quote.
                 </p>
                 <PaperformEmbed />
+              </div>
+
+              {/* Business Form */}
+              <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                  Business Inquiry
+                </h2>
+                <p className="text-gray-600 mb-8">
+                  Looking for networking, structured cabling, or security
+                  systems for your business? Tell us about your project and
+                  we&apos;ll put together a custom proposal.
+                </p>
+                <PaperformEmbed formId="suimrd4s" />
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export default function PaperformEmbed() {
+export default function PaperformEmbed({ formId = "iodb52vq" }: { formId?: string }) {
   useEffect(() => {
     // Only load the script once
     if (!document.querySelector('script[src="https://paperform.co/__embed.min.js"]')) {
@@ -13,5 +13,5 @@ export default function PaperformEmbed() {
     }
   }, []);
 
-  return <div data-paperform-id="iodb52vq" />;
+  return <div data-paperform-id={formId} />;
 }

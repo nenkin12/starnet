@@ -31,10 +31,10 @@ export default function HomePage() {
       <Hero
         title="Residential & Business Internet, Networking & Security"
         subtitle="From home internet and Wi-Fi coverage to office networking and security cameras — we design, install, and support connectivity solutions for homes and businesses nationwide."
-        ctaText="Book Your Installation"
-        ctaHref="/book"
-        secondaryCta="View Our Services"
-        secondaryHref="/services"
+        ctaText="Residential"
+        ctaHref="/contact#residential"
+        secondaryCta="Business"
+        secondaryHref="/contact#business"
       />
 
       {/* Trust Bar */}

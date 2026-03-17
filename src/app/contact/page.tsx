@@ -114,7 +114,7 @@ export default function ContactPage() {
             {/* Forms */}
             <div className="lg:col-span-2 space-y-10">
               {/* Residential Form */}
-              <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
+              <div id="residential" className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm scroll-mt-24">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
                   Residential Inquiry
                 </h2>
@@ -127,7 +127,7 @@ export default function ContactPage() {
               </div>
 
               {/* Business Form */}
-              <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
+              <div id="business" className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm scroll-mt-24">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
                   Business Inquiry
                 </h2>

@@ -105,51 +105,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How It Works — 3 Steps with Real Photos */}
+      {/* How It Works */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-4">
             How It Works
           </h2>
           <p className="text-lg text-gray-600 text-center mb-14 max-w-2xl mx-auto">
-            Three steps from booking to a fully connected property.
+            Three steps from consultation to a fully connected property.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 step: "01",
-                title: "We Assess Your Property",
-                desc: "We survey your property to plan equipment placement, cable routes, camera positions, and network coverage — before any work begins.",
-                image: "/images/work/dish-mount-roof.jpg",
-                imageAlt: "Technician assessing property for installation",
+                title: "Free Consultation",
+                desc: "We assess your property or facility, understand your needs, and recommend the right solution — internet, networking, security, or all three.",
               },
               {
                 step: "02",
-                title: "We Install Everything Clean",
-                desc: "Secure mounting, sealed wall passes, and concealed cable runs for every device — satellite dishes, cameras, access points, and network bridges.",
-                image: "/images/work/dish-wall-mount-install.jpg",
-                imageAlt: "Clean professional cable routing through wall",
+                title: "Professional Installation",
+                desc: "Secure mounting, sealed wall passes, concealed cable runs, and proper network configuration. Every job is done clean and to code.",
               },
               {
                 step: "03",
-                title: "We Test and Walk You Through",
-                desc: "We verify speeds, check camera feeds, confirm network coverage, and walk you through everything before we leave.",
-                image: "/images/work/speed-test-572mbps.jpg",
-                imageAlt: "Speed test verification after professional installation",
+                title: "Testing & Walkthrough",
+                desc: "We verify speeds, test every connection, confirm camera feeds, and walk you through the entire system before we leave.",
               },
             ].map((item) => (
-              <div key={item.step} className="group">
-                <div className="relative overflow-hidden rounded-2xl mb-5">
-                  <img
-                    src={item.image}
-                    alt={item.imageAlt}
-                    className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute top-4 left-4 bg-blue-600 text-white text-sm font-bold px-3 py-1 rounded-lg">
-                    Step {item.step}
-                  </div>
+              <div key={item.step} className="text-center p-8 rounded-2xl bg-gray-50 border border-gray-100">
+                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-white text-xl font-bold mb-5">
+                  {item.step}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
                   {item.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -161,55 +148,61 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Our Work — Photo Gallery */}
+      {/* Business Solutions */}
       <section className="py-16 sm:py-24 bg-[#0A1628]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">
-            Our Work
-          </h2>
-          <p className="text-gray-400 mb-10 max-w-xl">
-            Network equipment, cabling, access points, and security systems —
-            installed by our technicians on real job sites.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+          <div className="text-center mb-14">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Business Solutions
+            </h2>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              We help businesses of all sizes build reliable infrastructure — from single-office setups to multi-location deployments.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                src: "/images/work/dish-mount-roof.jpg",
-                alt: "Professional equipment mounted on residential roof",
-                span: "md:col-span-2 md:row-span-2",
+                title: "Office Networking",
+                desc: "Structured cabling, managed switches, VLANs, and enterprise Wi-Fi — designed for performance and scalability.",
               },
               {
-                src: "/images/work/dish-wall-mount-install.jpg",
-                alt: "Professional wall-mounted equipment installation",
-                span: "",
+                title: "Security Camera Systems",
+                desc: "IP camera installation with remote viewing, NVR setup, and strategic placement for full property coverage.",
               },
               {
-                src: "/images/work/speed-test-572mbps.jpg",
-                alt: "Speed test showing 572 Mbps after professional installation",
-                span: "",
+                title: "Structured Cabling",
+                desc: "Cat6/Cat6a runs, patch panels, server rack buildouts, and clean cable management throughout your facility.",
               },
               {
-                src: "/images/work/dish-mount-rural.jpg",
-                alt: "Internet installation on rural property",
-                span: "",
+                title: "Point-to-Point Links",
+                desc: "Wireless bridge connections between buildings, job sites, or remote structures — no trenching required.",
               },
               {
-                src: "/images/work/starlink-app-obstructions.jpg",
-                alt: "Network signal and connectivity verification",
-                span: "",
+                title: "Wi-Fi Coverage",
+                desc: "Enterprise access points, heat mapping, and mesh systems to eliminate dead zones across your entire property.",
               },
-            ].map((photo) => (
-              <div
-                key={photo.src}
-                className={`overflow-hidden rounded-xl ${photo.span}`}
-              >
-                <img
-                  src={photo.src}
-                  alt={photo.alt}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 aspect-square"
-                />
+              {
+                title: "Internet Installation",
+                desc: "Fiber, cable, fixed wireless, or satellite — we handle the physical installation and optimize your connection.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  {item.desc}
+                </p>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              href="/contact#business"
+              className="inline-flex rounded-lg bg-blue-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-blue-500 transition-colors"
+            >
+              Get a Business Quote
+            </Link>
           </div>
         </div>
       </section>

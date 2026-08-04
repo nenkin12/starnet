@@ -50,9 +50,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
-        {/* Google Analytics 4 — replace G-XXXXXXXXXX with your Measurement ID */}
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> */}
-        {/* <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');` }} /> */}
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XZHF2HSJ0"></script>
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4XZHF2HSJ0');` }} />
 
         {/* Microsoft UET tag — Starnet Leads */}
         <script

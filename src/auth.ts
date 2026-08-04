@@ -13,11 +13,15 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         if (!credentials?.username || !credentials?.password) return null;
         if (credentials.username !== "admin") return null;
 
-        const hash = process.env.ADMIN_PASSWORD_HASH;
-        if (!hash) {
+        const rawHash = process.env.ADMIN_PASSWORD_HASH;
+        if (!rawHash) {
           console.error("ADMIN_PASSWORD_HASH env var is not set");
           return null;
         }
+        // Decode from base64 if the hash doesn't start with $2 (Netlify mangles $ signs)
+        const hash = rawHash.startsWith("$2")
+          ? rawHash
+          : Buffer.from(rawHash, "base64").toString("utf-8");
         const valid = await bcrypt.compare(
           credentials.password as string,
           hash

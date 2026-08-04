@@ -8,6 +8,7 @@ import {
 import SchemaMarkup from "@/components/SchemaMarkup";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
+import { BlogEngagementTracker } from "@/components/BlogEngagementTracker";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
@@ -163,6 +164,8 @@ export default async function BlogPostPage({
           />
         </div>
       </article>
+
+      <BlogEngagementTracker slug={slug} />
 
       <CTASection
         title="Ready for Professional Installation?"

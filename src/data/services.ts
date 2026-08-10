@@ -26,7 +26,7 @@ export const services: Service[] = [
       "Firewall, VLAN, and security configuration",
       "Scalable solutions that grow with your business",
     ],
-    image: "/images/work/dish-wall-mount-install.jpg",
+    image: "/images/work/low-voltage-wiring.jpg",
   },
   {
     id: "security-camera-installation",
@@ -82,7 +82,7 @@ export const services: Service[] = [
       "Network optimization and channel tuning",
       "Indoor and outdoor coverage solutions",
     ],
-    image: "/images/work/speed-test-572mbps.jpg",
+    image: "/images/work/ceiling-cable-install.jpg",
   },
   {
     id: "point-to-point",
@@ -118,7 +118,7 @@ export const services: Service[] = [
       "Security system recommendations",
       "Budget-conscious solutions",
     ],
-    image: "/images/work/dish-mount-roof.jpg",
+    image: "/images/work/security-camera-wall-install.jpeg",
   },
   {
     id: "structured-cabling",

@@ -118,7 +118,7 @@ export const services: Service[] = [
       "Security system recommendations",
       "Budget-conscious solutions",
     ],
-    image: "/images/work/security-camera-wall-install.jpeg",
+    image: "/images/work/consultation-walkthrough.jpg",
   },
   {
     id: "structured-cabling",

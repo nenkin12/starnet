@@ -130,15 +130,15 @@ export default function ServicesPage() {
                       </ul>
                     </div>
                     <div
-                      className={`rounded-2xl bg-gradient-to-br from-[#0A1628] to-blue-900 aspect-[4/3] flex items-center justify-center overflow-hidden ${
+                      className={`rounded-2xl aspect-[4/3] flex items-center justify-center overflow-hidden ${
                         !isEven ? "lg:col-start-1" : ""
-                      }`}
+                      } ${service.id === "point-to-point" ? "bg-white border border-gray-200" : "bg-gradient-to-br from-[#0A1628] to-blue-900"}`}
                     >
                       {service.image ? (
                         <img
                           src={service.image}
                           alt={service.title}
-                          className="w-full h-full object-cover"
+                          className={service.id === "point-to-point" ? "w-full h-full object-contain p-4" : "w-full h-full object-cover"}
                         />
                       ) : (
                         <Icon className="h-24 w-24 text-blue-400/20" />

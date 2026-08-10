@@ -100,7 +100,7 @@ export const services: Service[] = [
       "Reliable in all weather conditions",
       "Complete site survey and installation",
     ],
-    image: "/images/work/starlink-app-obstructions.jpg",
+    image: "/images/work/point-to-point-diagram.gif",
   },
   {
     id: "consultation",

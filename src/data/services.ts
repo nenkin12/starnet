@@ -82,7 +82,7 @@ export const services: Service[] = [
       "Network optimization and channel tuning",
       "Indoor and outdoor coverage solutions",
     ],
-    image: "/images/work/ceiling-cable-install.jpg",
+    image: "/images/work/wireless-network-diagram.jpeg",
   },
   {
     id: "point-to-point",

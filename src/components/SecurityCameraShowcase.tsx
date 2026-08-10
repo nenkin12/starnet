@@ -15,11 +15,12 @@ export default function SecurityCameraShowcase() {
     <section className="py-16 sm:py-24 bg-gray-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div
-            className="rounded-2xl bg-gradient-to-br from-[#0A1628] to-blue-900 aspect-[4/3] flex items-center justify-center"
-            data-placeholder="security-camera-showcase"
-          >
-            <Camera className="h-24 w-24 text-blue-400/20" />
+          <div className="rounded-2xl overflow-hidden aspect-[4/3]">
+            <img
+              src="/images/work/security-camera-install.webp"
+              alt="Professional security camera installation"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">

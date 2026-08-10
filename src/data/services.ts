@@ -46,7 +46,7 @@ export const services: Service[] = [
       "NVR/DVR recording and storage configuration",
       "Motion detection and smart alerts setup",
     ],
-    image: "/images/services/security-camera.svg",
+    image: "/images/work/security-camera-dome-install.webp",
   },
   {
     id: "internet-installation",

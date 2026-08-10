@@ -29,6 +29,26 @@ export const services: Service[] = [
     image: "/images/work/dish-wall-mount-install.jpg",
   },
   {
+    id: "security-camera-installation",
+    title: "Security Camera & System Installation",
+    shortTitle: "Security Systems",
+    icon: "Camera",
+    description:
+      "Professional security camera and surveillance system installation for homes and businesses — wired or wireless, indoor and outdoor.",
+    details:
+      "Protect your property with professionally installed security cameras and surveillance systems. We design, install, and configure complete security setups tailored to your property — from single-camera residential systems to multi-camera commercial deployments with NVR/DVR recording, Cat6 runs, and centralized monitoring. Our team handles strategic camera placement, wiring, network configuration, and remote access setup so you can monitor your property from anywhere. We serve retail stores, warehouses, offices, restaurants, and multi-location businesses with scalable systems built for 24/7 reliability.",
+    benefits: [
+      "Custom security system design for your property",
+      "Indoor and outdoor camera installation",
+      "Professional wiring and cable concealment",
+      "Remote viewing and mobile app setup",
+      "Integration with your existing network",
+      "NVR/DVR recording and storage configuration",
+      "Motion detection and smart alerts setup",
+    ],
+    image: "/images/services/security-camera.svg",
+  },
+  {
     id: "internet-installation",
     title: "Internet Installation & Setup",
     shortTitle: "Internet",
@@ -81,24 +101,6 @@ export const services: Service[] = [
       "Complete site survey and installation",
     ],
     image: "/images/work/starlink-app-obstructions.jpg",
-  },
-  {
-    id: "security-camera-installation",
-    title: "Security Camera & System Installation",
-    shortTitle: "Security Systems",
-    icon: "Camera",
-    description:
-      "Professional security camera and surveillance system installation for homes and businesses — wired or wireless, indoor and outdoor.",
-    details:
-      "Protect your property with professionally installed security cameras and surveillance systems. We design, install, and configure complete security setups tailored to your property — from single-camera residential systems to multi-camera commercial installations. Our team handles mounting, wiring, network configuration, and remote access setup so you can monitor your property from anywhere. We work with leading brands and integrate your security system with your existing network for seamless performance.",
-    benefits: [
-      "Custom security system design for your property",
-      "Indoor and outdoor camera installation",
-      "Professional wiring and cable concealment",
-      "Remote viewing and mobile app setup",
-      "Integration with your existing network",
-    ],
-    image: "/images/services/security-camera.svg",
   },
   {
     id: "consultation",

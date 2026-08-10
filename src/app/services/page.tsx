@@ -20,6 +20,9 @@ import {
   Camera,
   CheckCircle,
   Phone,
+  ShoppingBag,
+  Warehouse,
+  UtensilsCrossed,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -142,6 +145,47 @@ export default function ServicesPage() {
                       )}
                     </div>
                   </div>
+
+                  {/* Camera use-cases sub-section */}
+                  {service.id === "security-camera-installation" && (
+                    <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                      {[
+                        {
+                          icon: ShoppingBag,
+                          title: "Retail & Storefronts",
+                          desc: "Loss prevention, POS monitoring, and entrance/exit coverage for single and multi-location stores.",
+                        },
+                        {
+                          icon: Building2,
+                          title: "Offices & Coworking",
+                          desc: "Lobby, hallway, and server room monitoring with access-controlled recording and remote viewing.",
+                        },
+                        {
+                          icon: Warehouse,
+                          title: "Warehouses & Industrial",
+                          desc: "Loading dock, perimeter, and inventory area cameras with motion detection and night vision.",
+                        },
+                        {
+                          icon: UtensilsCrossed,
+                          title: "Restaurants & Hospitality",
+                          desc: "Kitchen, dining, and back-of-house cameras for safety compliance and operational visibility.",
+                        },
+                      ].map((useCase) => (
+                        <div
+                          key={useCase.title}
+                          className="rounded-xl bg-gray-50 border border-gray-200 p-5"
+                        >
+                          <useCase.icon className="h-6 w-6 text-blue-600 mb-3" />
+                          <h3 className="text-sm font-semibold text-gray-900 mb-1">
+                            {useCase.title}
+                          </h3>
+                          <p className="text-xs text-gray-600 leading-relaxed">
+                            {useCase.desc}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               );
             })}

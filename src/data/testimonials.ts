@@ -41,4 +41,18 @@ export const testimonials: Testimonial[] = [
     author: "Business Customer",
     type: "business",
   },
+  {
+    id: 6,
+    quote:
+      "We needed cameras across three retail locations with centralized remote viewing. Starnet Pros handled every site — wiring, NVR setup, mobile app configuration — and finished ahead of schedule. Loss prevention has never been easier.",
+    author: "David L.",
+    type: "business",
+  },
+  {
+    id: 7,
+    quote:
+      "After a break-in attempt at our warehouse, we called Starnet Pros for a full security camera system. They installed 12 cameras, set up motion alerts, and ran all the cabling clean and out of sight. We can see every angle from our phones now — total peace of mind.",
+    author: "Angela M.",
+    type: "business",
+  },
 ];

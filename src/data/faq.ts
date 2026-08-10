@@ -34,4 +34,24 @@ export const faqs: FAQ[] = [
     answer:
       "Most residential installations take 2-4 hours, depending on the complexity of your setup. This includes equipment mounting, cable routing, device connection, speed verification, and a walkthrough of your system. Business and commercial installations may take longer depending on the size of your network. We schedule at your convenience and always arrive on time.",
   },
+  {
+    question: "What types of security cameras do you install?",
+    answer:
+      "We install a wide range of IP security cameras — dome, bullet, turret, and PTZ models — from leading commercial brands. Whether you need indoor cameras for office monitoring, weatherproof outdoor cameras for parking lots and loading docks, or specialty cameras for low-light environments, we match the right hardware to your property and budget. All installations include NVR/DVR setup, cabling, and remote access configuration.",
+  },
+  {
+    question: "Can I view my security cameras remotely?",
+    answer:
+      "Yes. Every camera system we install includes remote viewing setup so you can monitor your property from your phone, tablet, or computer — anywhere with an internet connection. We configure the mobile app, set up secure remote access, and walk you through live viewing, playback, and motion-triggered alerts before we leave.",
+  },
+  {
+    question: "How many cameras does my business need?",
+    answer:
+      "The number of cameras depends on your property layout, entry points, and coverage goals. A small retail store might need 4-6 cameras, while a warehouse or multi-building campus could require 12 or more. We do a free site assessment to map out blind spots, high-priority areas, and optimal camera placement — then recommend a system that fits your security needs and budget.",
+  },
+  {
+    question: "Do you install cameras for both indoor and outdoor use?",
+    answer:
+      "Absolutely. We install both indoor and outdoor cameras tailored to each environment. Outdoor cameras are weatherproof and rated for rain, heat, and cold, with infrared night vision for 24/7 coverage. Indoor cameras are designed for offices, retail floors, warehouses, and back-of-house areas. We handle all mounting, wiring, and network integration for a seamless, professional setup.",
+  },
 ];

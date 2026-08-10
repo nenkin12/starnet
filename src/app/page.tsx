@@ -3,6 +3,8 @@ import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
+import SecurityCameraShowcase from "@/components/SecurityCameraShowcase";
+import IndustryVerticals from "@/components/IndustryVerticals";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
@@ -16,6 +18,15 @@ import {
 import { Shield, Zap, CheckCircle, Users } from "lucide-react";
 import Link from "next/link";
 
+const homepageServiceOrder = [
+  "business-networking",
+  "security-camera-installation",
+  "structured-cabling",
+  "wifi-solutions",
+  "internet-installation",
+  "point-to-point",
+];
+
 export default function HomePage() {
   const schemas = [
     generateLocalBusinessSchema(),
@@ -24,23 +35,31 @@ export default function HomePage() {
     generateFAQSchema(faqs),
   ];
 
+  const orderedServices = homepageServiceOrder
+    .map((id) => services.find((s) => s.id === id))
+    .filter(Boolean) as typeof services;
+
+  const businessTestimonials = testimonials.filter(
+    (t) => t.author === "Sarah W." || t.author === "Angela M." || t.author === "Business Customer"
+  );
+
   return (
     <>
       <SchemaMarkup schema={schemas} />
 
       <Hero
         title="Residential & Business Internet, Networking & Security"
-        subtitle="From home internet and Wi-Fi coverage to office networking and security cameras — we design, install, and support connectivity solutions for homes and businesses nationwide."
-        ctaText="Residential"
-        ctaHref="/contact#residential"
-        secondaryCta="Business"
-        secondaryHref="/contact#business"
+        subtitle="From business networking and security cameras to home internet and Wi-Fi coverage — we design, install, and support connectivity solutions for businesses and homes nationwide."
+        ctaText="Get a Business Quote"
+        ctaHref="/contact#business"
+        secondaryCta="Residential"
+        secondaryHref="/contact#residential"
       />
 
       {/* Trust Bar */}
       <section className="bg-white border-b border-gray-100 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             <div className="flex flex-col items-center gap-2">
               <span className="text-sm font-semibold text-gray-900">
                 Trusted on Trustpilot
@@ -67,6 +86,12 @@ export default function HomePage() {
               </span>
               <span className="text-2xl font-bold text-blue-600">2,100+</span>
             </div>
+            <div className="flex flex-col items-center gap-2">
+              <span className="text-sm font-semibold text-gray-900">
+                Business Clients Served
+              </span>
+              <span className="text-2xl font-bold text-blue-600">500+</span>
+            </div>
           </div>
         </div>
       </section>
@@ -84,7 +109,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.slice(0, 6).map((service) => (
+            {orderedServices.map((service) => (
               <ServiceCard
                 key={service.id}
                 id={service.id}
@@ -148,6 +173,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Security Camera Showcase */}
+      <SecurityCameraShowcase />
+
       {/* Business Solutions */}
       <section className="py-16 sm:py-24 bg-[#0A1628]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -163,27 +191,27 @@ export default function HomePage() {
             {[
               {
                 title: "Office Networking",
-                desc: "Structured cabling, managed switches, VLANs, and enterprise Wi-Fi — designed for performance and scalability.",
+                desc: "Structured cabling, managed switches, VLANs, and enterprise Wi-Fi — designed to keep your team productive and your data secure.",
               },
               {
                 title: "Security Camera Systems",
-                desc: "IP camera installation with remote viewing, NVR setup, and strategic placement for full property coverage.",
+                desc: "Multi-camera IP systems with NVR recording, remote monitoring, motion alerts, and strategic placement for full property coverage.",
               },
               {
                 title: "Structured Cabling",
-                desc: "Cat6/Cat6a runs, patch panels, server rack buildouts, and clean cable management throughout your facility.",
+                desc: "Cat6/Cat6a runs, patch panels, server rack buildouts, and labeled cable management — built to code for your facility.",
               },
               {
                 title: "Point-to-Point Links",
-                desc: "Wireless bridge connections between buildings, job sites, or remote structures — no trenching required.",
+                desc: "High-speed wireless bridges between buildings, job sites, or remote structures — eliminate trenching and reduce deployment time.",
               },
               {
                 title: "Wi-Fi Coverage",
-                desc: "Enterprise access points, heat mapping, and mesh systems to eliminate dead zones across your entire property.",
+                desc: "Enterprise access points, heat mapping, and mesh systems — eliminate dead zones across offices, warehouses, and outdoor areas.",
               },
               {
                 title: "Internet Installation",
-                desc: "Fiber, cable, fixed wireless, or satellite — we handle the physical installation and optimize your connection.",
+                desc: "Fiber, cable, fixed wireless, or satellite — professionally installed and optimized for your business uptime requirements.",
               },
             ].map((item, i) => (
               <div key={i} className="rounded-2xl border border-white/10 bg-white/5 p-6">
@@ -201,41 +229,44 @@ export default function HomePage() {
               href="/contact#business"
               className="inline-flex rounded-lg bg-blue-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-blue-500 transition-colors"
             >
-              Get a Business Quote
+              Schedule a Free Site Assessment
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Why Starnet Pros */}
+      {/* Industry Verticals */}
+      <IndustryVerticals />
+
+      {/* Why Businesses Choose Us */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Why Customers Choose Us
+              Why Businesses Choose Us
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: Shield,
-                title: "Experienced Technicians",
-                desc: "Our team knows internet infrastructure, business networking, and security systems inside and out.",
+                title: "Minimal Downtime",
+                desc: "We plan installations around your business hours and stage work to keep your operations running with zero interruption.",
               },
               {
                 icon: Zap,
                 title: "Optimized Performance",
-                desc: "Proper network design and cable routing make a real difference — whether it is a full office buildout, security camera system, or home Wi-Fi upgrade.",
+                desc: "Proper network design, cable routing, and equipment placement make a measurable difference in speed, reliability, and coverage.",
               },
               {
                 icon: CheckCircle,
-                title: "Clean Installations",
-                desc: "No messy cables. We route through walls, use conduit, and seal every penetration point.",
+                title: "Code-Compliant Work",
+                desc: "Clean cable runs, sealed penetrations, labeled connections, and installations that meet commercial building standards.",
               },
               {
                 icon: Users,
-                title: "We Teach, Not Just Install",
-                desc: "We walk you through every system we install — apps, remote access, network settings — and make sure you are comfortable before we leave.",
+                title: "Training & Handoff",
+                desc: "We walk your team through every system — remote camera access, network management, and troubleshooting — before we leave.",
               },
             ].map((item, i) => (
               <div key={i} className="text-center p-6 rounded-2xl bg-gray-50 border border-gray-100">
@@ -264,7 +295,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.slice(0, 3).map((t) => (
+            {businessTestimonials.map((t) => (
               <TestimonialCard key={t.id} quote={t.quote} author={t.author} />
             ))}
           </div>

@@ -136,6 +136,6 @@ export const services: Service[] = [
       "Low-voltage for security and AV systems",
       "Labeled, tested, and documented runs",
     ],
-    image: "",
+    image: "/images/work/structured-cabling-rack.webp",
   },
 ];

@@ -191,32 +191,6 @@ export default function ServicesPage() {
             })}
           </div>
 
-          {/* Other imagery / service illustrations — lower on page */}
-          <div className="mt-20">
-            <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
-              Service overview
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {[
-                { src: "/images/services/consultation.svg", alt: "Consultation" },
-                { src: "/images/services/rv-mobile.svg", alt: "RV & mobile" },
-                { src: "/images/services/security-camera.svg", alt: "Security systems" },
-                { src: "/images/services/plan-comparison.svg", alt: "Plan comparison" },
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  className="rounded-2xl bg-gray-50 border border-gray-200 p-6 flex items-center justify-center aspect-square"
-                >
-                  <img
-                    src={item.src}
-                    alt={item.alt}
-                    className="max-h-full w-auto object-contain"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Pricing Note */}
           <div className="mt-20 rounded-2xl bg-gray-50 border border-gray-200 p-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">

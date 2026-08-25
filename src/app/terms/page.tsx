@@ -159,6 +159,36 @@ export default function TermsPage() {
             </li>
           </ul>
 
+          <h2 className="text-gray-900">SMS/Text Messaging Terms</h2>
+          <p>
+            By providing your phone number to Starnet Pros — through our
+            website, over the phone, or in person — you consent to receive
+            text messages from us related to your service, including
+            appointment confirmations, scheduling updates, and responses to
+            your inquiries.
+          </p>
+          <ul>
+            <li>Message frequency varies.</li>
+            <li>Message and data rates may apply.</li>
+            <li>Reply STOP at any time to opt out of text messages.</li>
+            <li>Reply HELP for assistance, or contact us at info@starnetpros.com.</li>
+            <li>
+              Consent to receive text messages is not a condition of
+              purchasing any goods or services.
+            </li>
+            <li>
+              No mobile information will be shared with third parties or
+              affiliates for marketing or promotional purposes.
+            </li>
+          </ul>
+          <p>
+            For details on how we handle your information, see our{" "}
+            <a href="/privacy-policy" className="text-blue-600 underline">
+              Privacy Policy
+            </a>
+            .
+          </p>
+
           <h2 className="text-gray-900">Changes to Terms</h2>
           <p>
             We reserve the right to modify these Terms and Conditions at any

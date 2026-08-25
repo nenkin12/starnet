@@ -105,6 +105,25 @@ export default function PrivacyPolicyPage() {
             <li>With your consent</li>
           </ul>
 
+          <h2 className="text-gray-900">SMS/Text Messaging</h2>
+          <p>
+            When you provide your phone number to us — through our website,
+            over the phone, or in person — you consent to receive text messages
+            from Starnet Pros related to your service, including appointment
+            confirmations, scheduling updates, and responses to your inquiries.
+          </p>
+          <p>
+            No mobile information will be shared with third parties or
+            affiliates for marketing or promotional purposes. Text messaging
+            originator opt-in data and consent will not be shared with any
+            third parties.
+          </p>
+          <p>
+            Message frequency varies. Message and data rates may apply. You can
+            opt out at any time by replying STOP to any message, or reply HELP
+            for assistance. For support, contact us at info@starnetpros.com.
+          </p>
+
           <h2 className="text-gray-900">Cookies and Tracking</h2>
           <p>
             Our website may use cookies and similar tracking technologies to

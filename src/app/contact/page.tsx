@@ -115,6 +115,24 @@ export default function ContactPage() {
             <div className="lg:col-span-2">
               <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
                 <ContactFormToggle />
+                {/* SMS consent disclosure — server-rendered so it is always
+                    visible alongside the form (10DLC / CTIA requirement) */}
+                <p className="mt-6 text-xs text-gray-500 leading-relaxed border-t border-gray-100 pt-4">
+                  By submitting a form on this page and providing your phone
+                  number, you agree to receive text messages from Starnet Pros
+                  about appointments, scheduling updates, and responses to your
+                  inquiry. Message frequency varies. Message &amp; data rates
+                  may apply. Reply STOP at any time to opt out, or HELP for
+                  help. Consent is not a condition of purchase. See our{" "}
+                  <a href="/privacy-policy" className="text-blue-600 underline">
+                    Privacy Policy
+                  </a>{" "}
+                  and{" "}
+                  <a href="/terms" className="text-blue-600 underline">
+                    Terms &amp; Conditions
+                  </a>
+                  .
+                </p>
               </div>
             </div>
           </div>

@@ -1,0 +1,16 @@
+<!-- Hidden static form so Netlify Forms detects the fields at build time.
+     The React contact form AJAX-posts here. Not linked anywhere. -->
+<html>
+  <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="city" />
+      <input type="text" name="serviceType" />
+      <textarea name="message"></textarea>
+      <input type="checkbox" name="smsConsent" />
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>

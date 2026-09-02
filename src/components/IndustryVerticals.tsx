@@ -1,25 +1,27 @@
-import { Building2, ShoppingBag, Warehouse, UtensilsCrossed } from "lucide-react";
-
 const verticals = [
   {
-    icon: Building2,
     title: "Offices & Corporate",
     desc: "Structured cabling, enterprise Wi-Fi, VLANs, and security cameras — built for productivity and data security.",
+    image: "/images/work/structured-cabling-rack.webp",
+    alt: "Organized network rack with structured cabling in a corporate office",
   },
   {
-    icon: ShoppingBag,
     title: "Retail & Storefronts",
     desc: "POS networks, loss-prevention cameras, customer Wi-Fi, and reliable connectivity across single or multi-location setups.",
+    image: "/images/work/ceiling-cable-install.jpg",
+    alt: "Network patch panel and router installation for a storefront",
   },
   {
-    icon: Warehouse,
     title: "Warehouses & Industrial",
     desc: "Full-coverage Wi-Fi, loading dock cameras, point-to-point links, and rugged infrastructure for large facilities.",
+    image: "/images/work/security-camera-wall-install.jpeg",
+    alt: "Industrial cable tray runs at a large facility",
   },
   {
-    icon: UtensilsCrossed,
     title: "Restaurants & Hospitality",
     desc: "Kitchen cameras, guest Wi-Fi, POS networking, and surveillance systems tailored for food service and hospitality.",
+    image: "/images/work/security-camera-dome-install.webp",
+    alt: "Technician installing a security camera",
   },
 ];
 
@@ -42,11 +44,13 @@ export default function IndustryVerticals() {
               key={v.title}
               className="rounded-2xl bg-white border border-gray-200 overflow-hidden"
             >
-              <div
-                className="aspect-[3/2] bg-gradient-to-br from-[#0A1628] to-blue-900 flex items-center justify-center"
-                data-placeholder={`industry-${v.title.toLowerCase().replace(/\s.*/, "")}`}
-              >
-                <v.icon className="h-12 w-12 text-blue-400/20" />
+              <div className="aspect-[3/2] overflow-hidden">
+                <img
+                  src={v.image}
+                  alt={v.alt}
+                  loading="lazy"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">

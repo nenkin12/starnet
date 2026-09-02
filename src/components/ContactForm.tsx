@@ -191,11 +191,14 @@ export default function ContactForm() {
           className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
         />
         <label htmlFor="smsConsent" className="text-xs text-gray-600 leading-relaxed">
-          By checking this box, I agree to receive text messages from Starnet
-          Pros about appointments, scheduling updates, and responses to my
-          inquiry at the phone number provided. Message frequency varies.
-          Message &amp; data rates may apply. Reply STOP to opt out at any time,
-          or HELP for help. Consent is not a condition of purchase. See our{" "}
+          By checking this box, I agree to receive text messages and phone
+          calls from Starnet Pros regarding my inquiry, appointment
+          confirmations and reminders, scheduling updates, and service updates
+          at the phone number provided, including calls made with automated
+          technology. No marketing or promotional messages will be sent.
+          Message frequency varies. Message &amp; data rates may apply. Reply
+          STOP to opt out at any time, or HELP for help. Consent is not a
+          condition of purchase. See our{" "}
           <a href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</a>{" "}
           and{" "}
           <a href="/terms" className="text-blue-600 underline">Terms &amp; Conditions</a>.

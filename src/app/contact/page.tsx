@@ -119,11 +119,14 @@ export default function ContactPage() {
                     visible alongside the form (10DLC / CTIA requirement) */}
                 <p className="mt-6 text-xs text-gray-500 leading-relaxed border-t border-gray-100 pt-4">
                   By submitting a form on this page and providing your phone
-                  number, you agree to receive text messages from Starnet Pros
-                  about appointments, scheduling updates, and responses to your
-                  inquiry. Message frequency varies. Message &amp; data rates
-                  may apply. Reply STOP at any time to opt out, or HELP for
-                  help. Consent is not a condition of purchase. See our{" "}
+                  number, you agree to receive text messages and phone calls
+                  from Starnet Pros regarding your inquiry, appointment
+                  confirmations and reminders, scheduling updates, and service
+                  updates, including calls made with automated technology. No
+                  marketing or promotional messages will be sent. Message
+                  frequency varies. Message &amp; data rates may apply.
+                  Reply STOP at any time to opt out, or HELP for help. Consent
+                  is not a condition of purchase. See our{" "}
                   <a href="/privacy-policy" className="text-blue-600 underline">
                     Privacy Policy
                   </a>{" "}

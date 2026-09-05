@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import ServiceCallForm from "@/components/ServiceCallForm";
-import { Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Starlink Service Call",
@@ -30,15 +29,6 @@ export default function ServiceCallPage() {
           <div className="rounded-2xl bg-white border border-gray-200 p-6 sm:p-8 shadow-sm">
             <ServiceCallForm />
           </div>
-          <p className="mt-6 text-center text-sm text-gray-500">
-            Prefer to talk?{" "}
-            <a
-              href="tel:+18334112089"
-              className="inline-flex items-center gap-1 font-semibold text-blue-600"
-            >
-              <Phone className="h-4 w-4" /> Call (833) 411-2089
-            </a>
-          </p>
         </div>
       </section>
     </main>

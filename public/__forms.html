@@ -2,6 +2,17 @@
      The React contact form AJAX-posts here. Not linked anywhere. -->
 <html>
   <body>
+    <form name="servicecall" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="dishModel" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="zip" />
+      <textarea name="issueSummary"></textarea>
+      <input type="text" name="additionalSystems" />
+      <input type="checkbox" name="smsConsent" />
+      <input type="text" name="bot-field" />
+    </form>
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />

@@ -10,7 +10,7 @@ import { Phone, MapPin, Clock, Mail } from "lucide-react";
 export const metadata: Metadata = createMetadata({
   title: "Contact Starnet Pros | Get a Free Quote",
   description:
-    "Contact Starnet Pros for residential and business internet, networking, and security installations. Call (833) 411-2089 or fill out our form for a free quote. Serving nationwide.",
+    "Contact Starnet Pros for commercial internet, networking, and security installations for your business. Call (833) 411-2089 or fill out our form for a free quote. Serving businesses nationwide.",
   path: "/contact",
 });
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
 
       <Hero
         title="Get in Touch"
-        subtitle="Whether it's your home or business — reach out for a free consultation and custom installation quote."
+        subtitle="Reach out for a free consultation and a custom installation quote for your business."
         backgroundImage="/images/hero-contact.jpg"
         ctaText="Call (833) 411-2089"
         ctaHref="tel:+18334112089"

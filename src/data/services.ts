@@ -34,9 +34,9 @@ export const services: Service[] = [
     shortTitle: "Security Systems",
     icon: "Camera",
     description:
-      "Professional security camera and surveillance system installation for homes and businesses — wired or wireless, indoor and outdoor.",
+      "Professional commercial security camera and surveillance system installation for businesses — wired or wireless, indoor and outdoor.",
     details:
-      "Protect your property with professionally installed security cameras and surveillance systems. We design, install, and configure complete security setups tailored to your property — from single-camera residential systems to multi-camera commercial deployments with NVR/DVR recording, Cat6 runs, and centralized monitoring. Our team handles strategic camera placement, wiring, network configuration, and remote access setup so you can monitor your property from anywhere. We serve retail stores, warehouses, offices, restaurants, and multi-location businesses with scalable systems built for 24/7 reliability.",
+      "Protect your property with professionally installed security cameras and surveillance systems. We design, install, and configure complete security setups tailored to your property — from single-camera storefront systems to multi-camera commercial deployments with NVR/DVR recording, Cat6 runs, and centralized monitoring. Our team handles strategic camera placement, wiring, network configuration, and remote access setup so you can monitor your property from anywhere. We serve retail stores, warehouses, offices, restaurants, and multi-location businesses with scalable systems built for 24/7 reliability.",
     benefits: [
       "Custom security system design for your property",
       "Indoor and outdoor camera installation",
@@ -72,9 +72,9 @@ export const services: Service[] = [
     shortTitle: "Wi-Fi",
     icon: "Radio",
     description:
-      "Whole-property Wi-Fi coverage for homes and businesses — dead zones eliminated with enterprise-grade access points and mesh systems.",
+      "Whole-property Wi-Fi coverage for offices, warehouses, and commercial sites — dead zones eliminated with enterprise-grade access points and mesh systems.",
     details:
-      "Slow Wi-Fi and dead zones cost you time and money. We assess your property, identify coverage gaps, and install the right wireless solution — whether that's commercial access points, mesh systems, or outdoor Wi-Fi for large properties. Our installations include proper access point placement, PoE cabling, controller configuration, and network optimization. The result: fast, reliable Wi-Fi in every corner of your home or business.",
+      "Slow Wi-Fi and dead zones cost you time and money. We assess your property, identify coverage gaps, and install the right wireless solution — whether that's commercial access points, mesh systems, or outdoor Wi-Fi for large properties. Our installations include proper access point placement, PoE cabling, controller configuration, and network optimization. The result: fast, reliable Wi-Fi in every corner of your facility.",
     benefits: [
       "Whole-property Wi-Fi coverage assessment",
       "Enterprise-grade access points and mesh systems",
@@ -108,7 +108,7 @@ export const services: Service[] = [
     shortTitle: "Consultation",
     icon: "MessageSquare",
     description:
-      "Get expert guidance on the best internet, networking, and security solutions for your home or business — before any work begins.",
+      "Get expert guidance on the best internet, networking, and security solutions for your business — before any work begins.",
     details:
       "Not sure what internet service, network setup, or security system is right for you? Our consultants assess your property and needs, then recommend the best solution — whether that's fiber, fixed wireless, satellite, a full network overhaul, or a security upgrade. We evaluate your current setup, identify bottlenecks, and create a plan that fits your budget. No pressure, no upsells — just honest, expert advice tailored to your situation.",
     benefits: [

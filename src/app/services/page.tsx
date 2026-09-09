@@ -38,7 +38,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 export const metadata: Metadata = createMetadata({
   title: "Internet, Networking & Security Services | Starnet Pros",
   description:
-    "Professional internet installation, business networking, Wi-Fi solutions, structured cabling, and security camera systems for businesses and homes. Expert consultation and clean installations nationwide.",
+    "Commercial internet installation, business networking, Wi-Fi solutions, structured cabling, and security camera systems for businesses and corporate offices. Expert consultation and clean installations nationwide.",
   path: "/services",
 });
 
@@ -54,7 +54,7 @@ export default function ServicesPage() {
 
       <Hero
         title="Internet, Networking & Security Services"
-        subtitle="From internet installation and business networking to Wi-Fi systems, structured cabling, and security cameras — expert setup for businesses and homes nationwide."
+        subtitle="From commercial internet installation and business networking to Wi-Fi systems, structured cabling, and security cameras — expert setup for businesses nationwide."
         backgroundImage="/images/hero-services.jpg"
       />
 

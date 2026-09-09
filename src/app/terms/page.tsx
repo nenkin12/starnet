@@ -51,7 +51,7 @@ export default function TermsPage() {
           </p>
           <ul>
             <li>Starlink consultation and plan guidance</li>
-            <li>Residential and commercial installation</li>
+            <li>Commercial installation for businesses and corporate offices</li>
             <li>RV and mobile installation</li>
             <li>Point-to-point installation</li>
             <li>Network optimization and support</li>

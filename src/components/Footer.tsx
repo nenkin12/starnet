@@ -38,8 +38,9 @@ export default function Footer() {
               className="h-10 w-auto mb-4"
             />
             <p className="text-gray-400 text-sm mb-4">
-              Professional internet installation, business networking, and
-              security systems — serving businesses and homes nationwide.
+              Independent commercial telecommunications contractor —
+              installation and setup services provided exclusively to
+              commercial businesses and corporate offices nationwide.
             </p>
             <div className="space-y-3">
               <a
@@ -115,8 +116,10 @@ export default function Footer() {
         {/* Bottom section */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-gray-500 text-xs text-center mb-3">
-            Starnet Pros is an independent installation service and is not
-            affiliated with, endorsed by, or operated by SpaceX or Starlink.
+            Starnet Pros is an independent, third-party provider of commercial
+            installation services. We are not affiliated with, endorsed by, or
+            an authorized partner of Starlink or SpaceX. Services are provided
+            exclusively to commercial businesses and corporate offices.
           </p>
           <p className="text-gray-500 text-xs text-center">
             &copy; {new Date().getFullYear()} Starnet Pros. All rights reserved.

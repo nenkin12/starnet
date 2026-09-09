@@ -90,7 +90,7 @@ export default async function ServiceAreaPage({
             {area.stateAbbr}
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
-            Expert Starlink setup for homes and businesses in the{" "}
+            Expert commercial Starlink setup for businesses in the{" "}
             {area.city} area. Clean installations, optimized performance,
             and speeds customers report over 600 Mbps.
           </p>
@@ -262,7 +262,7 @@ export default async function ServiceAreaPage({
 
       <CTASection
         title={`Get Connected in ${area.city} Today`}
-        subtitle={`Professional Starlink installation for homes and businesses in ${area.city}, ${area.state}. Book now or call for a free consultation.`}
+        subtitle={`Professional commercial Starlink installation for businesses in ${area.city}, ${area.state}. Book now or call for a free consultation.`}
       />
     </>
   );

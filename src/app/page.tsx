@@ -48,12 +48,12 @@ export default function HomePage() {
       <SchemaMarkup schema={schemas} />
 
       <Hero
-        title="Residential & Business Internet, Networking & Security"
-        subtitle="From business networking and security cameras to home internet and Wi-Fi coverage — we design, install, and support connectivity solutions for businesses and homes nationwide."
+        title="Commercial Internet, Networking & Security for Businesses"
+        subtitle="B2B installation and setup services — business networking, commercial security cameras, structured cabling, and enterprise internet connectivity. Serving commercial businesses and corporate offices nationwide."
         ctaText="Get a Business Quote"
         ctaHref="/contact#business"
-        secondaryCta="Residential"
-        secondaryHref="/contact#residential"
+        secondaryCta="Our Services"
+        secondaryHref="/services"
       />
 
       {/* Trust Bar */}
@@ -104,8 +104,8 @@ export default function HomePage() {
               What We Do
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Internet, networking, Wi-Fi, and security — installed properly
-              the first time for homes and businesses.
+              Commercial internet, networking, Wi-Fi, and security — installed
+              properly the first time for businesses and corporate offices.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -311,9 +311,9 @@ export default function HomePage() {
                 Serving Communities Across the Country
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Installing internet, networking, and security systems for
-                homes and businesses in every state. Wherever you are, we get
-                you connected.
+                Installing commercial internet, networking, and security
+                systems for businesses in every state. Wherever your operation
+                is, we get you connected.
               </p>
               <Link
                 href="/service-areas"

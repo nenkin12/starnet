@@ -2,7 +2,7 @@ export interface Testimonial {
   id: number;
   quote: string;
   author: string;
-  type: "residential" | "rv" | "business" | "general";
+  type: "rv" | "business" | "general";
 }
 
 export const testimonials: Testimonial[] = [
@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "Starnet Pros did an amazing job! The installation was clean, professional, and rock-solid. No messy cables, just a perfect setup that works flawlessly. Highly recommend!",
     author: "Mark T.",
-    type: "residential",
+    type: "general",
   },
   {
     id: 2,

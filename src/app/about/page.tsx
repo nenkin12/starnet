@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = createMetadata({
   title: "About Starnet Pros | Our Mission & Story",
   description:
-    "Learn about Starnet Pros — professional internet installation, business networking, and security camera systems for businesses and homes nationwide.",
+    "Starnet Pros is an independent commercial telecommunications contractor — B2B internet installation, business networking, and commercial security camera systems for businesses nationwide.",
   path: "/about",
 });
 
@@ -26,7 +26,7 @@ export default function AboutPage() {
 
       <Hero
         title="About Starnet Pros"
-        subtitle="We believe every business and home deserves reliable internet, professional networking, and security — and the knowledge to make the most of it all."
+        subtitle="An independent commercial telecommunications contractor. We believe every business deserves reliable internet, professional networking, and security — and the knowledge to make the most of it all."
         backgroundImage="/images/hero-about.jpg"
         ctaText="Our Services"
         ctaHref="/services"
@@ -47,30 +47,35 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg text-gray-600 space-y-6">
               <p>
-                Starnet Pros started with a simple observation: businesses and
-                homeowners were paying for internet and networking services but
-                not getting the performance they were promised. Bad installations,
-                poorly designed networks, weak Wi-Fi coverage, and zero support
-                after setup were the norm — not the exception.
+                Starnet Pros is an independent commercial telecommunications
+                contractor serving business clients. We started with a simple
+                observation: businesses were paying for internet and networking
+                services but not getting the performance they were promised.
+                Bad installations, poorly designed networks, weak Wi-Fi
+                coverage, and zero support after setup were the norm — not the
+                exception.
               </p>
               <p>
                 We saw small businesses running critical operations on consumer-grade
-                routers. We met property owners with dead zones covering half their
-                building. We talked to companies that had paid for &quot;professional&quot;
-                installations that left them with messy cables and unreliable connections.
+                routers. We met commercial property owners with dead zones covering
+                half their building. We talked to companies that had paid for
+                &quot;professional&quot; installations that left them with messy
+                cables and unreliable connections.
               </p>
               <p>
                 That gap between what modern internet and networking <em>can</em> deliver
-                and what most people <em>actually</em> experience is why Starnet Pros
-                exists. Today, we install and support all types of internet service —
-                fiber, cable, fixed wireless, and satellite — alongside business networking,
-                Wi-Fi systems, structured cabling, and security camera installations.
-                We&apos;re not just installers — we&apos;re consultants, educators,
-                and advocates for getting businesses and homes truly connected and protected.
+                and what most businesses <em>actually</em> experience is why Starnet Pros
+                exists. Today, we install and support all types of commercial internet
+                service — fiber, cable, fixed wireless, and satellite — alongside business
+                networking, Wi-Fi systems, structured cabling, and commercial security
+                camera installations. We&apos;re not just installers — we&apos;re
+                consultants, educators, and advocates for getting businesses truly
+                connected and protected.
               </p>
               <p>
                 Based in Atlanta, Georgia, we&apos;ve grown from serving our local
-                community to helping customers across the country. Every installation
+                business community to helping commercial clients across the country.
+                Every installation
                 we do reflects our founding principle: do it right, do it clean,
                 and make sure the customer understands their system before we leave.
               </p>
@@ -92,7 +97,7 @@ export default function AboutPage() {
               {
                 icon: Target,
                 title: "Mission",
-                desc: "To bridge the connectivity and security gap for businesses and homes through professional internet installation, networking, and security systems.",
+                desc: "To bridge the connectivity and security gap for commercial businesses through professional internet installation, networking, and security systems.",
               },
               {
                 icon: Heart,
@@ -220,7 +225,7 @@ export default function AboutPage() {
       <section className="py-16 sm:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Serving Businesses & Homes Nationwide
+            Serving Commercial Businesses Nationwide
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Based in Atlanta, GA, we serve customers across Georgia, North

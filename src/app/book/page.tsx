@@ -8,9 +8,9 @@ import { Phone, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = createMetadata({
-  title: "Book Starlink Installation | Starnet Pros",
+  title: "Book Commercial Starlink Installation | Starnet Pros",
   description:
-    "Book your professional Starlink installation with Starnet Pros. Fast scheduling, expert technicians, and clean installations. Call (833) 411-2089.",
+    "Book a professional commercial Starlink installation for your business with Starnet Pros. Fast scheduling, expert technicians, and clean installations. Call (833) 411-2089.",
   path: "/book",
 });
 

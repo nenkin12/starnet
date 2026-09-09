@@ -146,7 +146,7 @@ export const demoProducts: Product[] = [
     name: "Starlink Mini Wall Mount — 360° Adjustable Bracket",
     slug: "starlink-mini-wall-mount-360",
     description:
-      "Mount your Starlink Mini flat against any wall with full 360° adjustability. This sleek gray bracket keeps your Mini secure and perfectly angled for optimal satellite reception. Low-profile design blends with your home's exterior while providing rock-solid stability. Quick-install hardware included — ideal for apartments, small homes, and tight mounting spaces.",
+      "Mount your Starlink Mini flat against any wall with full 360° adjustability. This sleek gray bracket keeps your Mini secure and perfectly angled for optimal satellite reception. Low-profile design blends with your building's exterior while providing rock-solid stability. Quick-install hardware included — ideal for offices, small commercial sites, and tight mounting spaces.",
     price_cents: 10399,
     category: "mounts",
     image_url:

@@ -13,7 +13,7 @@ const BUSINESS_INFO = {
   hours: ["Mo-Fr 08:00-18:00"],
   image: "https://www.starnetpros.com/images/logo.png",
   description:
-    "Professional internet installation, business networking, and security systems company serving residential and commercial clients nationwide.",
+    "Independent commercial telecommunications contractor — internet installation, business networking, and security systems for commercial clients nationwide.",
 };
 
 export function generateLocalBusinessSchema(areaServed?: string) {

@@ -31,6 +31,38 @@ export async function POST(req: NextRequest) {
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
 
+    // Sales-form deposit payments (from /sales) update Airtable and MUST
+    // return early — falling through would create an empty store order and
+    // email the customer a $0 confirmation.
+    if (session.metadata?.kind === "sales_deposit") {
+      const recordId = session.metadata.airtable_record_id;
+      if (recordId) {
+        try {
+          const { patchSalesRecord } = await import("@/lib/airtable");
+          await patchSalesRecord(recordId, {
+            Status: "Paid",
+            "Paid At": new Date().toISOString(),
+            "Amount Paid": (session.amount_total ?? 0) / 100,
+          });
+        } catch (err) {
+          console.error("Sales deposit Airtable update failed:", err);
+          // 500 so Stripe retries (patch is idempotent)
+          return NextResponse.json({ error: "Airtable update failed" }, { status: 500 });
+        }
+      }
+      try {
+        await resend.emails.send({
+          from: process.env.RESEND_FROM_EMAIL || "orders@starnetpros.com",
+          to: process.env.ADMIN_EMAIL!,
+          subject: `Deposit paid — $${((session.amount_total ?? 0) / 100).toFixed(2)} from ${session.metadata.customer_name || "customer"} (rep: ${session.metadata.sales_person || "?"})`,
+          html: `<p>Sales deposit paid. Airtable record: ${recordId ?? "unknown"}.</p>`,
+        });
+      } catch (emailErr) {
+        console.error("Deposit-paid email failed:", emailErr);
+      }
+      return NextResponse.json({ received: true });
+    }
+
     const fullSession = await stripe.checkout.sessions.retrieve(session.id, {
       expand: ["line_items", "shipping_cost.shipping_rate"],
     }) as Stripe.Checkout.Session;

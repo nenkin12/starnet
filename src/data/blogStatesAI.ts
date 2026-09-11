@@ -4,9 +4,9 @@ export const statesAI: BlogPost[] = [
   {
     slug: "starlink-installation-in-alabama",
     title:
-      "Starlink Installation in Alabama: Beating the Pine Canopy",
+      "Independent Starlink Installation in Alabama: Beating the Pine Canopy",
     metaTitle:
-      "Starlink Installation in Alabama | Pine Canopy Solutions | Starnet Pros",
+      "Independent Starlink Installation in Alabama | Pine Canopy Solutions | Starnet Pros",
     metaDescription:
       "How to get Starlink working in Alabama despite tall longleaf pines. Pole mounts, tree assessment, and real installation tips from professional installers.",
     excerpt:
@@ -23,7 +23,7 @@ If you order Starlink in Alabama and set the dish on your back patio, you are pr
 
 Alabama has more than 23 million acres of forestland, and a huge chunk of that is longleaf pine, loblolly pine, and shortleaf pine. These are not short ornamental trees. Mature longleaf pines routinely reach 80 to 100 feet tall, and loblolly can hit 90 feet. When you have a 60-foot canopy surrounding your house, the Starlink dish sitting on a 15-foot roof peak is looking through a wall of needles in every direction.
 
-Here is the thing about pine obstruction that makes it worse than hardwood: pines are evergreen. A homeowner in Tennessee might lose signal in summer when the oaks leaf out, but in winter they get clear sky. Alabama pine owners deal with obstruction 365 days a year.
+Here is the thing about pine obstruction that makes it worse than hardwood: pines are evergreen. A property owner in Tennessee might lose signal in summer when the oaks leaf out, but in winter they get clear sky. Alabama pine owners deal with obstruction 365 days a year.
 
 ## How We Assess Your Property
 
@@ -39,7 +39,7 @@ Most Alabama properties we install fall into one of two categories. Either there
 
 A pole mount is not just a stick in the ground with a dish on top. For a Starlink installation in Alabama, here is what a proper pole mount setup looks like:
 
-- **Height:** The dish needs to clear the surrounding canopy. For most Alabama residential properties, that means a 20 to 40 foot pole. We typically use schedule 40 or schedule 80 steel pipe, depending on height and wind load requirements.
+- **Height:** The dish needs to clear the surrounding canopy. For most Alabama properties, that means a 20 to 40 foot pole. We typically use schedule 40 or schedule 80 steel pipe, depending on height and wind load requirements.
 - **Foundation:** A pole that tall needs to be properly anchored. We use a concrete footing sized to the pole height -- typically 3 to 4 feet deep with a sonotube form for a 30-foot pole. In sandy coastal Alabama soil, we go deeper.
 - **Cable run:** A tall pole means a longer cable run from dish to router. The standard Starlink cable is 75 feet. That covers most pole installations, but if your house is far from the pole location, you may need a longer aftermarket cable or an outdoor Ethernet adapter at the pole base.
 - **Guy wires:** Poles above 25 feet in Alabama should have guy wire support. We get 60+ mph straight-line wind gusts during spring severe weather season, and the Gulf coast sees tropical storm winds. A free-standing 35-foot pole without guy wires is a liability.
@@ -80,9 +80,9 @@ We always present pole mounting as the primary option and tree work as the alter
 
 ## Realistic Speeds in Alabama
 
-On the standard $50/month Residential plan, expect 50 to 100 Mbps download with a properly placed dish. That is what we consistently see across the state. The $120/month Priority plan can push 200 to 350 Mbps in areas without heavy congestion. These are honest, real-world numbers -- not theoretical maximums.
+On the standard $50/month plan, expect 50 to 100 Mbps download with a properly placed dish. That is what we consistently see across the state. The $120/month Priority plan can push 200 to 350 Mbps in areas without heavy congestion. These are honest, real-world numbers -- not theoretical maximums.
 
-For most Alabama households switching from DSL or fixed wireless, even the base plan is a massive upgrade. If you are working from home or have a household with heavy streaming, the $80/month plan at 200 Mbps is the sweet spot.
+For most Alabama operations switching from DSL or fixed wireless, even the base plan is a massive upgrade. If your team works online all day or your site has heavy streaming demand, the $80/month plan at 200 Mbps is the sweet spot.
 
 ## What the Whole Setup Costs
 
@@ -96,9 +96,9 @@ If you are in Alabama and staring at a wall of pine trees wondering whether Star
   {
     slug: "starlink-installation-in-alaska",
     title:
-      "Starlink Installation in Alaska: What Extreme Cold Does to Your Equipment",
+      "Independent Starlink Installation in Alaska: What Extreme Cold Does to Your Equipment",
     metaTitle:
-      "Starlink Installation in Alaska | Cold Weather Guide | Starnet Pros",
+      "Independent Starlink Installation in Alaska | Cold Weather Guide | Starnet Pros",
     metaDescription:
       "Installing Starlink in Alaska's extreme cold: permafrost mounting, snow heater power draw, and what -40 degrees does to satellite equipment. Real installer advice.",
     excerpt:
@@ -193,9 +193,9 @@ If you are in Alaska and planning a Starlink setup, [get in touch with us](/cont
   {
     slug: "starlink-installation-in-arizona",
     title:
-      "Starlink Installation in Arizona: Desert Heat, UV, and Wide Open Skies",
+      "Independent Starlink Installation in Arizona: Desert Heat, UV, and Wide Open Skies",
     metaTitle:
-      "Starlink Installation in Arizona | Desert Heat & UV Guide | Starnet Pros",
+      "Independent Starlink Installation in Arizona | Desert Heat & UV Guide | Starnet Pros",
     metaDescription:
       "Installing Starlink in Arizona's extreme desert heat: UV degradation, heat-rated hardware, monsoon wind ratings, and why clear skies are your biggest advantage.",
     excerpt:
@@ -220,7 +220,7 @@ The Starlink dish is rated for operating temperatures up to 50C (122F). Surface 
 
 **What helps:** Mounting the dish where it gets some afternoon shade (from the house itself, a higher roofline section, or a purpose-built shade structure) can reduce thermal throttling. We do not recommend fully enclosing the dish, as it needs airflow, but partial shade during the hottest afternoon hours makes a measurable difference.
 
-**Router placement:** If your router is in a room that gets hot -- a west-facing room, an attic, a garage -- move it or ensure adequate cooling. We have troubleshot several Arizona performance issues that turned out to be overheating routers, not dish problems.
+**Router placement:** If your router is in a room that gets hot -- a west-facing room, an attic, a garage -- move it or ensure adequate cooling. On several Arizona site evaluations, the real issue turned out to be an overheating router, not a dish problem.
 
 ## UV Degradation Is the Real Long-Term Threat
 
@@ -247,7 +247,7 @@ Arizona's monsoon season runs from mid-June through September and brings some of
 
 Arizona homes use roof types you will not find in most of the country:
 
-**Concrete and clay tile:** The most common residential roofing in metro Phoenix and Tucson. You cannot drill through tile and expect it to stay waterproof. We use tile hook mounts that slide under existing tiles and anchor to the roof deck without penetrating the tile surface. This maintains waterproofing and allows tile replacement.
+**Concrete and clay tile:** The most common roofing in metro Phoenix and Tucson. You cannot drill through tile and expect it to stay waterproof. We use tile hook mounts that slide under existing tiles and anchor to the roof deck without penetrating the tile surface. This maintains waterproofing and allows tile replacement.
 
 **Flat roof (built-up or TPO):** Very common on Arizona homes, especially modern construction. Non-penetrating ballast mounts work well on flat roofs. We use weighted base plates that sit on a rubber mat to protect the membrane. No holes, no sealant, no leak risk.
 
@@ -274,9 +274,9 @@ The challenge is making the installation last in a climate that tries to destroy
   {
     slug: "starlink-installation-in-arkansas",
     title:
-      "Starlink Installation in Arkansas: Closing the Ozarks Internet Gap",
+      "Independent Starlink Installation in Arkansas: Closing the Ozarks Internet Gap",
     metaTitle:
-      "Starlink Installation in Arkansas | Ozarks Broadband Gap | Starnet Pros",
+      "Independent Starlink Installation in Arkansas | Ozarks Broadband Gap | Starnet Pros",
     metaDescription:
       "Arkansas has some of the worst broadband coverage in the US, especially in the Ozarks and Delta. Here is how Starlink is closing the gap and what installation looks like.",
     excerpt:
@@ -291,7 +291,7 @@ The challenge is making the installation last in a climate that tries to destroy
 
 Arkansas has a broadband problem, but it is not one problem -- it is two completely different problems in two completely different landscapes.
 
-In the **Ozarks** (roughly the northwest quarter of the state), the terrain is the villain. Deep hollows, narrow ridges, dense mixed hardwood and pine forests, and winding valleys make running cable or fiber astronomically expensive. The population is spread thin across the hills. ISPs have little financial incentive to build infrastructure for a few dozen households scattered along a 20-mile gravel road. Many Ozark residents have been stuck with DSL that delivers 3 to 8 Mbps -- when it works.
+In the **Ozarks** (roughly the northwest quarter of the state), the terrain is the villain. Deep hollows, narrow ridges, dense mixed hardwood and pine forests, and winding valleys make running cable or fiber astronomically expensive. The population is spread thin across the hills. ISPs have little financial incentive to build infrastructure for a few dozen addresses scattered along a 20-mile gravel road. Many Ozark residents have been stuck with DSL that delivers 3 to 8 Mbps -- when it works.
 
 In the **Delta** (the flat eastern third of the state), the problem is different. The terrain is wide open, but the population density is even lower and the poverty rate is among the highest in the country. ISPs have not invested because the customer base cannot generate enough revenue to justify the infrastructure cost. Some Delta communities still have no wired broadband option at all.
 
@@ -366,9 +366,9 @@ If you are in Arkansas and tired of watching that DSL modem buffer, [reach out t
   {
     slug: "starlink-installation-in-california",
     title:
-      "Starlink Installation in California: Broadband Subsidies and Wildfire-Area Connectivity",
+      "Independent Starlink Installation in California: Broadband Subsidies and Wildfire-Area Connectivity",
     metaTitle:
-      "Starlink Installation in California | CPUC Subsidies & Wildfire Areas | Starnet Pros",
+      "Independent Starlink Installation in California | CPUC Subsidies & Wildfire Areas | Starnet Pros",
     metaDescription:
       "California broadband subsidies can help pay for Starlink. Plus: how satellite internet provides critical connectivity in wildfire-prone areas where wired infrastructure fails.",
     excerpt:
@@ -389,11 +389,11 @@ What makes California different from other underserved states is that California
 
 The California Public Utilities Commission (CPUC) runs several programs that can help offset broadband costs, including satellite internet:
 
-**California Lifeline Program:** This is the most directly useful program for Starlink subscribers. If your household income is at or below 135% of the Federal Poverty Guidelines, or if you participate in programs like Medi-Cal, CalFresh, or CalWORKs, you can receive a monthly discount on your internet service. The discount varies but can be $15 to $20 per month off your broadband bill. That brings the standard Starlink plan from $50/month down to $30 to $35/month.
+**California Lifeline Program:** This is the most directly useful program for Starlink subscribers. If your income is at or below 135% of the Federal Poverty Guidelines, or if you participate in programs like Medi-Cal, CalFresh, or CalWORKs, you can receive a monthly discount on your internet service. The discount varies but can be $15 to $20 per month off your broadband bill. That brings the standard Starlink plan from $50/month down to $30 to $35/month.
 
 **Affordable Connectivity Program (ACP) status:** The federal ACP program ended in 2024, but California launched its own continuation program that provides similar benefits. Check the CPUC website for current eligibility and enrollment.
 
-**CASF (California Advanced Services Fund):** This is primarily an infrastructure buildout fund, not a consumer subsidy. However, some CASF-funded projects include subsidized equipment costs for qualifying households in designated underserved areas. If your area has an active CASF project, your Starlink equipment purchase might be partially reimbursable.
+**CASF (California Advanced Services Fund):** This is primarily an infrastructure buildout fund, not a consumer subsidy. However, some CASF-funded projects include subsidized equipment costs for qualifying subscribers in designated underserved areas. If your area has an active CASF project, your Starlink equipment purchase might be partially reimbursable.
 
 **Tribal connectivity programs:** California's tribal lands often qualify for additional federal and state broadband subsidies. If you live on tribal land, contact the California Tribal Broadband Consortium for specific programs that can cover equipment and installation costs.
 
@@ -444,7 +444,7 @@ California is a mixed bag for Starlink performance because of user density:
 - **Southern California rural (high desert, inland):** 70 to 180 Mbps. Clear skies and moderate user density.
 - **Coastal communities (Mendocino, Big Sur corridor):** 50 to 140 Mbps. Congestion can be an issue in popular areas.
 
-The standard $50/month plan delivers around 100 Mbps. The $80/month tier targets 200 Mbps. The $120/month Priority plan reaches up to 400 Mbps with priority during congestion. For most rural California households, the $50 or $80 plan is plenty.
+The standard $50/month plan delivers around 100 Mbps. The $80/month tier targets 200 Mbps. The $120/month Priority plan reaches up to 400 Mbps with priority during congestion. For most rural California sites, the $50 or $80 plan is plenty.
 
 ## Making the Financial Case
 
@@ -463,16 +463,16 @@ Let us put together the real cost picture for a California Starlink installation
 - T-Mobile or Verizon home internet: only available in some areas, and rural towers are often congested
 - Fixed wireless (local WISPs): $60 to $100/month, variable quality, many going out of business
 
-When you factor in available subsidies, Starlink at $30 to $50/month (after discounts) is genuinely affordable for most California households. And in wildfire-prone areas, the safety benefit of satellite connectivity adds value that is hard to put a dollar figure on.
+When you factor in available subsidies, Starlink at $30 to $50/month (after discounts) is genuinely affordable for most California subscribers. And in wildfire-prone areas, the safety benefit of satellite connectivity adds value that is hard to put a dollar figure on.
 
 If you are in California and considering Starlink, take the time to check your subsidy eligibility before you order. And if you are in a fire zone, talk to us about a [resilient installation](/contact) that keeps you connected when it matters most.`,
   },
   {
     slug: "starlink-installation-in-colorado",
     title:
-      "Starlink Installation in Colorado: Internet for Mountain Town Remote Workers",
+      "Independent Starlink Installation in Colorado: Internet for Mountain Town Remote Workers",
     metaTitle:
-      "Starlink Installation in Colorado | Remote Work in the Mountains | Starnet Pros",
+      "Independent Starlink Installation in Colorado | Remote Work in the Mountains | Starnet Pros",
     metaDescription:
       "Remote workers are flooding Colorado mountain towns but the internet cannot keep up. Here is how Starlink solves the connectivity gap for work-from-home professionals.",
     excerpt:
@@ -520,7 +520,7 @@ Starlink's standard plan delivers 50 to 100 Mbps download and 5 to 15 Mbps uploa
 
 Colorado mountain properties have unique installation challenges:
 
-**Elevation and exposure:** Above 8,000 feet, your installation is exposed to stronger UV radiation, higher wind loads, and more extreme temperature swings than lower elevation properties. We use mounting hardware rated for these conditions. Standard residential mounting brackets from a hardware store are not sufficient for a ridgetop property at 9,500 feet that gets 80 mph wind gusts in January.
+**Elevation and exposure:** Above 8,000 feet, your installation is exposed to stronger UV radiation, higher wind loads, and more extreme temperature swings than lower elevation properties. We use mounting hardware rated for these conditions. Off-the-shelf mounting brackets from a hardware store are not sufficient for a ridgetop property at 9,500 feet that gets 80 mph wind gusts in January.
 
 **Snow management:** Colorado's high-altitude snowfall is typically lighter and drier than sea-level snow, which is good news for Starlink's snow heater. The built-in heater handles Colorado's champagne powder more effectively than the heavy wet snow common in the Northeast. However, properties in snow belts (like the Elk Mountains around Aspen or the San Juans near Silverton) can accumulate significant amounts that require the heater to run longer.
 
@@ -574,9 +574,9 @@ If you are a remote worker in the Colorado mountains fighting with bad internet,
   {
     slug: "starlink-installation-in-connecticut",
     title:
-      "Starlink Installation in Connecticut: Broadband Dead Zones in a Wealthy State",
+      "Independent Starlink Installation in Connecticut: Broadband Dead Zones in a Wealthy State",
     metaTitle:
-      "Starlink Installation in Connecticut | Northwest Hills Coverage Gaps | Starnet Pros",
+      "Independent Starlink Installation in Connecticut | Northwest Hills Coverage Gaps | Starnet Pros",
     metaDescription:
       "Even Connecticut has rural broadband dead zones. The Northwest Hills and eastern rural areas lack reliable internet despite the state's wealth. Starlink fills the gap.",
     excerpt:
@@ -609,17 +609,17 @@ The answer is not technical -- it is economic and geographic.
 
 **CL&P (now Eversource) poles:** Much of the utility infrastructure in rural Connecticut is old, and pole access for new internet providers is complicated by pole ownership disputes, make-ready costs, and permitting delays. Even providers who want to build fiber face years of pole attachment bureaucracy.
 
-## The Quiet Desperation of Northwest Hills Homeowners
+## The Quiet Desperation of Northwest Hills Property Owners
 
-We have installed Starlink for homeowners in Litchfield County who describe their internet situation with genuine frustration:
+We have installed Starlink for property owners in Litchfield County who describe their internet situation with genuine frustration:
 
 *"I paid $1.2 million for this house. I have one DSL option that delivers 4 Mbps on a good day. When it rains, it drops to nothing."*
 
-*"My kids tried to do remote school during COVID on a cellular hotspot because our DSL could not handle two video calls simultaneously."*
+*"I run my practice from this property. Our DSL could not handle two video calls at the same time -- we were living on a cellular hotspot."*
 
 *"I work for a hedge fund in Stamford. I moved to Cornwall for the quality of life. I drive to a coffee shop in Torrington three times a week just to get on a video call."*
 
-These are not rural poverty stories. These are affluent households in one of America's wealthiest states who simply cannot get internet. And Starlink has been transformative for them.
+These are not rural poverty stories. These are affluent property owners in one of America's wealthiest states who simply cannot get internet. And Starlink has been transformative for them.
 
 ## Connecticut Installation Challenges
 
@@ -632,7 +632,7 @@ Our approach is to always plan for worst-case (full summer canopy). If we mount 
 **Historic homes:** The Northwest Hills are full of 18th and 19th century colonial, Federal, and farmhouse-style homes. Many are on the National or State Register of Historic Places. Installing a satellite dish on a historic home requires sensitivity:
 
 - We favor chimney mounts or rear-roof placements that minimize visual impact from the road
-- Some historic districts have design review boards. Under federal OTARD rules, they cannot prohibit the dish, but we work with homeowners to find placements that satisfy both performance and aesthetics
+- Some historic districts have design review boards. Under federal OTARD rules, they cannot prohibit the dish, but we work with property owners to find placements that satisfy both performance and aesthetics
 - Older roof structures may need reinforcement. We always check rafter condition before mounting. A 200-year-old roof may have rafters that have been compromised by moisture or insects
 
 **Roof types:** Connecticut homes feature slate roofs, cedar shake, standing seam metal, and asphalt shingle. Slate and cedar shake require specialized mounting to avoid cracking tiles or splitting shakes. We use brackets designed for these materials and never drill through slate.
@@ -654,17 +654,17 @@ Connecticut benefits from good ground station infrastructure (there is a Starlin
 - **Shoreline rural pockets:** 80 to 180 Mbps. Better sky visibility from coastal terrain.
 - **Latency:** 20 to 40 ms consistently, which is excellent for video calls and VPN use.
 
-The standard $50/month plan is adequate for most Connecticut households. Remote workers who need reliable video conferencing all day should consider the $80/month plan for its 200 Mbps tier. The $120/month Priority plan makes sense for home offices that need the best possible reliability.
+The standard $50/month plan is adequate for most Connecticut sites. Remote workers who need reliable video conferencing all day should consider the $80/month plan for its 200 Mbps tier. The $120/month Priority plan makes sense for on-site offices that need the best possible reliability.
 
 ## The HOA and Zoning Question
 
-Connecticut has a lot of HOAs, especially in planned communities and condominium associations. Some homeowners in Litchfield County have reported pushback from neighbors or informal property associations about dish visibility.
+Connecticut has a lot of HOAs, especially in planned communities and condominium associations. Some property owners in Litchfield County have reported pushback from neighbors or informal property associations about dish visibility.
 
 The law is clear: the FCC's OTARD (Over-the-Air Reception Devices) rules preempt any local restriction that prevents or unreasonably delays installation of a satellite dish under one meter in diameter. Your HOA can request a specific mounting location, but only if that location does not degrade signal quality or add significant installation cost. If the only location with clear sky is the front of your roof, you have a legal right to put the dish there.
 
 ## Cost Context for Connecticut
 
-When a Connecticut homeowner is paying for a $50/month DSL connection that delivers 4 Mbps, switching to Starlink at $50/month for 60 to 160 Mbps is not really a cost increase -- it is getting what you thought you were already paying for.
+When a Connecticut property owner is paying for a $50/month DSL connection that delivers 4 Mbps, switching to Starlink at $50/month for 60 to 160 Mbps is not really a cost increase -- it is getting what you thought you were already paying for.
 
 Starlink equipment runs $349 upfront. Professional installation adds cost for complex roof types or pole mounts, but most Connecticut properties are standard roof mounts. The whole setup from order to online takes about 2 weeks for the equipment to ship plus whatever scheduling works for installation.
 
@@ -673,9 +673,9 @@ If you are in the Northwest Hills or eastern Connecticut dealing with non-functi
   {
     slug: "starlink-installation-in-delaware",
     title:
-      "Starlink Installation in Delaware: Small State, Real Broadband Gaps",
+      "Independent Starlink Installation in Delaware: Small State, Real Broadband Gaps",
     metaTitle:
-      "Starlink Installation in Delaware | Southern Delaware Coverage Gaps | Starnet Pros",
+      "Independent Starlink Installation in Delaware | Southern Delaware Coverage Gaps | Starnet Pros",
     metaDescription:
       "Delaware is tiny but its southern and western portions still lack reliable broadband. Here is why the gaps exist and how Starlink provides a real solution.",
     excerpt:
@@ -708,7 +708,7 @@ Based on our installations in the state, these are the typical Delaware Starlink
 
 **Poultry farm operators.** Delaware and the Delmarva Peninsula are one of the largest poultry-producing regions in the country. Modern poultry operations use connected systems for climate control, flock monitoring, feed management, and compliance reporting. A farm in western Sussex County with 3 Mbps DSL cannot run these systems reliably. Starlink gives them the bandwidth to modernize.
 
-**Rural homeowners in Kent and Sussex counties.** People living on 5 to 50 acre properties between towns -- not farmers, just people who want rural living. Their options are often limited to DSL (if the copper line even reaches their house) or cellular hotspots.
+**Rural property owners in Kent and Sussex counties.** Owners of 5 to 50 acre properties between towns running small operations or working remotely. Their options are often limited to DSL (if the copper line even reaches the building) or cellular hotspots.
 
 **Vacation rental owners.** Here is an interesting one: some vacation rental properties near but not in the beach towns lack reliable internet. A rental property in Millsboro or Dagsboro that cannot offer working Wi-Fi gets poor reviews and lower bookings. Starlink changes that immediately.
 
@@ -720,7 +720,7 @@ Delaware is actually one of the easier states to install Starlink:
 
 **Flat terrain:** The entire state is essentially flat. The highest point in Delaware is only 448 feet above sea level. There are no mountains, ridges, or deep valleys blocking sky visibility. Almost every Delaware property has 90%+ sky clearance from the rooftop.
 
-**Moderate tree cover:** Delaware has forests, but they are nothing like the dense canopy of New England or the Pacific Northwest. Most residential properties have some mature trees in the yard, but the obstruction is manageable with proper dish placement. We rarely need pole mounts in Delaware.
+**Moderate tree cover:** Delaware has forests, but they are nothing like the dense canopy of New England or the Pacific Northwest. Most properties have some mature trees in the yard, but the obstruction is manageable with proper dish placement. We rarely need pole mounts in Delaware.
 
 **Standard roofing:** Delaware homes typically have asphalt shingle roofing, which is the simplest and most common mounting surface. No tile, no slate, no special techniques needed for most installations.
 
@@ -764,9 +764,9 @@ If you are in southern Delaware staring at a DSL connection that barely loads a 
   {
     slug: "starlink-installation-in-florida",
     title:
-      "Starlink Installation in Florida: Hurricane-Proof Your Internet Connection",
+      "Independent Starlink Installation in Florida: Hurricane-Proof Your Internet Connection",
     metaTitle:
-      "Starlink Installation in Florida | Hurricane Resilient Internet | Starnet Pros",
+      "Independent Starlink Installation in Florida | Hurricane Resilient Internet | Starnet Pros",
     metaDescription:
       "How Starlink performs during Florida hurricanes, wind-rated mounting techniques, backup power for storm season, and why satellite internet is the most resilient option.",
     excerpt:
@@ -822,7 +822,7 @@ Starlink survives the hurricane. Great. But if your power is out for two weeks -
 The Starlink system draws approximately 40 to 75 watts under normal operation (more during rain when the heater activates, but Florida does not need the snow heater). Here is how to keep it running:
 
 **Option 1: Portable power station ($200 to $600)**
-A battery unit rated at 500 to 1,000 Wh will run Starlink for 7 to 15 hours. Pair it with a 100W to 200W portable solar panel and you can run Starlink indefinitely during daylight, even without grid power. This is the setup we recommend for most Florida households.
+A battery unit rated at 500 to 1,000 Wh will run Starlink for 7 to 15 hours. Pair it with a 100W to 200W portable solar panel and you can run Starlink indefinitely during daylight, even without grid power. This is the setup we recommend for most Florida sites.
 
 Runtime math: 1,000 Wh battery / 60W average draw = about 16 hours. Add a 200W solar panel that produces 5 to 6 hours of peak output, and you generate 1,000 to 1,200 Wh per day -- more than enough to run Starlink 24/7.
 
@@ -830,7 +830,7 @@ Runtime math: 1,000 Wh battery / 60W average draw = about 16 hours. Add a 200W s
 A standard 1,500 VA UPS will keep Starlink running for 3 to 5 hours during a power outage. This covers brief outages from thunderstorms and the immediate post-hurricane window, but not extended outages.
 
 **Option 3: Whole-house generator ($5,000 to $15,000 installed)**
-If you already have a Generac or similar whole-house generator, your Starlink runs automatically when the generator kicks in. No additional equipment needed. Many Florida homeowners have generators for exactly this reason.
+If you already have a Generac or similar whole-house generator, your Starlink runs automatically when the generator kicks in. No additional equipment needed. Many Florida property owners have generators for exactly this reason.
 
 **Option 4: Vehicle inverter (free if you have a car)**
 Your car can power a Starlink dish through a DC-to-AC inverter. A 150W inverter ($25 at any auto parts store) plugged into your car's cigarette lighter or wired to the battery will run Starlink as long as you have gas. Run the car for an hour, charge the Starlink and a battery pack, then turn the car off. This is the low-budget emergency option.
@@ -849,7 +849,7 @@ When a hurricane watch is issued for your area, here is what to do with your Sta
 **DO NOT:**
 - Take the dish down before the storm. A properly mounted dish will survive better on the mount than loose in your garage. Taking it down and remounting risks improper reinstallation.
 - Wrap the dish in anything. Tarps, plastic wrap, and other coverings will trap moisture and block the signal. The dish is designed to be outdoors.
-- Add unauthorized guy wires or straps. Additional attachments can create vibration that damages the dish motors or change the wind load profile in unpredictable ways.
+- Add improvised guy wires or straps. Additional attachments can create vibration that damages the dish motors or change the wind load profile in unpredictable ways.
 
 ## After the Storm: Getting Back Online
 
@@ -858,7 +858,7 @@ When the storm passes:
 1. **Check the dish visually.** Look for physical damage, debris impact, or any change in mounting angle. Clear any branches or debris that landed on or near the dish.
 2. **Check your power.** Restore power to the Starlink system via generator, battery, or grid (if available).
 3. **Give it 5 minutes.** The dish may need to re-orient and reconnect after a power interruption. The boot-up process takes 2 to 5 minutes.
-4. **Check for water intrusion.** Inspect where the cable enters your home. Wind-driven rain can force water past seals that normally work fine. If you see water, disconnect power and dry the connection before re-energizing.
+4. **Check for water intrusion.** Inspect where the cable enters the building. Wind-driven rain can force water past seals that normally work fine. If you see water, disconnect power and dry the connection before re-energizing.
 
 ## Realistic Florida Starlink Performance
 

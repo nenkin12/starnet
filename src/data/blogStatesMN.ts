@@ -35,7 +35,7 @@ Seasonal properties in Maine come with a specific set of challenges that permane
 
 ## Choosing the Right Starlink Plan for Your Rental
 
-Starlink currently offers three residential tiers that work well for vacation rentals:
+Starlink currently offers three standard service tiers that work well for vacation rentals:
 
 - **Standard plan at $50/month** delivers around 100 Mbps download. Adequate for a small cabin where 2-4 guests stream and browse.
 - **Standard Plus at $80/month** pushes up to 200 Mbps and includes a wider coverage area from the router. This is the sweet spot for most rental properties.
@@ -93,7 +93,7 @@ If you are running a rental property in Maine and the internet situation is hold
       "Starlink satellite dish mounted on a Maryland home overlooking the Chesapeake Bay with tidal wetlands nearby",
     content: `## Two Marylands, Two Internets
 
-Maryland is one of the wealthiest states in the country. Median household income hovers near $90,000. The Baltimore-Washington corridor has fiber, cable, and 5G competing for subscribers. You can get gigabit internet in Bethesda without thinking twice.
+Maryland is one of the wealthiest states in the country. Median income hovers near $90,000. The Baltimore-Washington corridor has fiber, cable, and 5G competing for subscribers. You can get gigabit internet in Bethesda without thinking twice.
 
 Now drive across the Bay Bridge. On the Eastern Shore — Dorchester, Somerset, Wicomico, Caroline counties — the broadband landscape looks nothing like what you left behind. DSL lines running on 30-year-old copper deliver 3-8 Mbps. Fixed wireless towers oversell capacity and deliver 15 Mbps on paper, 5 Mbps in practice. Some properties near the marshland simply have no wired option.
 
@@ -131,7 +131,7 @@ Garrett and Allegany counties are mountainous, forested, and cold. Installations
 
 For most rural Maryland homes, the **Standard Plus plan at $80/month** (up to 200 Mbps) is the best value. It provides enough bandwidth for a family of four with simultaneous streaming, video calls, and general browsing.
 
-The **Standard plan at $50/month** (up to 100 Mbps) works for smaller households or properties used as weekend getaways.
+The **Standard plan at $50/month** (up to 100 Mbps) works for smaller operations or properties used as weekend getaways.
 
 The **MAX plan at $120/month** (up to 400 Mbps) makes sense for properties running a home business or hosting multiple remote workers.
 
@@ -198,7 +198,7 @@ We have installed Starlink for several Berkshire vacation rental owners, and the
 Here is what we typically see on western Mass installations:
 
 - **Standard plan ($50/month):** 60-120 Mbps depending on obstructions and time of day. The Starlink cell covering the Berkshires and hill towns is not heavily congested, which helps.
-- **Standard Plus ($80/month):** 100-200 Mbps with more consistent performance during peak hours. This is our recommendation for most households.
+- **Standard Plus ($80/month):** 100-200 Mbps with more consistent performance during peak hours. This is our recommendation for most properties.
 - **MAX ($120/month):** 150-350 Mbps. Worth it for serious remote workers or properties serving multiple users.
 
 Latency sits around 25-50ms, which is fine for video conferencing, VPN connections, and general use. Not ideal for competitive gaming, but perfectly usable for casual play.
@@ -268,8 +268,8 @@ A huge portion of our UP installations are on seasonal properties. Lakefront cab
 The UP is not a densely populated Starlink cell, which actually works in users' favor. Less congestion means more consistent speeds. Here is what we typically see:
 
 - **Standard ($50/month):** 80-130 Mbps. Solid for a small cabin or seasonal property with light use.
-- **Standard Plus ($80/month):** 130-220 Mbps. Handles a household of remote workers, streaming, and smart home devices comfortably.
-- **MAX ($120/month):** 200-350 Mbps. Overkill for most residential use, but great for properties running a business or hosting groups.
+- **Standard Plus ($80/month):** 130-220 Mbps. Handles a full crew of remote workers, streaming, and connected devices comfortably.
+- **MAX ($120/month):** 200-350 Mbps. Overkill for a light-use site, but great for properties running a business or hosting groups.
 
 These numbers hold up well in winter too. Cold weather does not degrade Starlink performance, and the low population density means less contention for bandwidth.
 
@@ -307,13 +307,13 @@ Minnesota deserves credit for taking rural broadband seriously. The state's Bord
 
 We are now in 2026, and the reality on the ground does not match the goal. Significant portions of the state — particularly in the northwest prairie counties, the Arrowhead region, and the lake country stretching from Brainerd to Bemidji — still lack reliable broadband. The grants have helped, but the buildouts take years, and the hardest-to-reach addresses often get served last, if at all.
 
-This is where we get the phone calls. Homeowners who were told fiber was "coming soon" three years ago. Farmers who applied for a grant-funded connection and are still waiting. Lake cabin owners who discovered the local co-op's fixed wireless tower does not reach their property. They all want to know: should I get Starlink?
+This is where we get the phone calls. Property owners who were told fiber was "coming soon" three years ago. Farmers who applied for a grant-funded connection and are still waiting. Lake cabin owners who discovered the local co-op's fixed wireless tower does not reach their property. They all want to know: should I get Starlink?
 
 ## How the Grant Program Actually Works
 
 Understanding the Border-to-Border program helps explain why Starlink remains so relevant in Minnesota. Here are the key points:
 
-**Grants go to providers, not individuals.** The state awards funds to internet service providers and cooperatives to build infrastructure in designated underserved areas. As a homeowner, you cannot apply for a grant to get Starlink or any other service. You wait for a provider to build to your area.
+**Grants go to providers, not individuals.** The state awards funds to internet service providers and cooperatives to build infrastructure in designated underserved areas. As a property owner, you cannot apply for a grant to get Starlink or any other service. You wait for a provider to build to your area.
 
 **The "underserved" definition has shifted.** Early in the program, areas with under 25 Mbps qualified. As the speed goals increased, the eligible areas changed. Some regions that technically have 25 Mbps service are not eligible for new grants, even though 25 Mbps is inadequate for modern use.
 
@@ -337,7 +337,7 @@ We have installed Starlink in every region of Minnesota, and the demand clusters
 
 One question we hear constantly: "If fiber is coming, is Starlink worth it?" Here is an honest comparison.
 
-**Grant-funded fiber** typically costs $50-$80/month for 100-300 Mbps service, with no equipment cost. Speeds are symmetrical (same upload and download), and latency is very low (5-15ms). If fiber is genuinely available at your address today, it is probably the better long-term option for most households.
+**Grant-funded fiber** typically costs $50-$80/month for 100-300 Mbps service, with no equipment cost. Speeds are symmetrical (same upload and download), and latency is very low (5-15ms). If fiber is genuinely available at your address today, it is probably the better long-term option for most sites.
 
 **Starlink Standard** costs $50/month for up to 100 Mbps download, 10-15 Mbps upload. Latency is 25-50ms. Equipment is $349 upfront. No contract. You can cancel anytime.
 
@@ -386,7 +386,7 @@ We have helped hundreds of Minnesota property owners make this decision. Most en
       "Starlink satellite dish mounted on a Mississippi Delta farmhouse with flat agricultural fields and cypress trees stretching to the horizon",
     content: `## The Numbers Tell a Hard Story
 
-Mississippi has consistently ranked 49th or 50th in broadband access among US states. According to FCC data, roughly 30% of rural Mississippi households lack access to broadband at the federal minimum speed of 25/3 Mbps. In the Delta region, that number climbs higher. Real-world access is even worse than the data suggests because the FCC's mapping methodology counts a census block as "served" if a single address in that block has service.
+Mississippi has consistently ranked 49th or 50th in broadband access among US states. According to FCC data, roughly 30% of rural Mississippi addresses lack access to broadband at the federal minimum speed of 25/3 Mbps. In the Delta region, that number climbs higher. Real-world access is even worse than the data suggests because the FCC's mapping methodology counts a census block as "served" if a single address in that block has service.
 
 We have done installations in Sunflower County where the customer's only previous option was a cellular hotspot with a 50GB monthly cap. In Wilkinson County, a family was driving 20 minutes to town to sit in a library parking lot for internet access. In Noxubee County, a school district was sending Wi-Fi buses to neighborhoods so students could download homework.
 
@@ -396,9 +396,9 @@ These are not stories from 2010. This was the reality when Starlink became avail
 
 The answer is straightforward economics compounded by geography and demographics.
 
-**Low population density.** Mississippi's rural population is spread across the Delta flatlands, the red clay hills of the interior, and the piney woods of the southeast. Building cable or fiber infrastructure to serve a few hundred households per county does not generate the return that providers need.
+**Low population density.** Mississippi's rural population is spread across the Delta flatlands, the red clay hills of the interior, and the piney woods of the southeast. Building cable or fiber infrastructure to serve a few hundred subscribers per county does not generate the return that providers need.
 
-**Poverty.** Mississippi has the lowest median household income in the nation. Providers worry about subscription rates in areas where households may struggle to afford monthly internet bills. This creates a circular problem: no infrastructure because of expected low adoption, low adoption because of no infrastructure.
+**Poverty.** Mississippi has the lowest median income in the nation. Providers worry about subscription rates in areas where subscribers may struggle to afford monthly internet bills. This creates a circular problem: no infrastructure because of expected low adoption, low adoption because of no infrastructure.
 
 **Terrain and soil conditions.** The Delta's alluvial soil floods regularly, which makes buried fiber vulnerable. The hill country requires expensive trenching through clay and rock. Neither is appealing for construction budgets.
 
@@ -408,7 +408,7 @@ The answer is straightforward economics compounded by geography and demographics
 
 Starlink bypasses every one of those barriers. No ground infrastructure needed. No minimum subscriber density required. No construction crew needed. A single dish, mounted with a clear view of the sky, delivers broadband to any address in the state.
 
-For Mississippi, this is not an incremental improvement — it is a category shift. Families go from 3 Mbps DSL or a capped cellular plan to 100-200 Mbps unlimited broadband in a single installation visit.
+For Mississippi, this is not an incremental improvement — it is a category shift. Businesses and farms go from 3 Mbps DSL or a capped cellular plan to 100-200 Mbps unlimited broadband in a single installation visit.
 
 ## Installation Across Mississippi's Regions
 
@@ -422,18 +422,18 @@ We have worked in every part of the state, and each region has its own character
 
 **The Gulf Coast** (Hancock, Harrison, Jackson counties) has better existing broadband in the towns, but properties outside city limits, especially north of I-10, face the same rural gap. Hurricane resilience is a factor here. We mount with hardware rated for Category 3+ winds and ensure all cable penetrations are sealed against wind-driven rain.
 
-## Cost Reality for Mississippi Families
+## Cost Reality for Mississippi Operations
 
 We are straightforward about pricing because affordability matters in Mississippi.
 
-- **Standard plan: $50/month**, up to 100 Mbps. This is the most popular choice we see in Mississippi. It handles everything a family needs: streaming, school work, video calls, basic smart home devices.
-- **Standard Plus: $80/month**, up to 200 Mbps. For households with multiple heavy users or work-from-home needs.
+- **Standard plan: $50/month**, up to 100 Mbps. This is the most popular choice we see in Mississippi. It handles everything a small operation needs: streaming, video calls, cloud apps, and basic connected devices.
+- **Standard Plus: $80/month**, up to 200 Mbps. For sites with multiple heavy users or remote-work needs.
 - **MAX: $120/month**, up to 400 Mbps. Typically chosen by businesses or properties serving many users.
 - **Equipment: $349** one-time for the standard kit.
 
 Starlink also participates in the FCC's Affordable Connectivity Program (if still active) and has offered promotional pricing in some areas. It is worth checking the Starlink website for current availability and any assistance programs.
 
-For perspective: many Mississippi households were paying $60-$80/month for DSL that delivered 5-10 Mbps. Or $100+/month for cellular hotspot plans with strict data caps. Starlink's Standard plan at $50/month with unlimited data and 100 Mbps speeds is genuinely more affordable for the performance delivered.
+For perspective: many Mississippi customers were paying $60-$80/month for DSL that delivered 5-10 Mbps. Or $100+/month for cellular hotspot plans with strict data caps. Starlink's Standard plan at $50/month with unlimited data and 100 Mbps speeds is genuinely more affordable for the performance delivered.
 
 ## The Ripple Effects
 
@@ -473,7 +473,7 @@ The Missouri Ozarks look nothing like the flat farmland people associate with th
 
 This terrain is the enemy of every ground-based internet technology.
 
-**Cable and fiber** require trenching or aerial cable runs. Running cable down into a hollow and back up the next ridge is prohibitively expensive per household. Providers stop at the highway or the edge of town. Full stop.
+**Cable and fiber** require trenching or aerial cable runs. Running cable down into a hollow and back up the next ridge is prohibitively expensive per address. Providers stop at the highway or the edge of town. Full stop.
 
 **Fixed wireless** needs line-of-sight between your property and a tower. In the Ozarks, the next ridge blocks that line of sight. A tower 3 miles away might as well be 100 miles away if there is a 400-foot ridge between you and it. We have talked to customers who can see a wireless tower from a hilltop 200 yards above their house but get zero signal at their front door.
 
@@ -571,7 +571,7 @@ Once the Starlink signal comes into the building, we help ranchers set up a wire
 
 ## Step Three: Extending to the Operation
 
-This is where Montana ranch installations diverge from anything you would see in a residential setting.
+This is where Montana ranch installations diverge from anything you would see on a typical single-building job.
 
 **Corrals and working areas** — Ranchers increasingly use tablets and phones for herd management, electronic ID reading, and veterinary records during working sessions. An outdoor access point mounted on the working chute building or a corral post can cover these areas. Range depends on the equipment, but 300-500 feet of usable coverage is standard.
 
@@ -583,7 +583,7 @@ What Starlink does enable is the *management* of those tools. The ranch office n
 
 ## What Plans Work for Ranch Operations
 
-Ranch internet needs are different from residential use. You have a main household, employees or family in other buildings, and operational technology all sharing one connection.
+Ranch internet needs are different from a single-office setup. You have the main house, employees in other buildings, and operational technology all sharing one connection.
 
 **Standard Plus ($80/month, up to 200 Mbps)** is the minimum we recommend for a working ranch. It provides enough bandwidth for the main house and basic operational use.
 
@@ -681,7 +681,7 @@ Nebraska's flat terrain makes Starlink installation technically straightforward 
 
 ## Recommended Plans for Nebraska Farms
 
-- **Standard ($50/month, up to 100 Mbps):** Good for a single-household farmstead with standard farming applications, grain marketing, and moderate streaming.
+- **Standard ($50/month, up to 100 Mbps):** Good for a single-building farmstead with standard farming applications, grain marketing, and moderate streaming.
 - **Standard Plus ($80/month, up to 200 Mbps):** Our recommendation for most Nebraska farms. Handles multiple users, camera systems, pivot monitoring dashboards, and all business applications.
 - **MAX ($120/month, up to 400 Mbps):** For larger operations with feedlot management systems, multiple buildings connected via network extension, and heavy data use.
 

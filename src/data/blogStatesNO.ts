@@ -66,7 +66,7 @@ These are real numbers from real installations, not marketing claims. In the mid
 
 ## The Installation Process in Nevada
 
-A typical Nevada residential install takes 2-3 hours. Here's what we do:
+A typical Nevada business-site install takes 2-3 hours. Here's what we do:
 
 1. **Site survey** — We check sky visibility from multiple positions on your property using the Starlink app's obstruction checker
 2. **Mount selection** — Roof mount, pole mount, or ground mount depending on your property. Desert properties often work great with pole mounts since there are no trees to clear
@@ -81,11 +81,11 @@ If you're in Nevada and tired of the internet lottery, we'd like to help. We ser
   {
     slug: "starlink-installation-in-new-hampshire",
     title:
-      "Starlink in New Hampshire: Seasonal Homes, Ski Country, and Surviving on Aging DSL",
+      "Starlink in New Hampshire: Hospitality Properties, Ski Country, and Surviving on Aging DSL",
     metaTitle:
-      "Starlink Installation in New Hampshire | Vacation & Ski Homes | Starnet Pros",
+      "Starlink Installation in New Hampshire | Hospitality & Ski Properties | Starnet Pros",
     metaDescription:
-      "Professional Starlink installation for New Hampshire seasonal homes, ski country properties, and rural areas stuck on aging DSL. Honest advice from experienced installers.",
+      "Professional Starlink installation for New Hampshire hospitality properties, ski country lodging, and rural business sites stuck on aging DSL. Honest advice from experienced installers.",
     excerpt:
       "Half of New Hampshire's charm is being tucked away in the woods. The other half is realizing that charm comes with 3 Mbps DSL. Here's how Starlink is changing the equation for the Granite State.",
     date: "2026-03-05",
@@ -98,19 +98,19 @@ If you're in Nevada and tired of the internet lottery, we'd like to help. We ser
 
 New Hampshire doesn't make national headlines for its broadband problems. It's not the sort of state people associate with connectivity gaps. But talk to anyone who lives outside the Concord-Manchester-Nashua corridor, and you'll hear a familiar story: DSL from Consolidated Communications that hasn't been upgraded since the Bush administration, delivering 1-5 Mbps on a good day.
 
-We've installed Starlink across most of New Hampshire's towns at this point, and the situations we encounter are remarkably consistent. A family in Colebrook paying $60/month for 3 Mbps DSL. A vacation rental owner in Franconia whose guests leave one-star reviews about the Wi-Fi. A retiree in Moultonborough who can't do a video call with their grandchildren. These aren't edge cases — they're the norm for a huge portion of the state.
+We've installed Starlink across most of New Hampshire's towns at this point, and the situations we encounter are remarkably consistent. A small business in Colebrook paying $60/month for 3 Mbps DSL. A rental property operator in Franconia whose guests leave one-star reviews about the Wi-Fi. An innkeeper in Moultonborough who can't hold a video call with vendors. These aren't edge cases — they're the norm for a huge portion of the state.
 
-## The Seasonal Home Problem
+## The Seasonal Property Problem
 
-New Hampshire has an enormous number of seasonal and vacation properties. The Lakes Region, the White Mountains, and the Monadnock area are filled with homes that sit empty for parts of the year but need reliable internet when occupied.
+New Hampshire has an enormous number of seasonal and rental properties. The Lakes Region, the White Mountains, and the Monadnock area are filled with lodging and rental properties that sit empty for parts of the year but need reliable internet when occupied.
 
-Here's the thing about Starlink and seasonal use: **the $50/month Standard plan doesn't pause.** You pay whether you're there or not. For seasonal homeowners, that's $600/year for internet at a property you might use 20 weeks out of 52.
+Here's the thing about Starlink and seasonal use: **the $50/month Standard plan doesn't pause.** You pay whether guests are there or not. For seasonal property operators, that's $600/year for internet at a property you might book 20 weeks out of 52.
 
 Is it worth it? For most of our seasonal customers, the answer has been yes. Here's why:
 
 - **Rental income** — Vacation rentals in the White Mountains and Lakes Region that advertise reliable high-speed internet command higher nightly rates. Several of our customers have told us the Starlink install paid for itself within a single rental season
 - **Remote work flexibility** — More people are extending weekends into work weeks at their New Hampshire properties. That only works with real internet
-- **Security cameras and smart home monitoring** — Many seasonal homeowners want to keep an eye on their property remotely. Starlink keeps those systems connected year-round
+- **Security cameras and remote property monitoring** — Many seasonal property operators want to keep an eye on their site remotely. Starlink keeps those systems connected year-round
 
 ## Ski Country Connectivity
 
@@ -139,9 +139,9 @@ One of Starlink's smartest design features is its built-in heating element. The 
 
 New Hampshire's latitude and satellite coverage provide solid performance. Here's what we actually see across our installs:
 
-- **Standard ($50/mo):** 50-100 Mbps download, which handles most household needs including streaming and video calls
-- **Standard ($80/mo):** 100-200 Mbps, good for households with multiple heavy users or home offices
-- **Priority ($120/mo):** 150-350 Mbps, best for vacation rentals or home businesses that need consistent speeds
+- **Standard ($50/mo):** 50-100 Mbps download, which handles most day-to-day business needs including streaming and video calls
+- **Standard ($80/mo):** 100-200 Mbps, good for sites with multiple heavy users or on-site offices
+- **Priority ($120/mo):** 150-350 Mbps, best for rental properties or businesses that need consistent speeds
 
 Compare that to the 1-5 Mbps DSL that's still the only wired option in many towns, and you understand why people get emotional when they see their first Starlink speed test.
 
@@ -161,7 +161,7 @@ All cable penetrations are sealed and flashed. We don't leave exposed holes in y
 
 ## Let's Get Your Property Connected
 
-Whether it's a year-round home in Tamworth, a ski condo in Lincoln, or a lakeside cabin on Squam Lake, we can get you off DSL and onto something that actually works. [Book an installation](/book) or [contact us](/contact) to discuss your property's specific situation. We're happy to do a phone consultation before you commit.`,
+Whether it's a year-round business in Tamworth, a ski-area rental property in Lincoln, or a lakeside lodge on Squam Lake, we can get you off DSL and onto something that actually works. [Book an installation](/book) or [contact us](/contact) to discuss your property's specific situation. We're happy to do a phone consultation before you commit.`,
   },
   {
     slug: "starlink-installation-in-new-jersey",
@@ -230,9 +230,9 @@ Starlink won't be affected by local cable congestion. It has its own congestion 
 
 Let's talk numbers. The **equipment costs $349**, and then your monthly plan options are:
 
-- **$50/month** — Standard, up to 100 Mbps. Solid for a household of 2-3 people doing normal internet things
-- **$80/month** — Standard, up to 200 Mbps. Better for families, remote workers, or anyone who streams heavily
-- **$120/month** — Priority, up to 400 Mbps. Best for home businesses or properties with many simultaneous users
+- **$50/month** — Standard, up to 100 Mbps. Solid for a small site with 2-3 users doing normal internet things
+- **$80/month** — Standard, up to 200 Mbps. Better for busier sites, remote work crews, or heavy streaming use
+- **$120/month** — Priority, up to 400 Mbps. Best for businesses or properties with many simultaneous users
 
 In New Jersey, we typically see speeds in the 80-200 Mbps range depending on the plan and time of day. The East Coast has more Starlink users per satellite than rural Wyoming does, so peak-hour congestion is a factor. Morning and midday speeds tend to be faster than evening. For Pine Barrens residents coming from 1-3 Mbps DSL, even the low end of that range is a 30x improvement.
 
@@ -272,7 +272,7 @@ This isn't just an inconvenience. During COVID, students on the Navajo Nation dr
 
 ## How Starlink Is Changing the Equation
 
-Starlink is not a complete solution to the digital divide on tribal lands — the equipment cost and monthly fees are still barriers for many families. But for those who can access it, the impact has been significant.
+Starlink is not a complete solution to the digital divide on tribal lands — the equipment cost and monthly fees are still barriers for many. But for those who can access it, the impact has been significant.
 
 **What makes Starlink different from what was available before:**
 
@@ -313,7 +313,7 @@ New Mexico shares many of the same environmental challenges as other desert stat
 New Mexico's sparse population density actually works in Starlink's favor — there's less user congestion per satellite than in densely populated eastern states.
 
 - **Standard ($50/mo):** 70-100 Mbps download typical. Handles streaming, video calls, and general browsing well
-- **Standard ($80/mo):** 120-200 Mbps. Good for households with multiple users or home offices
+- **Standard ($80/mo):** 120-200 Mbps. Good for sites with multiple users or on-site offices
 - **Priority ($120/mo):** 180-350 Mbps. Best for businesses, clinics, or properties serving many users
 
 For communities that previously had zero broadband options, even the base tier is transformative. A teacher on the Navajo Nation told us her students could finally submit assignments from home for the first time. A rancher near Truth or Consequences said he could finally check cattle prices and weather data without driving to town.
@@ -328,8 +328,8 @@ Community centers and chapter houses on the Navajo Nation have been particularly
 
 Starlink isn't perfect, and we'd rather be upfront about that:
 
-- **The $349 equipment cost** is a real barrier for many families. Some tribal programs and state broadband grants can help offset this — check with your tribal housing authority or the New Mexico Office of Broadband Access and Expansion
-- **Monthly costs add up.** $50-120/month is significant for households on fixed incomes. There's no low-income discount program from SpaceX currently
+- **The $349 equipment cost** is a real barrier for many. Some tribal programs and state broadband grants can help offset this — check with your tribal housing authority or the New Mexico Office of Broadband Access and Expansion
+- **Monthly costs add up.** $50-120/month is significant for those on fixed incomes. There's no low-income discount program from SpaceX currently
 - **Speeds vary** throughout the day. Peak evening hours (7-10 PM) tend to be slower than midday
 - **Weather can cause brief outages.** Heavy monsoon storms may interrupt service for minutes at a time
 
@@ -359,7 +359,7 @@ Whether you're on tribal land, a remote ranch, or in one of New Mexico's small t
 
 Here is a fact that consistently shocks people: New York State has some of the worst rural broadband coverage in the Northeast. Not Mississippi. Not West Virginia. New York.
 
-Manhattan residents choose between Verizon Fios gigabit, Spectrum cable, and multiple 5G providers. Meanwhile, a homeowner in Hamilton County — the least populated county east of the Mississippi, located right in the middle of the Adirondack Park — can't get anything faster than a 3 Mbps DSL connection from Windstream that drops during every rainstorm.
+Manhattan residents choose between Verizon Fios gigabit, Spectrum cable, and multiple 5G providers. Meanwhile, a property owner in Hamilton County — the least populated county east of the Mississippi, located right in the middle of the Adirondack Park — can't get anything faster than a 3 Mbps DSL connection from Windstream that drops during every rainstorm.
 
 This isn't a subtle gap. It's a chasm. And it exists because the economics of running cable or fiber to properties spread across 6 million acres of Adirondack Park, or scattered through the hollows of the Southern Tier, or perched on hillsides above Finger Lakes vineyards simply don't work for providers who need a return on investment.
 
@@ -402,9 +402,9 @@ New York's upstate regions throw every possible installation challenge at you, a
 
 Upstate New York has moderate Starlink congestion — less than the metro areas but more than truly rural western states. Here's what we consistently see:
 
-- **Standard ($50/mo):** 50-100 Mbps download. Adequate for most households and a massive upgrade from DSL
-- **Standard ($80/mo):** 100-200 Mbps. The sweet spot for remote workers and families with multiple devices
-- **Priority ($120/mo):** 150-300 Mbps. Best for vacation rental properties, home businesses, and anyone who needs consistent performance during peak hours
+- **Standard ($50/mo):** 50-100 Mbps download. Adequate for most sites and a massive upgrade from DSL
+- **Standard ($80/mo):** 100-200 Mbps. The sweet spot for remote work sites and locations with multiple devices
+- **Priority ($120/mo):** 150-300 Mbps. Best for rental properties, on-site businesses, and anyone who needs consistent performance during peak hours
 
 Equipment is **$349** for the dish and router. Professional installation ensures proper placement that maximizes these speeds rather than leaving performance on the table with a ground-level self-install in a wooded area.
 
@@ -472,7 +472,7 @@ Mountain properties in western North Carolina are often built on slopes. Sometim
 
 ## Valley Properties: The Honest Truth
 
-Some mountain properties have limited installation options. If your home sits in a narrow valley or cove with mountains rising steeply on multiple sides and dense tree cover overhead, Starlink may not perform optimally regardless of how well the dish is mounted.
+Some mountain properties have limited installation options. If your building sits in a narrow valley or cove with mountains rising steeply on multiple sides and dense tree cover overhead, Starlink may not perform optimally regardless of how well the dish is mounted.
 
 We'd rather tell you this upfront than take your money for an installation that won't deliver a good experience. When we do a site assessment and find that even the best mounting position shows more than 10% obstruction, we'll have an honest conversation about what to expect. Sometimes the answer is a very tall pole mount (20+ feet) that clears the surrounding canopy. Sometimes it's identifying a better location on your property — a detached garage, a barn, or a cleared spot with a pole mount and a longer cable run.
 
@@ -566,7 +566,7 @@ Our North Dakota mounting protocol is more aggressive than in most states:
 
 ## Oil Field Installations
 
-Bakken oil operations present unique installation requirements that go beyond residential work.
+Bakken oil operations present unique installation requirements that go beyond typical property work.
 
 **Remote well pads** — Many of these sites are off-grid, running on generators or solar. Starlink's power draw needs to be accounted for in the site's power budget. We coordinate with site operators to ensure adequate power supply.
 
@@ -584,7 +584,7 @@ Farm and ranch installations are our most common North Dakota work. Here's what 
 
 **Practical considerations for farm properties:**
 
-- **Building selection matters.** The dish should be mounted on your primary residence or a building near it, not a distant outbuilding, unless you're planning to run a long cable or use wireless bridge equipment to get the signal to the house. We can advise on the best approach for your specific property layout
+- **Building selection matters.** The dish should be mounted on your main building or one near it, not a distant outbuilding, unless you're planning to run a long cable or use wireless bridge equipment to get the signal to the house. We can advise on the best approach for your specific property layout
 - **Grain bin and silo interference** — Large metal structures near the dish can cause signal reflections. We position dishes to avoid line-of-sight interference with these structures
 - **Seasonal use buildings** — Some farms have harvest crew housing or seasonal buildings that need temporary connectivity. Starlink's portability (you can move the dish between locations on your property) is useful here, though we recommend a permanent mount for year-round primary service
 
@@ -592,8 +592,8 @@ Farm and ranch installations are our most common North Dakota work. Here's what 
 
 North Dakota's low population density works strongly in Starlink's favor. Fewer users per satellite means less congestion and more consistent speeds.
 
-- **Standard ($50/mo):** 70-100 Mbps download. More than enough for a household's daily needs
-- **Standard ($80/mo):** 120-200 Mbps. Good for families with heavy use or farm offices
+- **Standard ($50/mo):** 70-100 Mbps download. More than enough for a site's daily needs
+- **Standard ($80/mo):** 120-200 Mbps. Good for busy operations or farm offices
 - **Priority ($120/mo):** 180-350 Mbps. Recommended for oil field operations and businesses
 
 The **equipment cost is $349** for the dish and router. Given North Dakota's conditions, professional installation isn't optional — it's the difference between a dish that stays mounted through the winter and one that ends up in the next county.
@@ -619,7 +619,7 @@ A practical note: we schedule North Dakota installations year-round, but there a
 
 ## Get Connected
 
-Whether you're running a Bakken well pad, managing a 5,000-acre wheat operation, or just trying to get decent internet at your home outside Dickinson, we can help. [Book your installation](/book) to get on the schedule, or [contact us](/contact) to talk through your specific needs first.`,
+Whether you're running a Bakken well pad, managing a 5,000-acre wheat operation, or just trying to get decent internet at your operation outside Dickinson, we can help. [Book your installation](/book) to get on the schedule, or [contact us](/contact) to talk through your specific needs first.`,
   },
   {
     slug: "starlink-installation-in-ohio",
@@ -645,7 +645,7 @@ Then there's southeastern Ohio.
 
 The Appalachian counties — Athens, Meigs, Vinton, Monroe, Noble, Morgan, Washington, Hocking, Perry, and their neighbors — form a region that cable companies and fiber providers have largely written off. The terrain is hilly, the population is sparse, and the economics don't pencil out for traditional infrastructure investment.
 
-The result: tens of thousands of households relying on DSL connections delivering 1-5 Mbps, cellular hotspots with spotty coverage, or no internet service at all. Ohio University students in Athens have gigabit connections on campus and go home to hollers where they can't load a webpage.
+The result: tens of thousands of properties relying on DSL connections delivering 1-5 Mbps, cellular hotspots with spotty coverage, or no internet service at all. Ohio University students in Athens have gigabit connections on campus and go home to hollers where they can't load a webpage.
 
 This is the Ohio where Starlink matters most, and it's where we do a significant amount of our installation work in the state.
 
@@ -653,16 +653,16 @@ This is the Ohio where Starlink matters most, and it's where we do a significant
 
 Let's get specific about the problem. We've been in homes across southeastern Ohio where:
 
-- A family of four shares a single cellular hotspot with a 15GB monthly cap. That's roughly two Netflix movies before they're throttled to unusable speeds for the rest of the month
-- A small business owner in Vinton County drives 25 minutes to the McArthur library to upload invoices because his home connection can't handle the file sizes
+- A four-person operation shares a single cellular hotspot with a 15GB monthly cap. That's roughly two streamed training videos before they're throttled to unusable speeds for the rest of the month
+- A small business owner in Vinton County drives 25 minutes to the McArthur library to upload invoices because the connection at his shop can't handle the file sizes
 - A retired teacher in Meigs County pays $85/month for HughesNet satellite that delivers 5-8 Mbps with latency so high that video calls are impossible
-- Multiple families in Morgan County have simply never had any internet option at their address
+- Multiple properties in Morgan County have simply never had any internet option at their address
 
 These aren't cherry-picked horror stories. This is the baseline reality for broadband in Appalachian Ohio.
 
 ## Why Southeastern Ohio Got Left Behind
 
-The reasons are geographic and economic. Southeastern Ohio's terrain is the foothills of the Appalachian Mountains — not the dramatic peaks of West Virginia or North Carolina, but rolling hills, deep hollows, and narrow valleys that make running cable or fiber expensive per household served.
+The reasons are geographic and economic. Southeastern Ohio's terrain is the foothills of the Appalachian Mountains — not the dramatic peaks of West Virginia or North Carolina, but rolling hills, deep hollows, and narrow valleys that make running cable or fiber expensive per location served.
 
 The population density in these counties ranges from 30 to 70 people per square mile, compared to 1,000+ in Franklin County (Columbus). A cable company looking at the cost of running a line down a 5-mile hollow to serve 12 houses will never make that investment. State broadband grants have helped in some areas, but the gap remains enormous.
 
@@ -681,7 +681,7 @@ Ohio's Appalachian foothills present moderate installation challenges — easier
 - **Property survey for alternative locations** — sometimes a barn on higher ground or a pole mount partway up the slope provides dramatically better sky access than the house itself
 - **Honest assessment** — if a property's sky view is too restricted, we'll tell you. Better to know before investing than to discover it after installation
 
-**Ridgetop properties** are a different story — these tend to have excellent sky views and produce some of the best Starlink speeds we see in Ohio. If your home sits on or near a ridge, installation is straightforward and performance is typically very good.
+**Ridgetop properties** are a different story — these tend to have excellent sky views and produce some of the best Starlink speeds we see in Ohio. If your building sits on or near a ridge, installation is straightforward and performance is typically very good.
 
 **Tree cover** is moderate in Appalachian Ohio. The hardwood forests are dense but the trees (oak, hickory, maple, beech) are generally 50-70 feet tall. A roof mount on a two-story home usually provides adequate clearance. Single-story homes in heavy tree cover may need a pole mount or extended mast.
 
@@ -689,13 +689,13 @@ Ohio's Appalachian foothills present moderate installation challenges — easier
 
 Ohio's Starlink performance is solid. The state has moderate user density — more congested than North Dakota, less than New Jersey.
 
-- **Standard ($50/mo):** 60-100 Mbps download. A massive upgrade from DSL or legacy satellite. This plan handles streaming, video calls, remote work, and homework without issue for most households
-- **Standard ($80/mo):** 100-200 Mbps. Better for larger families or home offices with significant upload needs
-- **Priority ($120/mo):** 150-300 Mbps. Best for businesses or heavy-use households
+- **Standard ($50/mo):** 60-100 Mbps download. A massive upgrade from DSL or legacy satellite. This plan handles streaming, video calls, and remote work without issue for most sites
+- **Standard ($80/mo):** 100-200 Mbps. Better for larger teams or on-site offices with significant upload needs
+- **Priority ($120/mo):** 150-300 Mbps. Best for businesses or heavy-use sites
 
 Equipment is **$349** for the dish and router.
 
-For context: a family going from 3 Mbps DSL to the $50/month Starlink plan is experiencing a 20-30x speed increase while potentially paying less per month than their DSL bill (Frontier DSL in Ohio ranges from $40-60/month for those pathetic speeds).
+For context: a site going from 3 Mbps DSL to the $50/month Starlink plan is experiencing a 20-30x speed increase while potentially paying less per month than their DSL bill (Frontier DSL in Ohio ranges from $40-60/month for those pathetic speeds).
 
 ## Beyond the Appalachian Region
 
@@ -761,7 +761,7 @@ The Starlink dish is rated by SpaceX to withstand winds up to about 60 mph when 
 
 **Mount selection is everything.**
 
-- **Roof mounts** — We bolt into structural trusses or rafters, never just through decking. Every lag bolt is sized for wind uplift forces, not just the weight of the dish. On typical Oklahoma residential construction (asphalt shingle roofs on trusses), we use stainless steel lag bolts with rubber-gasketed base plates
+- **Roof mounts** — We bolt into structural trusses or rafters, never just through decking. Every lag bolt is sized for wind uplift forces, not just the weight of the dish. On typical Oklahoma light-frame construction (asphalt shingle roofs on trusses), we use stainless steel lag bolts with rubber-gasketed base plates
 - **Reinforced pole mounts** — For properties where a roof mount isn't ideal, we set 2.5-inch schedule 40 steel poles in concrete footings 36-42 inches deep (below frost line). These are rated for sustained winds well above 100 mph
 - **Low-profile positioning** — Counter-intuitively, mounting the dish lower on a roof (behind the ridge peak relative to prevailing storm direction) can provide wind protection while maintaining adequate sky view. We assess prevailing severe weather approach direction (typically southwest in Oklahoma) when choosing position
 
@@ -779,7 +779,7 @@ The dish itself is surprisingly resilient — its polycarbonate/composite constr
 
 - Position the dish on the lee side of roof peaks when possible, providing some protection from the predominant storm direction
 - On pole mounts, mounting slightly lower and using the house itself as a windbreak on the storm side helps
-- We always document the installation with photos so that if hail damage does occur, homeowner's insurance claims are straightforward. The dish and installation are typically covered under your homeowner's policy
+- We always document the installation with photos so that if hail damage does occur, property insurance claims are straightforward. The dish and installation are typically covered under your property policy
 
 **Replacement reality:** If a severe hail event does destroy your dish, SpaceX sells replacements for $349. Insurance usually covers it. We can reinstall on the existing mount quickly since the infrastructure is already in place.
 
@@ -795,7 +795,7 @@ Tornadoes don't just knock down houses — they destroy the communications infra
 
 - If your dish survives but your house doesn't, the dish can be temporarily mounted on any stable structure — a pole driven into the ground, a remaining wall, even laid flat on a clear piece of ground (with reduced but functional performance)
 - Power is the main challenge. A generator, vehicle inverter, or portable power station can run the dish. The Standard dish draws about 40-75 watts — a basic 200-watt portable power station can keep it running for several hours
-- **Starlink's portability feature** means you can technically take your dish to a community staging area and share connectivity with neighbors. Several Oklahoma families have done this after recent severe weather events
+- **Starlink's portability feature** means you can technically take your dish to a community staging area and share connectivity with neighbors. Several Oklahoma customers have done this after recent severe weather events
 
 We've done post-storm reinstallations for customers whose mounts survived but needed realignment, and full replacement installations for customers who lost everything and were rebuilding. In both cases, having internet during the recovery process was described as essential.
 
@@ -816,8 +816,8 @@ The Cherokee Nation, Chickasaw Nation, Muscogee (Creek) Nation, and Choctaw Nati
 
 Oklahoma's relatively sparse population density outside the OKC and Tulsa metros means good Starlink performance.
 
-- **Standard ($50/mo):** 70-100 Mbps download. Reliable for household use, streaming, video calls
-- **Standard ($80/mo):** 120-200 Mbps. Good for families and remote workers
+- **Standard ($50/mo):** 70-100 Mbps download. Reliable for everyday site use, streaming, video calls
+- **Standard ($80/mo):** 120-200 Mbps. Good for busy sites and remote workers
 - **Priority ($120/mo):** 180-350 Mbps. Recommended for businesses and ranch operations managing connected equipment
 
 Equipment cost is **$349** for the dish and router.
@@ -828,14 +828,14 @@ Equipment cost is **$349** for the dish and router.
 
 Oklahoma's Panhandle and the western third of the state are among the most underserved areas. Properties outside of towns like Guymon, Woodward, and Elk City have essentially no wired broadband options. Cellular coverage is spotty.
 
-The good news: installation in western Oklahoma is straightforward. Flat terrain, no trees, wide-open sky. The challenge is purely wind-related, which we've addressed above. These installations tend to go quickly — 2 hours for a typical residential property — because there's no tree obstruction analysis or complicated roof geometry to navigate.
+The good news: installation in western Oklahoma is straightforward. Flat terrain, no trees, wide-open sky. The challenge is purely wind-related, which we've addressed above. These installations tend to go quickly — 2 hours for a typical property — because there's no tree obstruction analysis or complicated roof geometry to navigate.
 
 ## What a Storm-Proof Oklahoma Installation Includes
 
 Every Oklahoma installation from our team includes:
 
 1. **Wind assessment** — We evaluate your property's exposure to prevailing storm winds and position the dish accordingly
-2. **Reinforced mounting** — Structural attachment rated for Oklahoma wind loads, not generic residential standards
+2. **Reinforced mounting** — Structural attachment rated for Oklahoma wind loads, not generic light-duty standards
 3. **Protected cable routing** — Rigid conduit, sealed penetrations, drip loops
 4. **Storm documentation** — Photos of completed installation for insurance purposes
 5. **Speed verification** — We don't leave until the system is online and performing

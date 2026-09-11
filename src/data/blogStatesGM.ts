@@ -6,7 +6,7 @@ export const statesGM: BlogPost[] = [
     title:
       "The Broadband Gap Between Atlanta and Rural Georgia Is Massive — Starlink Closes It",
     metaTitle:
-      "Starlink Installation in Georgia | Rural Broadband Solution | Starnet Pros",
+      "Independent Starlink Installation in Georgia | Rural Broadband Solution | Starnet Pros",
     metaDescription:
       "Professional Starlink installation for rural Georgia. Learn how farms, small towns, and properties outside metro Atlanta are finally getting real broadband with Starlink.",
     excerpt:
@@ -60,7 +60,7 @@ If you are on a Georgia property where the internet situation is holding you bac
     title:
       "Starlink in Hawaii: Island Connectivity, Tropical Challenges, and What Actually Works",
     metaTitle:
-      "Starlink Installation in Hawaii | Island Internet Solutions | Starnet Pros",
+      "Independent Starlink Installation in Hawaii | Island Internet Solutions | Starnet Pros",
     metaDescription:
       "Professional Starlink installation across Hawaii's islands. Tropical weather prep, vacation rental setups, and inter-island connectivity solutions from experienced installers.",
     excerpt:
@@ -118,7 +118,7 @@ If you have a property on any of the Hawaiian islands where internet has been a 
     title:
       "Remote Workers Moved to Idaho for the Lifestyle — Then Hit the Internet Problem",
     metaTitle:
-      "Starlink Installation in Idaho | Remote Work Internet | Starnet Pros",
+      "Independent Starlink Installation in Idaho | Remote Work Internet | Starnet Pros",
     metaDescription:
       "Professional Starlink installation across Idaho for remote workers, rural properties, and mountain homes. Learn how Idaho's new residents are solving connectivity.",
     excerpt:
@@ -144,9 +144,9 @@ A lot of people think any internet connection will do for remote work. That is t
 - **Video conferencing** — Zoom, Teams, and Google Meet want 3-5 Mbps per stream, and they want it consistently. A connection that spikes to 20 Mbps but drops to 1 Mbps every few minutes is worse than a steady 10 Mbps connection.
 - **VPN connections** — Many employers require VPN, which adds overhead to every packet. You need headroom above your baseline needs.
 - **Cloud file access** — Google Drive, Dropbox, SharePoint. Large file uploads and downloads happen daily.
-- **Household competition** — You are on a video call, your partner is streaming a training video, and your kid is in an online class. That is three simultaneous high-bandwidth streams.
+- **Simultaneous demand** — You are on a video call, a colleague is streaming a training video, and a third person is on a webinar. That is three simultaneous high-bandwidth streams.
 
-Starlink's Standard plan at $50/mo delivers around 100 Mbps — that handles a remote work household comfortably. The $80/mo tier pushes toward 200 Mbps for households with heavier usage. The $120/mo MAX plan at up to 400 Mbps is overkill for most residential users but makes sense if you are running a business from home. Equipment is $349 one-time.
+Starlink's Standard plan at $50/mo delivers around 100 Mbps — that handles a remote work setup comfortably. The $80/mo tier pushes toward 200 Mbps for sites with heavier usage. The $120/mo MAX plan at up to 400 Mbps is overkill for most small offices but makes sense if you are running a full operation on-site. Equipment is $349 one-time.
 
 ## Idaho-Specific Installation Challenges
 
@@ -183,7 +183,7 @@ If you are one of the people who moved to Idaho for the lifestyle and discovered
     title:
       "Downstate Illinois Has Been Forgotten by ISPs — Starlink Has Not",
     metaTitle:
-      "Starlink Installation in Illinois | Downstate Broadband | Starnet Pros",
+      "Independent Starlink Installation in Illinois | Downstate Broadband | Starnet Pros",
     metaDescription:
       "Professional Starlink installation for southern and central Illinois. Learn why downstate communities are turning to Starlink while Chicago enjoys gigabit fiber.",
     excerpt:
@@ -202,7 +202,7 @@ Then there is everything else.
 
 Below I-80, the broadband landscape deteriorates rapidly. The central Illinois corridor along I-55 between Bloomington and Springfield has adequate service in the cities themselves, but the surrounding townships? You are looking at Frontier DSL that delivers single-digit megabits on a good day, or small-town cable co-ops running legacy coax infrastructure that maxes out at 25 Mbps. Southern Illinois — the area locals call "Little Egypt" — has some of the worst broadband access in the entire Midwest.
 
-I have installed Starlink for a school administrator in Harrisburg who could not reliably join virtual meetings from home. For a small manufacturer in Flora who was emailing production files because he could not use cloud collaboration tools. For a family in Anna who had three kids trying to do homework on a connection that could barely load a webpage.
+I have installed Starlink for a school administrator in Harrisburg who could not reliably join virtual meetings. For a small manufacturer in Flora who was emailing production files because he could not use cloud collaboration tools. For an insurance office in Anna operating on a connection that could barely load a webpage.
 
 This is not a minor inconvenience problem. It is an economic development problem, an education problem, and a healthcare access problem.
 
@@ -230,7 +230,7 @@ The obstructions we do encounter:
 
 Something I have noticed working in small Illinois towns: when one person gets Starlink installed and word gets out that it works, the orders cascade. I did three installations on the same road outside Mattoon in a single week because the first customer told his neighbors. A community that has been collectively frustrated for years jumps at a real solution when they see proof it works.
 
-This matters beyond individual households. When broadband arrives in a small town — even via satellite — small businesses can adopt modern tools. The local insurance agent can do video consultations. The accountant can use cloud-based software instead of local installs. The grain elevator can get real-time market data. The cumulative economic impact in a town of 500 people is meaningful.
+This matters beyond individual subscribers. When broadband arrives in a small town — even via satellite — small businesses can adopt modern tools. The local insurance agent can do video consultations. The accountant can use cloud-based software instead of local installs. The grain elevator can get real-time market data. The cumulative economic impact in a town of 500 people is meaningful.
 
 ## What Downstate Customers Should Know
 
@@ -240,7 +240,7 @@ A few practical notes specific to Illinois:
 
 **Latency is typically 25-50 ms.** Fine for video calls, streaming, and general use. Not ideal for competitive gaming, but dramatically better than the 500+ ms latency on some of the old DSL connections I have replaced.
 
-**Multiple users work fine.** The Standard plan handles a typical household — streaming, video calls, and web browsing simultaneously. Families with heavy usage should consider the $80/mo tier for the extra headroom.
+**Multiple users work fine.** The Standard plan handles a typical small office — streaming, video calls, and web browsing simultaneously. Operations with heavy usage should consider the $80/mo tier for the extra headroom.
 
 If you are downstate and tired of being on the wrong side of the digital divide, [book an installation](/book) or [get in touch with us](/contact). We have worked across central and southern Illinois and know the conditions well.`,
   },
@@ -282,11 +282,11 @@ Let me break down the connectivity requirements for a modern Indiana farm operat
 
 **Market Access** — Grain marketing in 2026 is a real-time activity. Futures prices move by the second, basis levels change daily, and forward contracting platforms require a stable connection. The farmer who can only check markets when he drives to town is at a disadvantage.
 
-For all of this, you need a connection that delivers consistent speeds. Not a connection that hits 50 Mbps in a speed test at 2 AM but drops to 2 Mbps during business hours. Starlink's Standard plan at $50/mo provides around 100 Mbps — more than enough for most farm operations. The $80/mo tier handles heavier households, and the $120/mo MAX plan is there for operations that need maximum throughput. Equipment is $349.
+For all of this, you need a connection that delivers consistent speeds. Not a connection that hits 50 Mbps in a speed test at 2 AM but drops to 2 Mbps during business hours. Starlink's Standard plan at $50/mo provides around 100 Mbps — more than enough for most farm operations. The $80/mo tier handles heavier usage, and the $120/mo MAX plan is there for operations that need maximum throughput. Equipment is $349.
 
 ## Installing on Indiana Farm Properties
 
-Farm installations are different from residential setups, and Indiana farms have some specific characteristics:
+Farm installations are different from standard single-building setups, and Indiana farms have some specific characteristics:
 
 **Outbuilding clearance** — A typical Indiana farm has the house, a machine shed, one or more grain bins, possibly a hog barn or poultry house, and various smaller structures. The Starlink dish needs a clear sky view, which means finding a mounting location that is not shadowed by grain bins (which can be 50+ feet tall) or large barns. We usually mount on the house roof on the side facing away from the tallest structures, or install a pole mount in a clear area of the property.
 
@@ -365,7 +365,7 @@ Iowa weather is intense and varied:
 
 ## Setting Up Multi-Building Farm Networks
 
-A typical Iowa farm installation is not just putting a dish on the house. The farmer needs connectivity in the house (for family use and farm office work), in the shop (for equipment diagnostics and parts ordering), and often in the barn (for livestock monitoring). These buildings might be 100 to 500 feet apart.
+A typical Iowa farm installation is not just putting a dish on the house. The farmer needs connectivity in the house (for farm office work and day-to-day use), in the shop (for equipment data and parts ordering), and often in the barn (for livestock monitoring). These buildings might be 100 to 500 feet apart.
 
 We design these networks with the Starlink dish feeding a central router, then extending connectivity via:
 
@@ -382,7 +382,7 @@ If you are running an Iowa farm operation and your connectivity does not match y
     title:
       "Starlink on the Great Plains: Why Kansas Has Perfect Skies and Brutal Weather",
     metaTitle:
-      "Starlink Installation in Kansas | Great Plains Setup | Starnet Pros",
+      "Independent Starlink Installation in Kansas | Great Plains Setup | Starnet Pros",
     metaDescription:
       "Professional Starlink installation for Kansas properties. Clear sky advantages, wind and tornado hardening, and what flat terrain means for satellite internet performance.",
     excerpt:
@@ -442,7 +442,7 @@ If you are on a Kansas property and ready for internet that matches the 21st cen
     title:
       "Bringing Internet to the Hollers: Starlink in Appalachian Kentucky",
     metaTitle:
-      "Starlink Installation in Kentucky | Appalachian Broadband | Starnet Pros",
+      "Independent Starlink Installation in Kentucky | Appalachian Broadband | Starnet Pros",
     metaDescription:
       "Professional Starlink installation for eastern Kentucky and Appalachian communities. Mountain terrain solutions, holler installations, and connecting coal country to broadband.",
     excerpt:
@@ -457,7 +457,7 @@ If you are on a Kansas property and ready for internet that matches the 21st cen
 
 To understand Kentucky's broadband problem, you need to understand its geography. Eastern Kentucky is defined by the Appalachian Mountains — not the dramatic peaks of the Rockies, but a dense, folded landscape of narrow valleys (hollers), steep ridges, and heavy forest cover. This terrain has shaped everything about the region for centuries, from its culture to its economy. And it has made modern internet infrastructure nearly impossible to build.
 
-Running fiber into a holler requires stringing cable down a narrow road that twists along a creek bed, serving maybe 10-15 homes over several miles. The cost per household is astronomical compared to a suburban subdivision. Fixed wireless does not work because there is no line of sight between a tower on one ridge and a home tucked down in the next valley. Cellular coverage is spotty at best — many hollers have zero bars.
+Running fiber into a holler requires stringing cable down a narrow road that twists along a creek bed, serving maybe 10-15 homes over several miles. The cost per address is astronomical compared to a suburban subdivision. Fixed wireless does not work because there is no line of sight between a tower on one ridge and a home tucked down in the next valley. Cellular coverage is spotty at best — many hollers have zero bars.
 
 The result is that communities in Letcher, Knott, Pike, Floyd, Breathitt, Magoffin, and dozens of other eastern Kentucky counties have been effectively locked out of the broadband economy. Not because they do not want internet, but because the ground between them and the nearest point of presence is too difficult and too expensive to cross.
 
@@ -521,7 +521,7 @@ If you are in Kentucky and you have been told "broadband is not available at you
     title:
       "Starlink in Louisiana: Bayou Installs, Hurricane Prep, and Coastal Corrosion",
     metaTitle:
-      "Starlink Installation in Louisiana | Bayou & Coastal Setup | Starnet Pros",
+      "Independent Starlink Installation in Louisiana | Bayou & Coastal Setup | Starnet Pros",
     metaDescription:
       "Professional Starlink installation for Louisiana properties. Hurricane-rated mounts, marine-grade hardware for coastal corrosion, and connectivity for fishing and offshore industries.",
     excerpt:
@@ -551,7 +551,7 @@ The Starlink dish has a relatively low wind profile — it is flat and compact c
 - **Lock washers and thread-locking compound** on every fastener so vibration from sustained high winds cannot work things loose
 - **Conduit-protected cable runs** secured with stainless steel clamps at close intervals so wind cannot whip cables
 
-For properties in the highest-risk coastal parishes — Plaquemines, Terrebonne, Lafourche, Cameron, Vermilion — we discuss whether to install a quick-disconnect mount that lets the homeowner remove the dish before a major storm and remount it afterward. It adds a step, but it can save a $349 dish and prevent roof damage from a flying mount assembly.
+For properties in the highest-risk coastal parishes — Plaquemines, Terrebonne, Lafourche, Cameron, Vermilion — we discuss whether to install a quick-disconnect mount that lets the property owner remove the dish before a major storm and remount it afterward. It adds a step, but it can save a $349 dish and prevent roof damage from a flying mount assembly.
 
 We also recommend keeping the original Starlink box and packaging. If a dish is damaged or destroyed in a hurricane, the replacement process through SpaceX is straightforward, but having the box makes shipping easier.
 
@@ -591,7 +591,7 @@ Louisiana's coastal economy depends heavily on fishing and offshore oil and gas.
 
 The same plans apply everywhere in Louisiana:
 
-- **Standard:** $50/mo, approximately 100 Mbps — solid for a household or small operation
+- **Standard:** $50/mo, approximately 100 Mbps — solid for a small operation
 - **Mid-tier:** $80/mo, up to 200 Mbps — good for properties with heavy usage or multiple connected users
 - **MAX:** $120/mo, up to 400 Mbps — for businesses and operations needing maximum throughput
 - **Equipment:** $349 one-time

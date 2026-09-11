@@ -3,11 +3,11 @@ import { BlogPost } from "./blogPosts";
 export const topical1: BlogPost[] = [
   {
     slug: "starlink-vs-cable-internet",
-    title: "Starlink vs Cable Internet: An Honest Comparison for Rural Homes",
+    title: "Starlink vs Cable Internet: An Honest Comparison for Rural Businesses",
     metaTitle:
-      "Starlink vs Cable Internet: Honest Comparison for Rural Homes (2026)",
+      "Starlink vs Cable Internet: Honest Comparison for Rural Businesses (2026)",
     metaDescription:
-      "Real speed tests, pricing breakdowns, and reliability data comparing Starlink satellite to cable internet. No hype — just what actually matters for rural homeowners.",
+      "Real speed tests, pricing breakdowns, and reliability data comparing Starlink satellite to cable internet. No hype — just what actually matters for rural business owners.",
     excerpt:
       "If you live outside city limits, your internet options are probably limited. Here is a straightforward comparison of Starlink and cable based on real-world performance, not marketing claims.",
     date: "2026-03-05",
@@ -26,7 +26,7 @@ Now here is the detail.
 
 Cable plans from Spectrum, Xfinity, and Cox typically range from 100 to 500 Mbps download, with some areas offering gigabit service. Upload speeds on cable usually sit between 10 and 35 Mbps.
 
-Starlink residential plans range from 100 to 400 Mbps download depending on which tier you choose. The entry-level plan runs up to 100 Mbps, the mid-tier up to 200 Mbps, and the MAX plan up to 400 Mbps. Real-world results vary by location, time of day, and how many Starlink users are in your area. Upload speeds on Starlink typically range from 10 to 20 Mbps.
+Starlink standard plans range from 100 to 400 Mbps download depending on which tier you choose. The entry-level plan runs up to 100 Mbps, the mid-tier up to 200 Mbps, and the MAX plan up to 400 Mbps. Real-world results vary by location, time of day, and how many Starlink users are in your area. Upload speeds on Starlink typically range from 10 to 20 Mbps.
 
 The important thing to understand is that Starlink speeds fluctuate more than cable. You might see 180 Mbps at 2 PM and 80 Mbps at 8 PM on a standard plan. Cable connections tend to be more stable hour to hour, though rural cable infrastructure can be its own mess of aging lines and neighborhood congestion.
 
@@ -38,7 +38,7 @@ If gaming latency matters to you and cable is available, cable is the better cho
 
 ## Pricing Breakdown (Current as of Early 2026)
 
-**Starlink Residential:**
+**Starlink Standard Plans:**
 - 100 Mbps plan: $50 per month
 - 200 Mbps plan: $80 per month
 - MAX plan (up to 400 Mbps): $120 per month
@@ -89,7 +89,7 @@ Every Starlink subscription requires a hardware kit. Here is what SpaceX current
 - **Starlink Mini:** $199 to $499 depending on availability — smaller, portable dish
 - **High Performance Kit:** $1,999 — larger dish for business and priority plans
 
-The Standard Kit is what most residential customers buy. It ships to your door in a box that weighs about 15 pounds. SpaceX also charges around $50 for shipping and handling on top of the equipment price.
+The Standard Kit is what most customers buy. It ships to your door in a box that weighs about 15 pounds. SpaceX also charges around $50 for shipping and handling on top of the equipment price.
 
 One thing that catches people off guard: there is no option to rent equipment in most areas. You buy the hardware outright. SpaceX does offer a 30-day return policy if you decide Starlink is not for you.
 
@@ -97,9 +97,9 @@ One thing that catches people off guard: there is no option to rent equipment in
 
 Starlink has restructured their plans over the past year. Here is where things stand in early 2026:
 
-- **Residential 100 Mbps:** $50 per month — entry-level plan with speeds up to 100 Mbps
-- **Residential 200 Mbps:** $80 per month — mid-tier, up to 200 Mbps, most popular for households
-- **Residential MAX:** $120 per month — up to 400 Mbps, unlimited priority data
+- **Standard 100 Mbps:** $50 per month — entry-level plan with speeds up to 100 Mbps
+- **Standard 200 Mbps:** $80 per month — mid-tier, up to 200 Mbps, most popular for small sites
+- **Standard MAX:** $120 per month — up to 400 Mbps, unlimited priority data
 - **Roam 100 GB:** $50 per month — portable use with 100 GB data cap
 - **Roam Unlimited:** $165 per month — portable use with no data cap
 - **Business Priority:** Starting at $65 per month, scaling to $540 or more depending on data needs
@@ -129,7 +129,7 @@ Professional installation from a company like ours typically runs $200 to $500 d
 
 ## First-Year Total Estimate
 
-For a typical residential customer on the 200 Mbps plan with professional installation:
+For a typical customer on the 200 Mbps plan with professional installation:
 
 - Equipment: $349
 - Shipping: $50
@@ -167,7 +167,7 @@ Precision agriculture tools need internet connectivity. Automated grain monitori
 
 ## What Starlink Actually Delivers on Farm Properties
 
-Starlink residential plans provide up to 100, 200, or 400 Mbps depending on your plan tier. For farm operations, the $80 per month plan at 200 Mbps handles most needs comfortably. Here is what that speed enables in practice:
+Starlink standard plans provide up to 100, 200, or 400 Mbps depending on your plan tier. For farm operations, the $80 per month plan at 200 Mbps handles most needs comfortably. Here is what that speed enables in practice:
 
 **Real-time grain market data.** Streaming commodity prices, executing trades, and monitoring futures requires consistent connectivity but not massive bandwidth. Starlink handles this easily.
 
@@ -175,7 +175,7 @@ Starlink residential plans provide up to 100, 200, or 400 Mbps depending on your
 
 **Livestock monitoring.** Connected cameras, water level sensors, and health monitoring collars need always-on internet to report back to your phone or dashboard. Starlink provides the persistent connection these devices require.
 
-**Video calls and telehealth.** Farm families need the same internet access as everyone else. Starlink makes video conferencing, telehealth appointments, and remote learning work reliably.
+**Video calls and telehealth.** Farm teams need the same internet access as everyone else. Starlink makes video conferencing, telehealth appointments, and remote learning work reliably.
 
 ## Where Starlink Falls Short on Farms
 
@@ -342,7 +342,7 @@ For construction site use, two plans make the most sense:
 
 **Roam Unlimited ($165 per month):** If you move between job sites frequently, the Roam plan lets you take Starlink anywhere without changing your service address. No data cap. Speeds up to 260 Mbps. You can pack it up Friday and set it up at a different site Monday.
 
-**Residential 200 Mbps ($80 per month):** If the site is at a fixed location for several months or longer, a standard residential plan saves money. You will need to update your service address in the Starlink app.
+**Standard 200 Mbps ($80 per month):** If the site is at a fixed location for several months or longer, a standard fixed-address plan saves money. You will need to update your service address in the Starlink app.
 
 Equipment cost is $349 for the Standard Kit or as low as $199 for the Starlink Mini, which is smaller and lighter for job site portability.
 
@@ -418,15 +418,15 @@ The Gen 3 Starlink router has an Ethernet port built in. If you have an older mo
 
 ## 4. Relocate Your Router
 
-Wi-Fi signal degrades with distance and through walls. If your Starlink router is in the corner of your house and you are testing speeds three rooms away, you are testing your Wi-Fi, not your Starlink connection.
+Wi-Fi signal degrades with distance and through walls. If your Starlink router is in the corner of your building and you are testing speeds three rooms away, you are testing your Wi-Fi, not your Starlink connection.
 
-Move the router to a central location in your home. Place it on a shelf or table, not on the floor and not inside a closet or cabinet. If your home layout forces the router to be in a bad spot because of where the cable enters, consider a mesh Wi-Fi system to extend coverage.
+Move the router to a central location in your building. Place it on a shelf or table, not on the floor and not inside a closet or cabinet. If your floor plan forces the router to be in a bad spot because of where the cable enters, consider a mesh Wi-Fi system to extend coverage.
 
 ## 5. Reduce Network Congestion
 
-If your household has 15 devices connected and someone is uploading a large file while two people stream video, speeds will drop for everyone. Starlink's bandwidth is shared across all connected devices.
+If your site has 15 devices connected and someone is uploading a large file while two people stream video, speeds will drop for everyone. Starlink's bandwidth is shared across all connected devices.
 
-Check what devices are connected to your network and disconnect anything that does not need to be online. Smart home devices, old phones, and tablets left on Wi-Fi all consume bandwidth in the background.
+Check what devices are connected to your network and disconnect anything that does not need to be online. Connected devices, old phones, and tablets left on Wi-Fi all consume bandwidth in the background.
 
 ## 6. Test at Different Times of Day
 
@@ -450,7 +450,7 @@ Firmware updates can improve speed, reduce latency, and fix bugs. SpaceX release
 
 If you have already optimized dish placement and still get poor Wi-Fi coverage, replace the Starlink router with a better one. The Starlink dish can work in bypass mode, passing its internet connection to any standard Wi-Fi router.
 
-Mesh systems from TP-Link, Eero, or Ubiquiti provide much better whole-home coverage than the stock Starlink router. For a large home or property with outbuildings, this is often the missing piece.
+Mesh systems from TP-Link, Eero, or Ubiquiti provide much better whole-building coverage than the stock Starlink router. For a large facility or property with outbuildings, this is often the missing piece.
 
 ## What Does Not Work
 
@@ -485,11 +485,11 @@ Starlink lets you offer reliable broadband at properties where cable and fiber w
 
 ## Choosing the Right Plan
 
-**Residential 200 Mbps ($80 per month):** Best for most vacation rentals. Supports streaming on multiple devices, video calls, and general browsing for a household of guests. Up to 200 Mbps download.
+**Standard 200 Mbps ($80 per month):** Best for most vacation rentals. Supports streaming on multiple devices, video calls, and general browsing for a full property of guests. Up to 200 Mbps download.
 
-**Residential MAX ($120 per month):** If your rental sleeps 8 or more guests and they will all be streaming simultaneously, the extra bandwidth helps. Up to 400 Mbps.
+**Standard MAX ($120 per month):** If your rental sleeps 8 or more guests and they will all be streaming simultaneously, the extra bandwidth helps. Up to 400 Mbps.
 
-**Roam plans are not ideal** for a fixed vacation rental because they are designed for portable use and may not deliver the same consistent speeds as a residential plan locked to your address.
+**Roam plans are not ideal** for a fixed vacation rental because they are designed for portable use and may not deliver the same consistent speeds as a standard plan locked to your address.
 
 Equipment cost: $349 one-time for the Standard Kit.
 
@@ -499,7 +499,7 @@ Equipment cost: $349 one-time for the Standard Kit.
 
 **Hide the router.** Place the router in a closet, utility room, or locked cabinet. Guests do not need to see or touch it. Label the Wi-Fi network name and password clearly in your welcome guide.
 
-**Use a separate network.** If you have smart home devices like a Nest thermostat, smart locks, or security cameras, put them on a separate network from the guest Wi-Fi. This prevents guests from accessing or interfering with your property management devices. Most modern routers support guest networks or VLANs.
+**Use a separate network.** If you have connected property devices like a Nest thermostat, smart locks, or security cameras, put them on a separate network from the guest Wi-Fi. This prevents guests from accessing or interfering with your property management devices. Most modern routers support guest networks or VLANs.
 
 **Consider a mesh system.** If the rental has multiple buildings (main house plus guest house, for example) or thick log walls, the Starlink router alone may not cover everything. A mesh system like Eero or TP-Link Deco extends coverage.
 
@@ -507,9 +507,9 @@ Equipment cost: $349 one-time for the Standard Kit.
 
 **Set expectations in your listing.** Describe the internet as "high-speed satellite internet (Starlink)" and mention typical speeds. Do not promise specific numbers since Starlink speeds vary. Something like "reliable internet suitable for streaming and video calls" sets the right expectation.
 
-**Monitor usage remotely.** The Starlink app lets you check connectivity and speeds from anywhere. If a guest reports issues, you can troubleshoot without being on-site.
+**Monitor usage remotely.** The Starlink app lets you check connectivity and speeds from anywhere. If a guest reports issues, you can check the connection and dish status without being on-site.
 
-**No data caps to worry about.** Residential Starlink plans have unlimited data. You do not need to worry about a guest binge-watching Netflix for a week and running up overages.
+**No data caps to worry about.** Standard Starlink plans have unlimited data. You do not need to worry about a guest binge-watching Netflix for a week and running up overages.
 
 ## The ROI Calculation
 
@@ -523,7 +523,7 @@ The review improvement is harder to quantify but equally important. A 4.8-star p
 
 **Snow coverage on the dish.** The dish heats itself, but heavy snow in mountain areas can sometimes accumulate faster than it melts. A steep roof mount angle helps snow slide off naturally.
 
-**Guest "tech support" calls.** Some guests will contact you about Wi-Fi issues that are actually user error. Including clear connection instructions in your welcome guide reduces these calls significantly.
+**Guest connection questions.** Some guests will contact you about Wi-Fi issues that are actually user error. Including clear connection instructions in your welcome guide reduces these calls significantly.
 
 If you own a vacation rental property and want Starlink installed properly, [contact us](/contact) for a quote. We have set up Starlink for dozens of rental properties across the country.`,
   },
@@ -617,9 +617,9 @@ Questions about how Starlink will perform at your specific location? [Contact us
       "Rural landscape with a cell tower visible in the background",
     content: `## What Is Fixed Wireless?
 
-Fixed wireless internet uses radio signals from a nearby tower to deliver internet to an antenna at your home. This includes services from local WISPs (Wireless Internet Service Providers), T-Mobile Home Internet, and Verizon Home Internet (5G Home).
+Fixed wireless internet uses radio signals from a nearby tower to deliver internet to an antenna at your location. This includes services from local WISPs (Wireless Internet Service Providers), T-Mobile Home Internet, and Verizon Home Internet (5G Home).
 
-The "fixed" part means the antenna stays in one place, pointed at the tower. Unlike cellular hotspots, fixed wireless services are designed for home use with better antennas and sometimes dedicated spectrum.
+The "fixed" part means the antenna stays in one place, pointed at the tower. Unlike cellular hotspots, fixed wireless services are designed for fixed-site use with better antennas and sometimes dedicated spectrum.
 
 ## Speed Comparison
 
@@ -710,11 +710,11 @@ Want to discuss your options? [Contact us](/contact) and we will help you figure
 
 If you can see more trees than sky from your yard, ground-level dish placement is not going to cut it. The Starlink app's obstruction checker will light up red, and your speeds will suffer.
 
-Professional installation means getting the dish above the tree line on a tall pole mount or at the highest point on your roof. This often requires equipment, safety gear, and experience that most homeowners do not have.
+Professional installation means getting the dish above the tree line on a tall pole mount or at the highest point on your roof. This often requires equipment, safety gear, and experience that most property owners do not have.
 
-## 2. You Have a Two-Story or Steep-Roof Home
+## 2. You Have a Two-Story or Steep-Roof Building
 
-Climbing onto a two-story roof with a satellite dish, drill, lag bolts, and sealant is dangerous if you are not experienced. Falls from roofs are one of the most common causes of serious home improvement injuries.
+Climbing onto a two-story roof with a satellite dish, drill, lag bolts, and sealant is dangerous if you are not experienced. Falls from roofs are one of the most common causes of serious DIY injuries.
 
 A professional crew has the ladders, harnesses, and experience to work safely at height. The installation also gets done faster and cleaner than most DIY attempts on steep roofs.
 

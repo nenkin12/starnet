@@ -3,9 +3,9 @@ import { BlogPost } from "./blogPosts";
 export const topical2: BlogPost[] = [
   {
     slug: "starlink-for-remote-workers",
-    title: "Working From Home on Starlink: What to Expect",
+    title: "Remote Work Sites on Starlink: What to Expect",
     metaTitle:
-      "Working From Home on Starlink: What Remote Workers Actually Experience",
+      "Remote Work on Starlink: What Remote Workers Actually Experience",
     metaDescription:
       "Can you work remotely on Starlink? Real experiences with Zoom calls, VPNs, large file uploads, and all-day reliability from people who depend on it daily.",
     excerpt:
@@ -25,7 +25,7 @@ This is the question everyone asks first. Zoom, Teams, Google Meet, and Webex al
 
 The issue is not bandwidth — it is consistency. If your dish has obstructions (trees, buildings blocking part of the sky), you will get brief dropouts every few minutes. These show up as frozen video, choppy audio, or momentary disconnections. With a properly mounted dish and zero obstructions, video calls work reliably all day.
 
-On the $50 plan (100 Mbps), video calls work fine. On the $80 plan (200 Mbps), you have plenty of headroom for calls plus other household activity. The $120 MAX plan is overkill for video calling alone but useful if your household has multiple heavy users.
+On the $50 plan (100 Mbps), video calls work fine. On the $80 plan (200 Mbps), you have plenty of headroom for calls plus other on-site activity. The $120 MAX plan is overkill for video calling alone but useful if your site has multiple heavy users.
 
 ## VPN Connections
 
@@ -55,21 +55,21 @@ Remote work requires internet that works from 8 AM to 6 PM, not just occasionall
 
 **Weather causes brief interruptions.** Heavy rainstorms may cause a few minutes of reduced speeds. This happens a few times per month in most locations. Having a cellular hotspot as a backup for critical meetings is a reasonable precaution.
 
-## Setting Up Your Home Office Network
+## Setting Up Your Remote Office Network
 
 **Use Ethernet when possible.** Connect your work computer directly to the Starlink router via Ethernet cable for the most stable connection. Wi-Fi adds variability that you do not need during an important call.
 
-**Prioritize your office.** If you replace the Starlink router with a third-party router that supports QoS (Quality of Service), you can prioritize traffic from your work device over streaming and gaming from other household members.
+**Prioritize your office.** If you replace the Starlink router with a third-party router that supports QoS (Quality of Service), you can prioritize traffic from your work device over streaming and other activity from the rest of the network.
 
 **Keep your work devices close to the router.** If your office is far from the router, consider a mesh Wi-Fi system or a dedicated access point in your workspace.
 
 ## Which Plan for Remote Work?
 
-**$50 plan (100 Mbps):** Works for basic remote work — email, documents, occasional video calls. Tight if your household has other heavy users online simultaneously.
+**$50 plan (100 Mbps):** Works for basic remote work — email, documents, occasional video calls. Tight if your site has other heavy users online simultaneously.
 
-**$80 plan (200 Mbps):** The sweet spot for most remote workers. Enough bandwidth for all-day video calls, file sharing, and VPN use with room to spare for family members.
+**$80 plan (200 Mbps):** The sweet spot for most remote workers. Enough bandwidth for all-day video calls, file sharing, and VPN use with room to spare for other users.
 
-**$120 MAX plan (400 Mbps):** Only necessary if you have multiple remote workers in the household or extremely data-intensive work (video editing, large dataset transfers).
+**$120 MAX plan (400 Mbps):** Only necessary if you have multiple remote workers at the same site or extremely data-intensive work (video editing, large dataset transfers).
 
 If you are setting up a remote work office and want reliable internet from day one, [schedule an installation](/book) and we will make sure your setup is optimized for work.`,
   },
@@ -89,35 +89,35 @@ If you are setting up a remote work office and want reliable internet from day o
     imageAlt: "Starlink router and dish on a table with documentation",
     content: `## Current Starlink Plans (Early 2026)
 
-Starlink has restructured their pricing significantly over the past year. Gone is the single $120 per month residential plan. Now there are tiered options at different price points. Here is what each one actually offers.
+Starlink has restructured their pricing significantly over the past year. Gone is the single $120 per month standard plan. Now there are tiered options at different price points. Here is what each one actually offers.
 
-## Residential Plans
+## Standard Fixed-Location Plans
 
-All residential plans use the same Standard dish ($349 equipment purchase) and are tied to your home address.
+All standard plans use the same Standard dish ($349 equipment purchase) and are tied to your service address.
 
-**Residential 100 Mbps — $50 per month**
+**Standard 100 Mbps — $50 per month**
 
 This is the entry-level plan. Speeds up to 100 Mbps download. In practice, expect 40 to 100 Mbps depending on time of day and network congestion in your area. This plan has the lowest priority during peak hours, meaning your speeds will drop more than other tiers when the network is busy (typically 6 to 11 PM).
 
-Good for: Light internet users, retirees, single-person households, and anyone who primarily browses the web and streams one video at a time.
+Good for: Light internet users, single-user sites, and anyone who primarily browses the web and streams one video at a time.
 
-Not ideal for: Households with multiple heavy users, remote workers on video calls all day, or gamers who want consistent speeds.
+Not ideal for: Sites with multiple heavy users, remote workers on video calls all day, or anyone who wants consistent speeds under load.
 
-**Residential 200 Mbps — $80 per month**
+**Standard 200 Mbps — $80 per month**
 
 The mid-tier plan. Speeds up to 200 Mbps download. Real-world experience is typically 80 to 180 Mbps. You get higher priority than the $50 plan during congestion, which means more consistent speeds during peak hours.
 
-Good for: Most families. Supports multiple devices streaming simultaneously, video conferencing, online gaming, and general household use.
+Good for: Most sites. Supports multiple devices streaming simultaneously, video conferencing, and general everyday use.
 
-This is the plan we recommend for most residential customers. The $30 per month premium over the base plan buys you meaningfully better peak-hour performance.
+This is the plan we recommend for most customers. The $30 per month premium over the base plan buys you meaningfully better peak-hour performance.
 
-**Residential MAX — $120 per month**
+**Standard MAX — $120 per month**
 
-Top-tier residential. Speeds up to 400 Mbps download with the highest priority data allocation. Real-world experience is typically 150 to 350 Mbps. Highest priority on the network means your speeds hold up better than any other residential tier during congestion.
+Top-tier standard plan. Speeds up to 400 Mbps download with the highest priority data allocation. Real-world experience is typically 150 to 350 Mbps. Highest priority on the network means your speeds hold up better than any other standard tier during congestion.
 
-Good for: Households with 4 or more heavy internet users, people who work from home and stream simultaneously, large families.
+Good for: Sites with 4 or more heavy internet users, people who work remotely and stream simultaneously, busy multi-user locations.
 
-Not necessary for: Most households with 1 to 3 users. The $80 plan handles that workload fine.
+Not necessary for: Most sites with 1 to 3 users. The $80 plan handles that workload fine.
 
 ## Roam Plans
 
@@ -153,13 +153,13 @@ Good for: Businesses where internet downtime directly costs money — offices, r
 
 ## Which Plan Should You Choose?
 
-For most homeowners: Start with the **$80 Residential plan**. It balances cost and performance well. If you find it is more than you need, downgrade to $50. If you need more, upgrade to $120.
+For most property owners: Start with the **$80 Standard plan**. It balances cost and performance well. If you find it is more than you need, downgrade to $50. If you need more, upgrade to $120.
 
-For vacation rentals: **$80 or $120 Residential**, depending on how many guests your property sleeps.
+For vacation rentals: **$80 or $120 Standard**, depending on how many guests your property sleeps.
 
 For RV or travel use: **Roam Unlimited** if you use it regularly, **Roam 100 GB** if it is occasional.
 
-For businesses: Evaluate whether the residential $120 MAX plan meets your needs before committing to Priority pricing. Many small businesses do fine on a residential plan.
+For businesses: Evaluate whether the standard $120 MAX plan meets your needs before committing to Priority pricing. Many small businesses do fine on a standard plan.
 
 All plans are month-to-month with no contracts. You can change plans at any time through the Starlink app.
 
@@ -287,7 +287,7 @@ If T-Mobile is inconsistent at your location (common in fringe coverage areas), 
 
 Cable and fiber deliver lower latency, more consistent speeds, and typically cost less than Starlink. Switching would be a downgrade in most measurable ways.
 
-The exception: if you want Starlink as a backup connection for a home business or remote work where downtime costs you money. In that case, running both connections and using Starlink as failover makes sense.
+The exception: if you want Starlink as a backup connection for a business or remote work where downtime costs you money. In that case, running both connections and using Starlink as failover makes sense.
 
 ## The Cost Question
 
@@ -390,13 +390,13 @@ Off-grid properties often have unique mounting challenges:
 
 Off-grid Starlink delivers the same internet experience as grid-connected Starlink. The satellites do not know or care how your dish is powered. Speeds of 100 to 400 Mbps (depending on plan), latency of 20 to 50 milliseconds, and the same weather sensitivities apply.
 
-The difference is in reliability. Grid-connected homes have stable power. Off-grid homes need to manage power carefully. If your batteries die overnight because of unexpected snow increasing the dish heater draw, your internet goes down until the sun comes up or the generator kicks in.
+The difference is in reliability. Grid-connected sites have stable power. Off-grid sites need to manage power carefully. If your batteries die overnight because of unexpected snow increasing the dish heater draw, your internet goes down until the sun comes up or the generator kicks in.
 
 Build in redundancy: oversized battery bank, backup power source, and monitoring of your energy system so you know when Starlink power is at risk.
 
 ## Is It Worth It Off-Grid?
 
-For most off-grid homeowners, absolutely. The alternative is usually no internet at all, or a $100 per month cellular hotspot with a 15 GB data cap. Starlink at $50 to $80 per month with unlimited data and real broadband speeds is dramatically better.
+For most off-grid property owners, absolutely. The alternative is usually no internet at all, or a $100 per month cellular hotspot with a 15 GB data cap. Starlink at $50 to $80 per month with unlimited data and real broadband speeds is dramatically better.
 
 The power infrastructure needed to run it adds $500 to $2,000 to your off-grid setup if you need to expand solar and batteries. But that investment pays off in daily usability for years to come.
 
@@ -428,10 +428,10 @@ Check that all components are in the box: dish, router, cable, power supply, and
 
 ## Know Where You Want the Router
 
-Think about where you spend the most time online in your home. The router should go in a central location, ideally in or near the room where you use the internet most. Common choices:
+Think about where you spend the most time online in your building. The router should go in a central location, ideally in or near the room where you use the internet most. Common choices:
 
-- Home office or workspace
-- Living room or family room
+- Main office or workspace
+- Common area or front room
 - Central hallway
 
 Avoid basements, closets, and utility rooms. The router needs to be out in the open for good Wi-Fi coverage.
@@ -450,14 +450,14 @@ Trim back any obvious vegetation that blocks access to the mounting area. Your i
 
 Make sure there is a working electrical outlet near your planned router location. If you are on an off-grid power system, have your system running and charged before the appointment.
 
-## Plan to Be Home
+## Plan to Be On-Site
 
 Be present for the full installation. Your installer will want to:
 - Walk the property with you to discuss mounting options
 - Confirm where you want the router
 - Show you the obstruction check results
 - Verify speeds with you after installation
-- Walk you through the Starlink app and basic troubleshooting
+- Walk you through the Starlink app and what to check on your setup
 
 Installations typically take 1 to 3 hours depending on the complexity of the mounting and cable routing.
 
@@ -473,13 +473,13 @@ Ready to schedule? [Book your installation](/book) or [contact us](/contact) wit
   },
   {
     slug: "starlink-business-vs-residential",
-    title: "Starlink Business vs Residential: Do You Really Need the Business Plan?",
+    title: "Starlink Business vs Standard Plans: Do You Really Need the Business Plan?",
     metaTitle:
-      "Starlink Business vs Residential: Which Plan Does Your Company Need? (2026)",
+      "Starlink Business vs Standard Plans: Which Plan Does Your Company Need? (2026)",
     metaDescription:
-      "Honest comparison of Starlink Business and Residential plans for companies. When the business plan is worth the higher cost and when residential works just fine.",
+      "Honest comparison of Starlink Business and Standard plans for companies. When the business plan is worth the higher cost and when the standard plan works just fine.",
     excerpt:
-      "The Starlink Business plan costs significantly more than residential. Here is when it is actually worth the premium and when the residential plan works just fine for your business.",
+      "The Starlink Business plan costs significantly more than the standard tiers. Here is when it is actually worth the premium and when a standard plan works just fine for your business.",
     date: "2026-03-05",
     author: "Starnet Pros Team",
     readTime: "6 min read",
@@ -487,24 +487,24 @@ Ready to schedule? [Book your installation](/book) or [contact us](/contact) wit
     imageAlt: "Small business storefront in a rural town with a clear sky above",
     content: `## The Price Difference Is Significant
 
-Starlink Residential MAX: $120 per month, $349 for equipment.
+Starlink Standard MAX: $120 per month, $349 for equipment.
 Starlink Business Priority (entry tier): $65 per month for 50 GB priority, $1,999 for the High Performance dish. Higher tiers scale to $540 per month or more.
 
 That is a big gap in both monthly cost and upfront equipment investment. The question is whether the business plan delivers enough extra value to justify it.
 
 ## What the Business Plan Actually Gives You
 
-**Priority data.** This is the main difference. During peak network congestion, business traffic gets handled before residential traffic. In practice, this means more consistent speeds during evening hours when residential users are streaming heavily.
+**Priority data.** This is the main difference. During peak network congestion, business traffic gets handled before standard-plan traffic. In practice, this means more consistent speeds during evening hours when standard-plan users are streaming heavily.
 
 **Higher Performance dish.** The $1,999 High Performance dish is physically larger and has a wider field of view than the $349 Standard dish. It connects to more satellites simultaneously, which can provide better speeds and reliability.
 
 **Static IP option.** Some businesses need a fixed IP address for hosting services, VPN endpoints, or security configurations. Business plans offer this as an add-on.
 
-**Higher speed potential.** Business plans advertise speeds of 135 to 310 Mbps. In practice, the residential MAX plan on the Standard dish often delivers similar speeds, so this advantage is smaller than it appears.
+**Higher speed potential.** Business plans advertise speeds of 135 to 310 Mbps. In practice, the standard MAX plan on the Standard dish often delivers similar speeds, so this advantage is smaller than it appears.
 
-## When Residential Works for Business
+## When the Standard Plan Works for Business
 
-Most small businesses in rural areas do not need the business plan. Here is when residential is sufficient:
+Most small businesses in rural areas do not need the business plan. Here is when a standard plan is sufficient:
 
 - Your business runs during daytime hours (peak congestion is evenings)
 - You have fewer than 10 employees using the internet simultaneously
@@ -512,7 +512,7 @@ Most small businesses in rural areas do not need the business plan. Here is when
 - A brief speed slowdown during peak hours would not cost you money
 - You do not need a static IP
 
-The residential MAX plan at $120 per month with the $349 Standard dish handles all of this comfortably. You save $1,650 on equipment alone.
+The standard MAX plan at $120 per month with the $349 Standard dish handles all of this comfortably. You save $1,650 on equipment alone.
 
 ## When You Should Consider Business
 
@@ -525,13 +525,13 @@ The residential MAX plan at $120 per month with the $349 Standard dish handles a
 
 ## A Practical Middle Ground
 
-Start with the residential MAX plan ($120 per month). Use it for a month during your busiest periods. If peak-hour speeds are acceptable for your business needs, stay on residential and save the money.
+Start with the standard MAX plan ($120 per month). Use it for a month during your busiest periods. If peak-hour speeds are acceptable for your business needs, stay on the standard plan and save the money.
 
-If you find that evening congestion is causing problems that affect your customers or operations, upgrade to business. The residential equipment works fine in the interim.
+If you find that evening congestion is causing problems that affect your customers or operations, upgrade to business. The standard equipment works fine in the interim.
 
 ## Our Recommendation
 
-About 80 percent of the small businesses we install Starlink for end up on residential plans. The business plan is overkill for a rural office, a small farm operation, or a retail shop with a few employees. Save the $1,650 equipment difference and the higher monthly fees unless you have a specific need that residential cannot meet.
+About 80 percent of the small businesses we install Starlink for end up on standard plans. The business plan is overkill for a rural office, a small farm operation, or a retail shop with a few employees. Save the $1,650 equipment difference and the higher monthly fees unless you have a specific need that a standard plan cannot meet.
 
 For businesses where uptime directly equals revenue — a restaurant running cloud-based POS, a medical clinic with telehealth, a hotel offering guest Wi-Fi — the business plan's priority data is worth the investment.
 
@@ -583,7 +583,7 @@ A location that looks clear in February may be completely blocked by June when d
 
 ## 6. Hiding the Router in a Closet
 
-The Starlink router broadcasts Wi-Fi. Putting it in a closet, behind furniture, or in a basement dramatically reduces signal strength throughout your home. People then blame Starlink for slow speeds when the issue is their Wi-Fi, not their satellite connection.
+The Starlink router broadcasts Wi-Fi. Putting it in a closet, behind furniture, or in a basement dramatically reduces signal strength throughout your building. People then blame Starlink for slow speeds when the issue is their Wi-Fi, not their satellite connection.
 
 **Fix:** Place the router in a central, open location. If you must keep it in a less-than-ideal spot due to cable routing, add a mesh Wi-Fi system to extend coverage.
 
@@ -597,7 +597,7 @@ The Starlink cable is not armored. It is a flat, relatively delicate cable that 
 
 Some customers buy the cheapest plan and then complain about speeds, not realizing that the $50 plan is intentionally slower than the $80 and $120 plans. Others buy the $120 MAX plan when the $50 plan would serve their needs perfectly.
 
-**Fix:** Match your plan to your actual usage. Single or couple with light usage: $50 plan. Family or remote worker: $80 plan. Heavy multi-user household: $120 plan. You can change tiers at any time through the Starlink app.
+**Fix:** Match your plan to your actual usage. Single user with light usage: $50 plan. Busier site or remote worker: $80 plan. Heavy multi-user site: $120 plan. You can change tiers at any time through the Starlink app.
 
 ## The Common Thread
 
@@ -670,7 +670,7 @@ The issue that causes problems on video calls is not latency — it is packet lo
 
 **2. Use Ethernet.** Wi-Fi adds 1 to 5 milliseconds of latency and more variability. For gaming, plug directly into the router.
 
-**3. Close background applications.** Downloads, updates, and streaming on other devices in your household add latency to your gaming or calling device through network congestion.
+**3. Close background applications.** Downloads, updates, and streaming on other devices on your network add latency to your gaming or calling device through network congestion.
 
 **4. Choose the right plan tier.** Higher-tier plans get priority during congestion, which helps maintain lower latency during peak hours.
 
@@ -735,7 +735,7 @@ If you are waiting for the "perfect" hardware before buying, you will wait forev
 
 ## Pricing Trends
 
-Starlink pricing has come down since launch. The original single-tier $120 per month residential plan has been replaced with options starting at $50 per month. Equipment has also dropped from $599 to $349.
+Starlink pricing has come down since launch. The original single-tier $120 per month standard plan has been replaced with options starting at $50 per month. Equipment has also dropped from $599 to $349.
 
 Whether prices continue to drop depends on competition and SpaceX's cost structure. The trend has been toward more affordable entry points with premium tiers for users who want higher performance. This tiered approach is likely here to stay.
 

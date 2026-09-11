@@ -6,7 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import BlogCard from "@/components/BlogCard";
 import Hero from "@/components/Hero";
 import CTASection from "@/components/CTASection";
-import { blogPosts } from "@/data/blogPosts";
+import { getAllPosts } from "@/lib/blogData";
 
 export const metadata: Metadata = createMetadata({
   title: "Starlink Installation Blog | Tips & Guides | Starnet Pros",
@@ -15,7 +15,10 @@ export const metadata: Metadata = createMetadata({
   path: "/blog",
 });
 
-export default function BlogPage() {
+export const revalidate = 3600; // refresh blog index hourly
+
+export default async function BlogPage() {
+  const blogPosts = await getAllPosts();
   const schema = generateBreadcrumbSchema([
     { name: "Blog", url: "/blog" },
   ]);

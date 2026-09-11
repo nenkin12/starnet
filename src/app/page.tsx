@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import { CommercialNoticeBanner } from "@/components/CommercialNotice";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -46,6 +47,8 @@ export default function HomePage() {
   return (
     <>
       <SchemaMarkup schema={schemas} />
+
+      <CommercialNoticeBanner />
 
       <Hero
         title="Commercial Internet, Networking & Security for Businesses"

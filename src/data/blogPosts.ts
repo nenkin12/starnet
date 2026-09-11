@@ -41,12 +41,12 @@ export const blogPosts: BlogPost[] = [
     author: "Starnet Pros Team",
     readTime: "7 min read",
     image: "/images/blog/starlink-diy-vs-pro.jpg",
-    imageAlt: "Satellite dish mounted securely on a residential rooftop",
+    imageAlt: "Satellite dish mounted securely on a commercial building rooftop",
     content: `## When DIY Works Fine
 
 Let us start with this: Starlink is designed for self-installation. SpaceX put serious effort into making the setup simple. If the following describes your situation, DIY will probably work fine:
 
-- You have a single-story home with minimal tree cover
+- You have a single-story building with minimal tree cover
 - You can set the dish on a flat, elevated surface (second-floor deck, flat roof) with clear sky
 - You are comfortable running a cable through a window or door gap as a temporary solution
 - Your speed expectations are reasonable (you will not be upset with 80 to 150 Mbps)
@@ -89,7 +89,7 @@ Combined with the $349 equipment cost and $50 to $120 monthly service, total fir
 3. Route the cable through the wall with a sealed pass, or through conduit if running outdoors
 4. Set up the router in an optimal location for Wi-Fi coverage
 5. Run a speed test and verify performance
-6. Walk you through the Starlink app and basic troubleshooting
+6. Walk you through the Starlink app and run a post-install verification
 
 The whole process takes 1 to 3 hours depending on complexity.
 
@@ -121,23 +121,23 @@ Here is what typical Starlink speeds actually look like across different plans a
 
 ## Typical Speeds by Plan Tier
 
-**Residential 100 Mbps ($50 per month)**
+**Standard 100 Mbps ($50 per month)**
 - Typical daytime speeds: 50 to 100 Mbps download
 - Peak evening speeds (6 to 11 PM): 25 to 70 Mbps download
 - Upload: 5 to 15 Mbps
 - This plan gets deprioritized first during congestion
 
-**Residential 200 Mbps ($80 per month)**
+**Standard 200 Mbps ($80 per month)**
 - Typical daytime speeds: 80 to 200 Mbps download
 - Peak evening speeds: 50 to 150 Mbps download
 - Upload: 10 to 20 Mbps
 - Better priority means more consistent peak-hour performance
 
-**Residential MAX ($120 per month)**
+**Standard MAX ($120 per month)**
 - Typical daytime speeds: 150 to 350 Mbps download
 - Peak evening speeds: 100 to 250 Mbps download
 - Upload: 15 to 25 Mbps
-- Highest residential priority, most consistent speeds
+- Highest standard-tier priority, most consistent speeds
 
 These numbers assume a properly mounted dish with minimal obstructions. Ground-mounted dishes with tree cover will see significantly lower results on any plan.
 
@@ -214,13 +214,13 @@ Need help getting the best speeds possible? [Book an installation](/book) and we
     imageAlt: "Small rural business building with a parking lot and open sky",
     content: `## Do You Actually Need the Business Plan?
 
-Before spending $1,999 on a High Performance dish and signing up for a Priority plan, consider this: most small businesses we work with end up on the residential MAX plan ($120 per month, $349 equipment) and it handles their needs fine.
+Before spending $1,999 on a High Performance dish and signing up for a Priority plan, consider this: most small businesses we work with end up on the standard MAX plan ($120 per month, $349 equipment) and it handles their needs fine.
 
 The business Priority plan makes sense for specific situations. Here is how to tell which you need.
 
-## Business Plans vs Residential Plans
+## Priority Plans vs Standard Plans
 
-**Residential MAX ($120 per month, $349 dish):**
+**Standard MAX ($120 per month, $349 dish):**
 - Up to 400 Mbps download
 - Unlimited data
 - Standard priority (lower than business during congestion)
@@ -233,9 +233,9 @@ The business Priority plan makes sense for specific situations. Here is how to t
 - Static IP available
 - Good for: businesses where internet directly affects revenue
 
-The counterintuitive thing is that the residential MAX plan actually advertises higher maximum speeds (400 Mbps) than the Priority plan (310 Mbps). The Priority plan's advantage is consistency during congestion and the larger High Performance dish, which connects to more satellites simultaneously.
+The counterintuitive thing is that the standard MAX plan actually advertises higher maximum speeds (400 Mbps) than the Priority plan (310 Mbps). The Priority plan's advantage is consistency during congestion and the larger High Performance dish, which connects to more satellites simultaneously.
 
-## When Residential MAX Works for Business
+## When Standard MAX Works for Business
 
 - Your business operates during normal hours (9 to 5), which are off-peak for Starlink
 - You have fewer than 10 employees using internet simultaneously
@@ -253,21 +253,21 @@ The counterintuitive thing is that the residential MAX plan actually advertises 
 
 ## Businesses That Commonly Use Starlink
 
-**Farms and ranches.** Connected equipment, market data, and day-to-day business management. Most farms run fine on the residential MAX plan since they operate during daytime hours.
+**Farms and ranches.** Connected equipment, market data, and day-to-day business management. Most farms run fine on the standard MAX plan since they operate during daytime hours.
 
 **Construction companies.** Temporary job site internet for project management, security cameras, and communication. The Roam plan works well here since you move between sites.
 
-**Vacation rentals.** Guest Wi-Fi is a revenue driver. Residential MAX or the $80 plan handles most rental properties. Properties that sleep 10 or more guests may benefit from MAX.
+**Vacation rentals.** Guest Wi-Fi is a revenue driver. Standard MAX or the $80 plan handles most rental properties. Properties that sleep 10 or more guests may benefit from MAX.
 
 **Rural retail and restaurants.** Point-of-sale systems and customer Wi-Fi need reliable connectivity. If your POS runs through the internet, consider the Priority plan for guaranteed uptime during peak hours.
 
-**Remote offices.** Small teams working from rural locations. Residential plans handle this easily.
+**Remote offices.** Small teams working from rural locations. Standard plans handle this easily.
 
 **Medical facilities.** Telehealth and electronic health records need reliability. Consider Priority for clinical settings where connectivity gaps affect patient care.
 
 ## Cost Comparison
 
-**Residential MAX first-year cost:**
+**Standard MAX first-year cost:**
 - Equipment: $349
 - Monthly: $1,440 ($120 times 12)
 - Total: approximately $1,789
@@ -282,7 +282,7 @@ The counterintuitive thing is that the residential MAX plan actually advertises 
 - Monthly: $3,240 ($270 times 12)
 - Total: approximately $5,239
 
-For a small business, the residential MAX plan saves $1,000 or more in the first year. Only step up to Priority if you have a clear business case for the added reliability and features.
+For a small business, the standard MAX plan saves $1,000 or more in the first year. Only step up to Priority if you have a clear business case for the added reliability and features.
 
 ## Limitations for Business Use
 
@@ -296,9 +296,9 @@ For a small business, the residential MAX plan saves $1,000 or more in the first
 
 ## Our Recommendation
 
-Start with the residential MAX plan. Use it for a month during your busiest periods. If the performance meets your business needs, stay there and save the money. If you identify specific problems that only Priority can solve, upgrade then.
+Start with the standard MAX plan. Use it for a month during your busiest periods. If the performance meets your business needs, stay there and save the money. If you identify specific problems that only Priority can solve, upgrade then.
 
-The equipment difference ($349 vs $1,999) is significant enough that starting with residential makes financial sense for most small businesses.
+The equipment difference ($349 vs $1,999) is significant enough that starting with the standard tier makes financial sense for most small businesses.
 
 Need help setting up Starlink for your business? [Contact us](/contact) for an honest assessment of what your operation actually needs.`,
   },

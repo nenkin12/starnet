@@ -116,10 +116,15 @@ export default function Footer() {
         {/* Bottom section */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-gray-500 text-xs text-center mb-3">
-            Starnet Pros is an independent, third-party provider of commercial
-            installation services. We are not affiliated with, endorsed by, or
-            an authorized partner of Starlink or SpaceX. Services are provided
-            exclusively to commercial businesses and corporate offices.
+            Disclaimer: Starnet Pros is an independent, third-party contractor
+            specializing in commercial mounting, cabling, and custom hardware
+            installation services. We are not affiliated with, authorized by,
+            sponsored by, or an official partner of Starlink or SpaceX. All
+            product names, trademarks, and registered trademarks (including
+            &ldquo;Starlink&rdquo;) are the property of their respective owners
+            and are used here solely for descriptive purposes to identify the
+            equipment being installed. Services are provided exclusively to
+            commercial businesses and corporate offices.
           </p>
           <p className="text-gray-500 text-xs text-center">
             &copy; {new Date().getFullYear()} Starnet Pros. All rights reserved.

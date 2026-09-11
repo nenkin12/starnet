@@ -21,7 +21,7 @@ export const statesOW: BlogPost[] = [
 
 Oregon is gorgeous. It's also one of the hardest states to install Starlink in, and most of that comes down to trees. We're not talking about a few oaks in the backyard. We're talking about 150-foot Douglas firs, western red cedars, and Sitka spruce that form a nearly continuous canopy across the western half of the state. The Starlink app's obstruction checker will light up red on most ground-level placements in the Coast Range and Cascade foothills.
 
-We've installed dishes on properties near Tillamook where the homeowner tried three different ground positions before calling us. Every spot showed 8-15% obstruction. The solution was a 30-foot pole mount that cleared the surrounding canopy. That's not unusual here. In western Oregon, **height is everything**.
+We've installed dishes on properties near Tillamook where the property owner tried three different ground positions before calling us. Every spot showed 8-15% obstruction. The solution was a 30-foot pole mount that cleared the surrounding canopy. That's not unusual here. In western Oregon, **height is everything**.
 
 ## Rain Doesn't Kill Your Signal (But It Affects It)
 
@@ -50,12 +50,12 @@ The challenges here are different: **extreme temperature swings** (below zero in
 
 ## What Plan Makes Sense for Oregon?
 
-Most of our Oregon residential customers go with one of two options:
+Most of our Oregon customers go with one of two options:
 
-- **Standard plan at $50/month** (100 Mbps) -- works well for households of 1-3 people doing basic streaming, email, and web browsing
-- **Plus plan at $80/month** (200 Mbps) -- better for families, remote workers on video calls, or anyone running a home business
+- **Standard plan at $50/month** (100 Mbps) -- works well for small sites of 1-3 users doing basic streaming, email, and web browsing
+- **Plus plan at $80/month** (200 Mbps) -- better for busier sites, remote workers on video calls, or anyone running an on-site business
 
-The $120/month MAX plan (up to 400 Mbps) exists but is overkill for most residential situations. We see it mostly on commercial properties, vacation rentals serving multiple guests, and agricultural operations running precision equipment.
+The $120/month MAX plan (up to 400 Mbps) exists but is overkill for most situations. We see it mostly on commercial properties, vacation rentals serving multiple guests, and agricultural operations running precision equipment.
 
 Equipment costs $349 regardless of plan. If you're in a heavily forested area and need a professional pole mount to clear the canopy, factor in installation costs on top of that.
 
@@ -92,7 +92,7 @@ Drive two hours northwest of Philadelphia and you'll enter a different world. No
 - **Cellular hotspot** that hits data caps within a week
 - **Nothing at all**
 
-This isn't an exaggeration. The FCC's broadband maps consistently show that large portions of central and northern Pennsylvania lack access to 25 Mbps service, which is the bare minimum for a modern household. Pennsylvania has spent hundreds of millions on broadband expansion, but fiber and cable simply haven't reached the communities that need them most.
+This isn't an exaggeration. The FCC's broadband maps consistently show that large portions of central and northern Pennsylvania lack access to 25 Mbps service, which is the bare minimum for a modern operation. Pennsylvania has spent hundreds of millions on broadband expansion, but fiber and cable simply haven't reached the communities that need them most.
 
 ## Why Traditional Broadband Can't Reach Rural PA
 
@@ -110,9 +110,9 @@ Most of our Pennsylvania installations fall into a few categories:
 
 **Mountain cabins and hunting camps** in the Poconos, the Alleghenies, and the Endless Mountains often have limited roof structure for mounting. We frequently use reinforced pole mounts for these properties, especially older cabins where the roof can't support additional load.
 
-## The Pricing Reality for Rural PA Households
+## The Pricing Reality for Rural PA Properties
 
-Starlink currently offers three residential tiers:
+Starlink currently offers three standard tiers:
 
 - **$50/month** for the Standard plan (around 100 Mbps typical)
 - **$80/month** for Plus (around 200 Mbps typical)
@@ -120,7 +120,7 @@ Starlink currently offers three residential tiers:
 
 Equipment is $349 upfront for any plan.
 
-For most rural PA households coming from 5 Mbps DSL, the $50/month Standard plan feels like jumping from a bicycle to a sports car. 100 Mbps handles streaming, video calls, and general browsing for a typical family with ease. The improvement over existing options is so dramatic that plan choice is almost secondary -- anything Starlink offers is a massive upgrade.
+For most rural PA sites coming from 5 Mbps DSL, the $50/month Standard plan feels like jumping from a bicycle to a sports car. 100 Mbps handles streaming, video calls, and general browsing for a typical location with ease. The improvement over existing options is so dramatic that plan choice is almost secondary -- anything Starlink offers is a massive upgrade.
 
 ## Seasonal Considerations
 
@@ -130,7 +130,7 @@ In our experience, the biggest weather-related performance issue in PA is heavy,
 
 ## The ACP Ended -- What Now?
 
-The Affordable Connectivity Program (ACP) that subsidized Starlink for many low-income rural PA households ended in 2024. That was a real blow to affordability. However, Pennsylvania's own broadband programs, including DCED grants, continue to expand. Some county programs offer subsidies for satellite internet equipment. It's worth checking with your county broadband authority before ordering -- you might qualify for help with the $349 equipment cost.
+The Affordable Connectivity Program (ACP) that subsidized Starlink for many low-income rural PA subscribers ended in 2024. That was a real blow to affordability. However, Pennsylvania's own broadband programs, including DCED grants, continue to expand. Some county programs offer subsidies for satellite internet equipment. It's worth checking with your county broadband authority before ordering -- you might qualify for help with the $349 equipment cost.
 
 ## Ready for Real Internet?
 
@@ -331,7 +331,7 @@ The challenges are different here:
 
 ## What We've Seen on Reservations
 
-We want to be straightforward about installation on reservation land. The need is enormous, but there are practical considerations. Many homes have older roof structures that need assessment before mounting. Some properties lack standard electrical infrastructure, requiring creative solutions for powering the dish. Community buildings, tribal offices, and schools can serve as connectivity hubs where Starlink provides the backhaul for local Wi-Fi networks serving multiple households.
+We want to be straightforward about installation on reservation land. The need is enormous, but there are practical considerations. Many homes have older roof structures that need assessment before mounting. Some properties lack standard electrical infrastructure, requiring creative solutions for powering the dish. Community buildings, tribal offices, and schools can serve as connectivity hubs where Starlink provides the backhaul for local Wi-Fi networks serving multiple properties.
 
 The most impactful installations we've done in South Dakota have been at community anchor points -- a tribal office where residents come to access telehealth, a school that extends its Wi-Fi to the parking lot so students can do homework from their cars, a community center that becomes a de facto coworking space.
 
@@ -392,17 +392,17 @@ Not every remote worker needs the fastest plan. Here's what we recommend based o
 
 **Standard plan -- $50/month (around 100 Mbps):**
 - Occasional video calls, mostly email and web-based work
-- One person working from home with light streaming
+- One person working remotely with light streaming
 - Adequate for most text-based remote work
 
 **Plus plan -- $80/month (around 200 Mbps):**
 - Regular video conferencing (Zoom, Teams, Google Meet)
 - Uploading large files, working with cloud-based design tools
-- Household with one remote worker and family members streaming simultaneously
+- A site with one remote worker and other users streaming simultaneously
 - *This is what we recommend for most remote workers*
 
 **MAX plan -- $120/month (up to 400 Mbps):**
-- Two remote workers in the same household on simultaneous video calls
+- Two remote workers at the same site on simultaneous video calls
 - Large file transfers, software development with cloud builds
 - Properties also used as vacation rentals or B&Bs
 
@@ -489,10 +489,10 @@ Starlink serves this area well. The open, flat terrain provides perfect sky acce
 
 ## Pricing for Texas Properties
 
-The three residential plans all serve different Texas needs:
+The three standard plans all serve different Texas needs:
 
-- **$50/month Standard** (100 Mbps) -- covers most residential use, casual streaming, email, web browsing
-- **$80/month Plus** (200 Mbps) -- remote workers, families, ranch operations with moderate data needs
+- **$50/month Standard** (100 Mbps) -- covers most everyday use, casual streaming, email, web browsing
+- **$80/month Plus** (200 Mbps) -- remote workers, busy sites, ranch operations with moderate data needs
 - **$120/month MAX** (up to 400 Mbps) -- guest ranches, B&Bs, multi-user properties, commercial operations
 
 Equipment is $349. For ranch operations, the Plus plan at $80/month is the sweet spot -- enough bandwidth for monitoring systems, video calls, and general use without paying for capacity you don't need.
@@ -555,10 +555,10 @@ What makes the Wasatch Back interesting from an installation standpoint is the *
 
 ## Pricing and Plan Selection
 
-For most Utah residential users:
+For most Utah users:
 
-- **$50/month Standard** (100 Mbps) covers general household use
-- **$80/month Plus** (200 Mbps) suits remote workers and streaming-heavy households
+- **$50/month Standard** (100 Mbps) covers general site use
+- **$80/month Plus** (200 Mbps) suits remote workers and streaming-heavy sites
 - **$120/month MAX** (up to 400 Mbps) is appropriate for vacation rentals, Airbnbs, and properties hosting multiple users
 
 Equipment is $349. Off-grid properties should budget for any additional mounting hardware beyond the standard kit, especially if a custom pole mount is needed.
@@ -618,7 +618,7 @@ Ski area landlords are increasingly installing Starlink to meet this demand. The
 
 Winter installation in Vermont ski country has its own considerations. We schedule around weather windows, confirm roof access isn't blocked by ice dams or snow load, and ensure the mounting position allows the dish heater to function effectively. A dish buried under 3 feet of snow from a roofline shed isn't going to work. Positioning away from avalanche-prone roof slopes is essential.
 
-## The Economics for Vermont Households
+## The Economics for Vermont Operations
 
 Vermont has one of the highest percentages of remote workers in the nation, partly by choice and partly because major employment centers are limited. Many Vermonters commute virtually to Boston, New York, or other cities. For these workers, reliable internet isn't optional.
 
@@ -626,9 +626,9 @@ Current Starlink pricing:
 
 - **$50/month Standard** (100 Mbps) -- adequate for light remote work, email, web browsing
 - **$80/month Plus** (200 Mbps) -- recommended for regular video calls and remote work
-- **$120/month MAX** (up to 400 Mbps) -- overkill for most individuals, useful for multi-person households or rentals
+- **$120/month MAX** (up to 400 Mbps) -- overkill for most individuals, useful for multi-user sites or rentals
 
-Equipment costs $349. Many Vermont households currently pay $60-80/month for DSL at 15-20 Mbps. Switching to Starlink's $50/month plan gives you 5-7x the speed at a lower monthly cost. The $349 equipment investment pays for itself quickly in both performance and cost savings.
+Equipment costs $349. Many Vermont properties currently pay $60-80/month for DSL at 15-20 Mbps. Switching to Starlink's $50/month plan gives you 5-7x the speed at a lower monthly cost. The $349 equipment investment pays for itself quickly in both performance and cost savings.
 
 ## Mud Season and Other Vermont Realities
 
@@ -717,7 +717,7 @@ Standard pricing applies across Virginia:
 
 Our Virginia-specific advice: **check your VATI status first.** If fiber is genuinely coming to your address in the near term, Starlink as a bridge solution (no contract, cancel anytime) is the smart play. If your area has no funded broadband project, treat Starlink as your primary connection and invest in a proper installation that will last.
 
-For remote workers in the Shenandoah Valley and elsewhere in rural Virginia, the Plus plan at $80/month is the sweet spot. It provides enough bandwidth for video conferencing and cloud-based work with headroom for household use.
+For remote workers in the Shenandoah Valley and elsewhere in rural Virginia, the Plus plan at $80/month is the sweet spot. It provides enough bandwidth for video conferencing and cloud-based work with headroom for general site use.
 
 ## Getting Connected in Virginia
 
@@ -779,8 +779,8 @@ There's an interesting wrinkle in Washington: Starlink's parent company, SpaceX,
 
 Pricing is standard nationwide:
 
-- **$50/month Standard** (100 Mbps) -- handles basic household needs
-- **$80/month Plus** (200 Mbps) -- recommended for remote workers and streaming households
+- **$50/month Standard** (100 Mbps) -- handles basic site needs
+- **$80/month Plus** (200 Mbps) -- recommended for remote workers and streaming-heavy sites
 - **$120/month MAX** (up to 400 Mbps) -- multi-user properties, businesses, vacation rentals
 
 Equipment is $349 regardless of plan.
@@ -827,7 +827,7 @@ If you had to pick one state where Starlink has the most transformative potentia
 - **Population distribution:** Spread across mountain communities that are expensive to serve with terrestrial broadband
 - **Economic need:** Among the highest poverty rates in the nation, making affordable connectivity even more critical
 
-West Virginia isn't just underserved by broadband. In many areas, it's essentially unserved. When we install Starlink in southern West Virginia counties like McDowell, Mingo, Wyoming, or Raleigh, we're frequently providing a household's *first real broadband connection ever*.
+West Virginia isn't just underserved by broadband. In many areas, it's essentially unserved. When we install Starlink in southern West Virginia counties like McDowell, Mingo, Wyoming, or Raleigh, we're frequently providing a property's *first real broadband connection ever*.
 
 ## The Hollow Problem
 
@@ -853,7 +853,7 @@ To understand the urgency of broadband in West Virginia, you need to understand 
 - **Frequent outages** during storms as aging copper lines fail
 - **No repair timeline** when lines go down, sometimes weeks
 
-We've talked to families who drive to McDonald's parking lots to do homework on public Wi-Fi. We've met small business owners who close their shops to drive 30 minutes to a library for internet access. A nurse in McDowell County told us she had to drive to a cell tower location to upload patient records from her home health visits. These aren't stories from 2005. They're from 2025.
+We've talked to people who drive to McDonald's parking lots to use public Wi-Fi. We've met small business owners who close their shops to drive 30 minutes to a library for internet access. A nurse in McDowell County told us she had to drive to a cell tower location to upload patient records from her home health visits. These aren't stories from 2005. They're from 2025.
 
 ## What Starlink Costs vs. What Exists
 
@@ -915,7 +915,7 @@ If you're in West Virginia and struggling with broadband, Starlink is likely the
       "Starlink dish on a Wisconsin cabin near a lake with birch trees and pine forest surrounding the property",
     content: `## The "Up North" Internet Problem
 
-Ask any Wisconsin cabin owner about their internet and you'll get a sigh. The Northwoods -- that vast stretch of lakes, pines, and birch trees from roughly Wausau to the Upper Peninsula border -- is the heart of Wisconsin recreational culture. Hundreds of thousands of families own cabins, lake houses, and seasonal properties scattered around the 15,000+ lakes in northern Wisconsin. And almost none of these properties have had decent internet.
+Ask any Wisconsin cabin owner about their internet and you'll get a sigh. The Northwoods -- that vast stretch of lakes, pines, and birch trees from roughly Wausau to the Upper Peninsula border -- is the heart of Wisconsin recreational culture. Hundreds of thousands of property owners hold cabins, lake houses, and seasonal rental properties scattered around the 15,000+ lakes in northern Wisconsin. And almost none of these properties have had decent internet.
 
 The options have historically been:
 
@@ -923,7 +923,7 @@ The options have historically been:
 - **Cellular hotspot** that works if you're near a tower and hits its data cap in days
 - **Nothing** for the more remote properties
 
-For decades, cabin owners accepted this as part of "getting away from it all." But usage patterns have changed. People want to work remotely from the cabin for a week instead of commuting back to Milwaukee or Madison. Families want to stream movies on rainy days. Retired couples who've converted seasonal cabins to year-round homes need telehealth access. The cabin without internet isn't charming anymore -- it's limiting.
+For decades, cabin owners accepted this as part of "getting away from it all." But usage patterns have changed. People want to work remotely from the cabin for a week instead of commuting back to Milwaukee or Madison. Guests want to stream movies on rainy days. Owners who've converted seasonal cabins to year-round properties need telehealth access. The cabin without internet isn't charming anymore -- it's limiting.
 
 ## Why Starlink Changes the Northwoods
 

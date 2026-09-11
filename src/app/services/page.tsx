@@ -8,6 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import Hero from "@/components/Hero";
+import { CommercialNoticeBanner } from "@/components/CommercialNotice";
 import PaperformEmbed from "@/components/PaperformEmbed";
 import { services } from "@/data/services";
 import {
@@ -50,6 +51,7 @@ export default function ServicesPage() {
 
   return (
     <>
+      <CommercialNoticeBanner />
       <SchemaMarkup schema={schemas} />
 
       <Hero

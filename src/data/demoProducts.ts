@@ -157,16 +157,16 @@ export const demoProducts: Product[] = [
     meta_title:
       "Starlink Mini Wall Mount | 360° Adjustable Bracket for Mini Dish",
     meta_description:
-      "360° adjustable Starlink Mini wall mount bracket. Low-profile design, rock-solid stability, quick installation. Perfect for apartments, small homes, and tight spaces. Buy the best Starlink Mini mount.",
+      "360° adjustable Starlink Mini wall mount bracket. Low-profile design, rock-solid stability, quick installation. Ideal for offices, small commercial sites, and tight mounting spaces. Buy the best Starlink Mini mount.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
   {
     id: "prod-9",
-    name: "Starlink Mini Suction Cup Mount — Car Sunroof & Window Mount",
+    name: "Starlink Mini Suction Cup Mount — Vehicle & Window Mount",
     slug: "starlink-mini-suction-cup-mount",
     description:
-      "Take your Starlink Mini on the road with this industrial-strength suction cup mount. Attaches securely to car sunroofs, windows, and smooth surfaces for instant satellite internet on road trips, at campsites, or from your RV. Quick-release design lets you set up and pack down in seconds. The easiest way to get Starlink connectivity anywhere you drive.",
+      "Keep field teams connected with this industrial-strength suction cup mount for the Starlink Mini. Attaches securely to vehicle glass, windows, and smooth surfaces for instant satellite internet at job sites, temporary work locations, and mobile operations. Quick-release design lets crews set up and pack down in seconds — an easy way to bring connectivity wherever the work is.",
     price_cents: 7499,
     category: "mounts",
     image_url:
@@ -175,18 +175,18 @@ export const demoProducts: Product[] = [
     supplier_url: null,
     active: true,
     meta_title:
-      "Starlink Mini Suction Cup Mount | Car, RV & Window Mount",
+      "Starlink Mini Suction Cup Mount | Vehicle & Window Mount",
     meta_description:
-      "Industrial-strength Starlink Mini suction cup mount for cars, RVs, and windows. Quick-release design for instant portable Starlink internet on road trips, campsites, and more.",
+      "Industrial-strength Starlink Mini suction cup mount for work vehicles and windows. Quick-release design for portable Starlink internet at job sites, field operations, and temporary work locations.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
   {
     id: "prod-10",
-    name: "Starlink Mini Clamp Mount — 2-in-1 for RV, Pole & Guardrails",
+    name: "Starlink Mini Clamp Mount — 2-in-1 for Poles, Rails & Guardrails",
     slug: "starlink-mini-clamp-mount",
     description:
-      "Clamp your Starlink Mini to virtually anything — poles, RV rails, yacht guardrails, camper frames, and more. This versatile 2-in-1 flat mount includes pipe adapters for different diameters, so one mount covers all your mobile mounting needs. No drilling required — just clamp, aim, and connect. Built tough for life on the road and water.",
+      "Clamp your Starlink Mini to virtually anything — poles, scaffolding, equipment rails, trailer frames, and marine guardrails. This versatile 2-in-1 flat mount includes pipe adapters for different diameters, so one mount covers job trailers, work vessels, and temporary site setups alike. No drilling required — just clamp, aim, and connect. Built tough for demanding field conditions.",
     price_cents: 5999,
     category: "mounts",
     image_url:
@@ -195,18 +195,18 @@ export const demoProducts: Product[] = [
     supplier_url: null,
     active: true,
     meta_title:
-      "Starlink Mini Clamp Mount | RV, Pole & Guardrail Mount",
+      "Starlink Mini Clamp Mount | Pole, Rail & Guardrail Mount",
     meta_description:
-      "Versatile Starlink Mini clamp mount for RVs, poles, yacht guardrails, and camper frames. No-drill 2-in-1 design with pipe adapters. Best portable Starlink Mini mount for mobile use.",
+      "Versatile Starlink Mini clamp mount for poles, scaffolding, trailer frames, and marine guardrails. No-drill 2-in-1 design with pipe adapters. Portable Starlink Mini mounting for field and site work.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },
   {
     id: "prod-11",
-    name: "Starlink Mini Magnetic Mount Kit — Quick-Release for Cars & Boats",
+    name: "Starlink Mini Magnetic Mount Kit — Quick-Release for Vehicles & Vessels",
     slug: "starlink-mini-magnetic-mount",
     description:
-      "The fastest way to mount and remove your Starlink Mini. This universal magnetic mount uses heavy-duty stainless steel magnets that grip any ferrous surface — car roofs, boat decks, truck hoods, and metal RV panels. The quick-release system lets you deploy in seconds and stow just as fast. Weather-resistant 360° protection keeps your Mini secure in rain, wind, and highway speeds.",
+      "The fastest way to mount and remove your Starlink Mini. This universal magnetic mount uses heavy-duty stainless steel magnets that grip any ferrous surface — work truck roofs, vessel decks, equipment hoods, and steel trailer panels. The quick-release system lets crews deploy in seconds and stow just as fast. Weather-resistant 360° protection keeps the Mini secure in rain, wind, and highway speeds.",
     price_cents: 9999,
     category: "mounts",
     image_url:
@@ -215,9 +215,9 @@ export const demoProducts: Product[] = [
     supplier_url: null,
     active: true,
     meta_title:
-      "Starlink Mini Magnetic Mount | Quick-Release for Cars & Boats",
+      "Starlink Mini Magnetic Mount | Quick-Release for Vehicles & Vessels",
     meta_description:
-      "Starlink Mini magnetic mount with quick-release for cars, boats, trucks, and RVs. Heavy-duty stainless steel magnets, weather-resistant 360° design. Deploy and stow your Starlink Mini in seconds.",
+      "Starlink Mini magnetic mount with quick-release for work trucks, vessels, and fleet vehicles. Heavy-duty stainless steel magnets, weather-resistant 360° design. Deploy and stow your Starlink Mini in seconds.",
     created_at: "2025-01-01T00:00:00Z",
     updated_at: "2025-01-01T00:00:00Z",
   },

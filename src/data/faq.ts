@@ -12,7 +12,7 @@ export const faqs: FAQ[] = [
   {
     question: "What kinds of businesses do you work with?",
     answer:
-      "We work exclusively with commercial businesses and corporate offices — from small offices and retail locations to warehouses, multi-building campuses, and remote job sites. We handle structured cabling, commercial Wi-Fi, network design, and security systems for businesses of all sizes, and bring the same professional-grade approach to every commercial installation.",
+      "We work with commercial businesses and corporate offices — from small offices and retail locations to warehouses, multi-building campuses, and remote job sites. We handle structured cabling, commercial Wi-Fi, network design, and security systems for businesses of all sizes, and bring the same professional-grade approach to every commercial installation.",
   },
   {
     question: "How much does a network installation cost?",

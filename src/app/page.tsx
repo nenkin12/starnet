@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import { CommercialNoticeBanner } from "@/components/CommercialNotice";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -48,11 +47,9 @@ export default function HomePage() {
     <>
       <SchemaMarkup schema={schemas} />
 
-      <CommercialNoticeBanner />
-
       <Hero
-        title="Commercial Internet, Networking & Security for Businesses"
-        subtitle="B2B installation and setup services — business networking, commercial security cameras, structured cabling, and enterprise internet connectivity. Serving commercial businesses and corporate offices nationwide."
+        title="Commercial-Grade Internet, Networking & Security"
+        subtitle="Professional installation and setup services — business networking, commercial security cameras, structured cabling, and enterprise internet connectivity. Nationwide service."
         ctaText="Get a Business Quote"
         ctaHref="/contact#business"
         secondaryCta="Our Services"

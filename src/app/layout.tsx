@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Starnet Pros | Commercial Internet, Networking & Security for Businesses",
+    default: "Starnet Pros | Commercial-Grade Internet, Networking & Security",
     template: "%s | Starnet Pros",
   },
   description:
-    "Commercial internet installation, business networking, Wi-Fi solutions, structured cabling, and security cameras — exclusively for commercial businesses and corporate offices. Expert setup, clean installations, and nationwide service.",
+    "Commercial-grade internet installation, business networking, Wi-Fi solutions, structured cabling, and security cameras. Expert setup, clean installations, and nationwide service.",
   metadataBase: new URL("https://www.starnetpros.com"),
   openGraph: {
     type: "website",

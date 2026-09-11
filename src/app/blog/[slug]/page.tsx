@@ -10,7 +10,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CTASection from "@/components/CTASection";
 import { BlogEngagementTracker } from "@/components/BlogEngagementTracker";
-import { CommercialNoticeBanner, BrandDisclaimerBlock } from "@/components/CommercialNotice";
+import { BrandDisclaimerBlock } from "@/components/CommercialNotice";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
@@ -79,8 +79,6 @@ export default async function BlogPostPage({
   return (
     <>
       <SchemaMarkup schema={schemas} />
-
-      <CommercialNoticeBanner />
 
       <div className="relative bg-[#0A1628] pt-24 pb-16 overflow-hidden">
         {/* Decorative background pattern */}

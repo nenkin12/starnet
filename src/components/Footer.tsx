@@ -38,9 +38,8 @@ export default function Footer() {
               className="h-10 w-auto mb-4"
             />
             <p className="text-gray-400 text-sm mb-4">
-              Independent commercial telecommunications contractor —
-              installation and setup services provided exclusively to
-              commercial businesses and corporate offices nationwide.
+              Independent telecommunications contractor — commercial-grade
+              installation and setup services nationwide.
             </p>
             <div className="space-y-3">
               <a
@@ -123,8 +122,7 @@ export default function Footer() {
             product names, trademarks, and registered trademarks (including
             &ldquo;Starlink&rdquo;) are the property of their respective owners
             and are used here solely for descriptive purposes to identify the
-            equipment being installed. Services are provided exclusively to
-            commercial businesses and corporate offices.
+            equipment being installed.
           </p>
           <p className="text-gray-500 text-xs text-center">
             &copy; {new Date().getFullYear()} Starnet Pros. All rights reserved.

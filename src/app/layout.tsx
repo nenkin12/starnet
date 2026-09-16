@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { PageViewTracker } from "@/components/PageViewTracker";
+import UetCallTracker from "@/components/UetCallTracker";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -78,6 +79,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <PageViewTracker />
+        <UetCallTracker />
         <Header />
         <main className="flex-1 pt-20">{children}</main>
         <Footer />

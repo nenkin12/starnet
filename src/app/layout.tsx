@@ -83,12 +83,13 @@ export default function RootLayout({
         <Header />
         <main className="flex-1 pt-20">{children}</main>
         <Footer />
-        {/* Klear webchat widget */}
+        {/* Klear webchat widget — temporarily disabled
         <script
           src="https://klearcrm.com/webchat.js"
           data-key="3bc9be6a1c17b998d4ed9a394cb4e82b"
           async
         ></script>
+        */}
       </body>
     </html>
   );
